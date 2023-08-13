@@ -1,4 +1,4 @@
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: sharu725/online-cv
 plugins:
 - jekyll-remote-theme
 title: SrPerf homepage
