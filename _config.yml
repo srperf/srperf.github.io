@@ -1,4 +1,4 @@
-remote_theme: pages-themes/architect
+remote_theme: daattali / beautiful-jekyll
 plugins:
 - jekyll-remote-theme
 title: SrPerf homepage
