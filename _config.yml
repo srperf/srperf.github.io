@@ -3,3 +3,5 @@ plugins:
 - jekyll-remote-theme
 title: SrPerf homepage
 description: Bookmark this to keep an eye on my project updates!
+twitter_username: SrPerf
+github_username: SrPerf
