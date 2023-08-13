@@ -1,4 +1,4 @@
-remote_theme: pages-themes/modernist@v0.2.0
+remote_theme: alshedivat/al-folio
 plugins:
 - jekyll-remote-theme
 title: SrPerf homepage
