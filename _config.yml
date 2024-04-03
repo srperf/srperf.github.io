@@ -1,14 +1,5 @@
-remote_theme: pages-themes/architect@v0.2.0
-plugins:
-- jekyll-remote-theme
-title: SrPerf homepage
-description: Bookmark this to keep an eye on my project updates!
-twitter_username: SrPerf
-github_username: SrPerf
-navbar:
-  - title: Home
-    url: /
-  - title: Subpage 1
-    url: /subpage1
-  - title: Subpage 2
-    url: /subpage2
+title: Architect theme
+description: Architect is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-architect
