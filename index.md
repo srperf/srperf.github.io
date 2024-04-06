@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 # Hola mundo
 First page created
 
