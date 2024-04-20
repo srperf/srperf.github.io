@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8b7d7462b7c7f2aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "presenter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "031706dfa19c3cff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "youtube.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a48074efbb422254",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "me.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-08-12-back-in-time.md",
+                "file": "me.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-08-12-back-in-time.md",
+                "file": "me.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-08-12-back-in-time.md"
+                "file": "me.md"
               }
             }
           }
@@ -146,8 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2041eca43c185f1d",
+  "active": "a48074efbb422254",
   "lastOpenFiles": [
+    "index.md",
+    "_posts/2017-05-07-7Questions.md",
+    "me.md",
+    "youtube.md",
+    "presenter.md",
+    "_posts/2023-08-12-back-in-time.md",
     "_posts/2022-01-10-JoinedGrafanaK6.md",
     "_posts/2019-10-08-ScenarioModeling1.md",
     "_posts/2019-09-03-UIvsProtocol.md",
@@ -167,12 +210,6 @@
     "_posts/2017-07-24-Script02Pairs.md",
     "_posts/2017-07-18-Script01Date.md",
     "_posts/2017-07-03-Phases2.md",
-    "_posts/2017-06-26-PhasesAwesomePerf1.md",
-    "_posts/2017-06-19-NoTestEverythin.md",
-    "_posts/2017-06-12-HowScriptsWork.md",
-    "_posts/2017-06-05-TestCases4Dummies.md",
-    "_posts/2017-05-30-Reason2AutomatePerf.md",
-    "_posts/2017-05-18-FunctionalVsPerfAutomation.md",
-    "_posts/2017-05-07-7Questions.md"
+    "_posts/2017-06-26-PhasesAwesomePerf1.md"
   ]
 }
