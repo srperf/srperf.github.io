@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ## MORE TO COME
 
 Here I am going to try to keep some record of the presentations that I have been given a chance to do. I hope this page grows and grows.

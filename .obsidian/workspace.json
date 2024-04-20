@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "me.md",
+                "file": "youtube.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "me.md",
+                "file": "youtube.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "me.md",
+                "file": "youtube.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "me.md"
+                "file": "youtube.md"
               }
             }
           }
@@ -185,11 +185,13 @@
   },
   "active": "a48074efbb422254",
   "lastOpenFiles": [
+    "thumbnail.png",
+    "presenter.md",
+    "podcast.md",
+    "me.md",
     "index.md",
     "_posts/2017-05-07-7Questions.md",
-    "me.md",
     "youtube.md",
-    "presenter.md",
     "_posts/2023-08-12-back-in-time.md",
     "_posts/2022-01-10-JoinedGrafanaK6.md",
     "_posts/2019-10-08-ScenarioModeling1.md",
@@ -208,8 +210,6 @@
     "_posts/2017-08-14-Script04Correlations.md",
     "_posts/2017-08-02-Script03Differences.md",
     "_posts/2017-07-24-Script02Pairs.md",
-    "_posts/2017-07-18-Script01Date.md",
-    "_posts/2017-07-03-Phases2.md",
-    "_posts/2017-06-26-PhasesAwesomePerf1.md"
+    "_posts/2017-07-18-Script01Date.md"
   ]
 }

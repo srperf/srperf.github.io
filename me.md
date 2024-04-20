@@ -1,3 +1,6 @@
+---
+layout: default
+---
 Hola amigos I am el Señor Performo!
 
 I hate to play the IronMan and reveal my secret identity right away. But my name is **Leandro Melendez** and I am a [performance tester](https://en.wikipedia.org/wiki/Software_performance_testing) born and raised in Mexico City.
