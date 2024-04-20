@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "6af965431ba9f9d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1354834c540c257",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2041eca43c185f1d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5f603a2d4f1ea563",
+    "type": "split",
+    "children": [
+      {
+        "id": "4127375c6be53312",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9fae48a274167690",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "451b3ed5ef9c3405",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e707bf78a3d16287",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0ce72c40f0a63c90",
+    "type": "split",
+    "children": [
+      {
+        "id": "2cb26112b389b23d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08f9268cedc05eda",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5692125920e2d939",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "89f8b210d2a83a7b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f99770003f54c7f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2041eca43c185f1d",
+  "lastOpenFiles": [
+    "_posts/2022-01-10-JoinedGrafanaK6.md",
+    "_posts/2019-10-08-ScenarioModeling1.md",
+    "_posts/2019-09-03-UIvsProtocol.md",
+    "_posts/2019-06-03-Monitoring.md",
+    "_posts/2019-04-30-WhatThePerf.md",
+    "_posts/2019-03-27-PerfNotLoad.md",
+    "_posts/2018-09-20-WhatIsAgile.md",
+    "_posts/2018-09-04-AgileJourney.md",
+    "_posts/2018-02-09-Script10All2Gether.md",
+    "_posts/2017-10-06-Script05Variables.md",
+    "_posts/2017-10-16-Script06Iterations.md",
+    "_posts/2017-11-07-Script07Coexist.md",
+    "_posts/2017-11-21-Script09TuningTimers.md",
+    "_posts/2017-11-28-Script08Makeup.md",
+    "_posts/2017-08-14-Script04Correlations.md",
+    "_posts/2017-08-02-Script03Differences.md",
+    "_posts/2017-07-24-Script02Pairs.md",
+    "_posts/2017-07-18-Script01Date.md",
+    "_posts/2017-07-03-Phases2.md",
+    "_posts/2017-06-26-PhasesAwesomePerf1.md",
+    "_posts/2017-06-19-NoTestEverythin.md",
+    "_posts/2017-06-12-HowScriptsWork.md",
+    "_posts/2017-06-05-TestCases4Dummies.md",
+    "_posts/2017-05-30-Reason2AutomatePerf.md",
+    "_posts/2017-05-18-FunctionalVsPerfAutomation.md",
+    "_posts/2017-05-07-7Questions.md"
+  ]
+}
