@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # I joined k6!
   
 ![I joined K6](https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/k6JoinCover.jpg?fit=1920%2C1080&ssl=1)

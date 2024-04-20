@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # DON’T TEST EVERYTHING ON A PERFORMANCE TEST
   
 ![Performance test everything](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/ArtBoard-Image-19.jpg?fit=1200%2C600&ssl=1)

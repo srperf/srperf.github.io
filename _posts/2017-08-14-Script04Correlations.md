@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # SCRIPTING 04: HUNTING CORRELATIONS
   
 ![Script correlations](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/08/ArtBoard-Image-34.jpg?fit=1200%2C600&ssl=1)

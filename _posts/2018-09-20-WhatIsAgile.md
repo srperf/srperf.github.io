@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # WHAT IS THIS AGILE THING
   
 ![What is Agile](https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/whatIsAgile.jpg?fit=1000%2C512&ssl=1)

@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # DIFFERENCES BETWEEN FUNCTIONAL AND PERFORMANCE TEST CASES
 ![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/05/ArtBoard-Image-82.jpg?fit=1570%2C883&ssl=1)
 

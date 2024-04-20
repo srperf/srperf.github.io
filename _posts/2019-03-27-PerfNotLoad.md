@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # PERFORMANCE AND LOAD NOT INTERCHANGEABLE
   
 ![Load Perf Diferent](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/03/TitleLoadPerf.jpg?fit=1200%2C600&ssl=1)

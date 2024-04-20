@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # AGILE – MY JOURNEY AND INSIGHTS
   
 ![Agile Journey](https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/agileTop.jpg?fit=1000%2C512&ssl=1)

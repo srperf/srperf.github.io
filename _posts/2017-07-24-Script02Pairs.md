@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # SCRPTING 02: BRING THEM IN PAIRS
   
 ![Bring Pairs](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/07/ArtBoard-Image-31.jpg?fit=1200%2C600&ssl=1)

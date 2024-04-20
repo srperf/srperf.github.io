@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # THE REASON FOR PERFORMANCE AUTOMATION
   
 ![Performance testing automation](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/05/ArtBoard-Image-112.jpg?fit=1826%2C1028&ssl=1)

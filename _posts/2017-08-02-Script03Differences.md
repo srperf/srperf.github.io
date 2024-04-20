@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # SCRIPTING 03: SPOT DIFFERENCES 2 CORRELATE
   
 ![Scripting Diferences](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/07/ArtBoard-Image-33.jpg?fit=1800%2C900&ssl=1)

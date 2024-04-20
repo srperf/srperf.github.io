@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # MONITORING IS NOT OPTIONAL
   
 ![Monitoring Performo](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/CoverMonitoring.png?fit=1200%2C600&ssl=1)

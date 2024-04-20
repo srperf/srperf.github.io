@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # SCRIPTING 06: DOING THE REPS (ITERATIONS)
   
 ![Script repetitions](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/10/ArtBoard-Image-36.jpg?fit=1200%2C600&ssl=1)

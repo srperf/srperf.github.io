@@ -1,3 +1,7 @@
+---
+layout: post
+author: srperf
+---
 # LOAD SCENARIO MODELING 1: ONE PROCESS
   
 ![Performance Modeling](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/HeaderModeling1.png?fit=1200%2C641&ssl=1)
