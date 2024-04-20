@@ -19,9 +19,9 @@ layout: default
   - [Performance en español](https://www.facebook.com/groups/jmeterenespanol)
 - [Book](https://amzn.to/37wqpyx) - Buy the Hitch Hikers Guide to Load Testing Projects
 
-## Blog
+## Latest Blog Posts
 <ul>
-{% for post in site.posts %}
+{% for post in site.posts limit:5 %}
 <li>
 <a href="{{ post.url }}">{{ post.title }}</a>
 </li>
