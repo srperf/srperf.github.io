@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Howscriptswork | Señor Performo</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Howscriptswork" />
+<meta name="author" content="srperf" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="PERFORMANCE TEST SCRIPT – HOW DOES IT REALLY WORK?" />
+<meta property="og:description" content="PERFORMANCE TEST SCRIPT – HOW DOES IT REALLY WORK?" />
+<link rel="canonical" href="http://localhost:4000/2017/06/12/HowScriptsWork.html" />
+<meta property="og:url" content="http://localhost:4000/2017/06/12/HowScriptsWork.html" />
+<meta property="og:site_name" content="Señor Performo" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-06-12T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Howscriptswork" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"srperf"},"dateModified":"2017-06-12T00:00:00-05:00","datePublished":"2017-06-12T00:00:00-05:00","description":"PERFORMANCE TEST SCRIPT – HOW DOES IT REALLY WORK?","headline":"Howscriptswork","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2017/06/12/HowScriptsWork.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"srperf"},"url":"http://localhost:4000/2017/06/12/HowScriptsWork.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+          <a href="http://localhost:4000/">
+            <img src="/assets/img/logo.png" alt="SrPerf" width="300" height="250"/>
+          </a>
+        
+
+        
+        <nav>
+    <h3><ul>
+        <li><a href="/">Blog</a></li>
+        <ul>
+            <li><a href="/about.html">History</a></li>
+        </ul>
+        <li><a href="/podcast.html">Podcast</a></li>
+        <li><a href="/youtube.html">YouTube</a></li>
+        <li><a href="/presenter.html">Presenter</a></li>
+        <li><a href="/me.html">Me</a></li>
+
+        <!-- Add additional menu items as needed -->
+    </ul></h3>
+</nav>
+
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <small>12 June 2017</small>
+<p class="view">by srperf</p>
+
+<h1 id="performance-test-script--how-does-it-really-work">PERFORMANCE TEST SCRIPT – HOW DOES IT REALLY WORK?</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/ArtBoard-Image-16.jpg?fit=1000%2C500&amp;ssl=1" alt="Performance scripts how works" /></p>
+
+<p>I have noticed several times that many people do not know how does the performance test automation work. Not only clients, but even some testers seem to be slightly confused about the true ways of the performance test script.</p>
+
+<p>Again I blame a little these misconceptions on functional test automation. There are several differences among these, some I have already rambled about on a previous <a href="https://www.srperf.com/functional-vs-performance-test-cases/">post</a>.</p>
+
+<p>Clients, managers and even some testers alike have gotten used to see the execution of the functional automated script. They love to see those buttons to be magically pressed on their app, giving them that warm sensation of something being done. But performance test scripts do not work by actually clicking. It would be a waste.</p>
+
+<p>I am going to use one cool description for performance automation to show you how it works.</p>
+
+<h2 id="performance-test-automation-is-like-hacking">PERFORMANCE TEST AUTOMATION IS LIKE HACKING</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/ArtBoard-Image-15.jpg?resize=300%2C300&amp;ssl=1" alt="Señor hacker performo" />Say whaaaaa? Are you surprised? Don’t be! This is so true that you would be shocked how similar it is that actually it could be the same. At times it is.</p>
+
+<p>There is a term called <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack">DDoS</a> (stands for Distributed Denial of Service) that refers to a technique some hackers use to make web sites and apps slow or even unresponsive. They do this by sending a big amount of requests to the attacked site from many different computers at the same time to bring it down.</p>
+
+<p>If this doesn’t sound familiar enough, on the previous sentence change requests for clicks. Attacked for tested. Finally change computers for Load generators. Now read this:</p>
+
+<p>They do this by sending a big amount of CLICKS to the TESTED site from many LOAD GENERATORS at the same time to CHECK PERFORMANCE. – Mind blown!</p>
+
+<p>In essence this is what load testing is. <a href="https://www.srperf.com/reason-performance-automation/">Send many</a> requests to the main server to see how it handles that many. Even at times you may be interested into checking if you can bring it down like the hacker!</p>
+
+<h2 id="they-just-dwell-on-the-back-end">THEY JUST DWELL ON THE BACK END</h2>
+
+<p>Most of the performance test scripts do not actually click the button. Some do, but those are extreme cases, more on that later.</p>
+
+<p>Clicking buttons is really expensive in terms of hardware. To have a button created for every virtual user is a lot. We usually don’t care about them (the front end). It is easier to just send the message that the button generates.</p>
+
+<p>Imagine a real life example. A fast food kitchen works a lot like an application server. Where you have a lot of cashiers taking orders (clicking the buttons on the app). They type your order sending it to the kitchen through service tickets that appear in a tiny printer inside the kitchen. Then the cook prepares it and returns the order on the window so that the cashier can pick it up.</p>
+
+<p>So if you want to load test the cook, what would it be easier? To get a lot of ordering machines? Or to just plug one computer to the printer so it sends similar tickets to the kitchen?</p>
+
+<p>This way, as long as you know how to make the printer print what you want (in a way that the cook recognizes) you can send a lot with just one computer! And you don’t even need a fancy computer! Nowadays even many cellphones can print stuff. Making it super cheap.</p>
+
+<h2 id="sometimes-you-have-to-go-front-end">SOMETIMES YOU HAVE TO GO FRONT END</h2>
+
+<p>I said previously that we would go to the back end most of the times. But some times this is going to be impossible as the message will be impossible to be created.</p>
+
+<p>Many vendors create their software in a way that only their mothers may be able to recognize them. And even some times they wont be able to tell. Or just with encrypted messages, same story.</p>
+
+<p>Imagine again the example of the printer in the kitchen. There are those hellish peripherals that will only work with what the vendor made them. Good luck if you don’t have the printer driver. Or a special cable. Or a software to call it. All closed and impossible to test.</p>
+
+<p>Here the only way is to get many terminals and automate robot arms to click doing the kitchen orders. Sorry, no awesome printing 1000 orders from your cellphone.</p>
+
+<h2 id="creating-the-message-is-like-spying">CREATING THE MESSAGE IS LIKE SPYING</h2>
+
+<p>There is another big component. It is to create a message that can be recognized by the server. Just like faking that you are someone else. Multiple someone elses. This is very similar to other hacking techniques. One of these is called a “<a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">man in the middle</a>“.</p>
+
+<p>A man in the middle attack basically is someone or something tapping the wire where you are having a conversation. Listening and paying close attention to the conversation. Pretty much like you used to do with old landlines. When someone was talking on the phone and you quietly lifted the speaker of another phone to hear. You little vouyerist!</p>
+
+<p>This way you can take notes and record those conversations. Imagine a foreign restaurant you want to prank. You would tap into the line and listen people making orders:</p>
+
+<p>“Hola, llama a taco pelota le atiende Lupe. Quien habla? – Hola Lupe soy Pepe. Quiero 3 tortas. Gracias”.</p>
+
+<p>We will spy on some conversations the same way so that we can learn how to talk to this server.</p>
+
+<p>“Hola, llama a taco pelota le atiende Francisco. Quien habla? – Hola Francisco soy Juan. Quiero 1 pizza. Gracias”.</p>
+
+<p>Now that we have some we need to create a message.</p>
+
+<h2 id="forging-requests">FORGING REQUESTS</h2>
+
+<p>Performance test scripts will just replicate the message that creates the order. They wont actually pick up a phone. Neither click the dial keys. Not even a person will speak. We will have a recorded message.</p>
+
+<p>But for this to work, we need to identify the parts that change. We will structure messages identifying what changes. We may not even know the language they are speaking but we notice the differences.</p>
+
+<p>“Hola, habla a taco pelota le atiende CHANGE. Quien Habla? -Hola CHANGE soy CHANGE. Quiero CHANGE. Gracias”.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/ArtBoard-Image-17.jpg?resize=300%2C300&amp;ssl=1" alt="Performance kitchen server" />We have now a working message. Knowing what to change and insert on them is a whole topic on itself. But once we know what to change and make sense, we will be able to create as many combinations as possible. Have an automatic player and call orders nonstop without much trouble.</p>
+
+<p>This way the server will think we are someone else and take our order. Even if we don’t know Spanish we can make orders that the server will recognize.</p>
+
+<p>These messages are often very complicated to forge. They may be on Chinese, alien or hieroglyphs. The challenge is to assemble a message that the other side will recognize and do as we request without hanging on us. Forbidden access! Oh no!</p>
+
+<h2 id="finally">FINALLY</h2>
+
+<p>So now you know performance automation is not about recording pretty clicks and seeing them on the screen happening (if you are lucky). Neither timing those clicks. It is about copying the messages that the clicks do. Forging similar messages and just directly sending them in a cheap way.</p>
+
+<p>However there are other ways. But what I just described to you is the most optimal (and how most performance tools work). If you want to see how the cook manages the kitchen at lunch hour when everybody wants their tacos, follow these tips.</p>
+
+<p>Lets go and create some load. I mean, order lots of tacos.</p>
+
+<p>VAMONOS!</p>
+
+<p>Besos &lt;3</p>
+
+<p>-Señor Performo</p>
+
+
+
+  <small>tags: <em></em></small>
+
+
+
+      </section>
+      <footer>
+       
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>

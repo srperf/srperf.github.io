@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Monitoring | Señor Performo</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Monitoring" />
+<meta name="author" content="srperf" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="MONITORING IS NOT OPTIONAL" />
+<meta property="og:description" content="MONITORING IS NOT OPTIONAL" />
+<link rel="canonical" href="http://localhost:4000/2019/06/03/Monitoring.html" />
+<meta property="og:url" content="http://localhost:4000/2019/06/03/Monitoring.html" />
+<meta property="og:site_name" content="Señor Performo" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-06-03T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Monitoring" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"srperf"},"dateModified":"2019-06-03T00:00:00-05:00","datePublished":"2019-06-03T00:00:00-05:00","description":"MONITORING IS NOT OPTIONAL","headline":"Monitoring","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/06/03/Monitoring.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"srperf"},"url":"http://localhost:4000/2019/06/03/Monitoring.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+          <a href="http://localhost:4000/">
+            <img src="/assets/img/logo.png" alt="SrPerf" width="300" height="250"/>
+          </a>
+        
+
+        
+        <nav>
+    <h3><ul>
+        <li><a href="/">Blog</a></li>
+        <ul>
+            <li><a href="/about.html">History</a></li>
+        </ul>
+        <li><a href="/podcast.html">Podcast</a></li>
+        <li><a href="/youtube.html">YouTube</a></li>
+        <li><a href="/presenter.html">Presenter</a></li>
+        <li><a href="/me.html">Me</a></li>
+
+        <!-- Add additional menu items as needed -->
+    </ul></h3>
+</nav>
+
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <small>3 June 2019</small>
+<p class="view">by srperf</p>
+
+<h1 id="monitoring-is-not-optional">MONITORING IS NOT OPTIONAL</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/CoverMonitoring.png?fit=1200%2C600&amp;ssl=1" alt="Monitoring Performo" /></p>
+
+<p>Monitoring is one of the first things I look for when I face a new project or a new system that requires some performance work to be done on it. And surprisingly most of the places, projects and customers that I have visited… do not have it, have misconceptions about it or just plainly do not know what is the deal with it. <a href="https://www.srperf.com/performance-load-different/">They are often wrongfully just asking for a load test</a>.</p>
+
+<p>So to help and enlighten I am going to explain a little why Monitoring is probably one of the most important things you must have to know the performance of your system. It is even more important than just doing plain load tests (I even think it is extremely unwise to run a load test without proper monitoring).</p>
+
+<h2 id="know-thyself">KNOW THYSELF</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/PerformanceBook.png?resize=277%2C315&amp;ssl=1" alt="Great Performance Book" /></p>
+
+<p>On the awesome book, “<a href="https://www.goodreads.com/book/show/17722080-every-computer-performance-book">Every computer performance book</a>“, Bob Wescott starts the book stating that knowing the current performance of your system is the absolute first step to do anything performance related with it. And I could not agree more with him.</p>
+
+<p>What he states as “knowing your system” is a wide statement. It includes knowing utilization patterns, current performance metrics, historical events, and having many logs with lots and lots of data. Data that can be gathered from a well established monitoring setup.</p>
+
+<p>Following the syllogism, if all systems should have information about their metrics, and monitoring provides that information, hence, ALL SYSTEMS SHOULD HAVE LOGGED MONITORING.</p>
+
+<p>In the question of the types of monitoring that should be available I tend to reply that the most complete suite is the best option (more on that below), but in doubt you should have at least something. Anything. Please! To run around not knowing anything about your system is like running around with pointy scissors, driving as drunk and stoned as Charlie Sheen, like running a marathon without tight underwear, like staring at a solar eclipse without glasses, or like doing any of the most reckless thing that you can think of.</p>
+
+<h2 id="but-isnt-it-too-heavy">BUT ISN’T IT TOO HEAVY?</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/Planet.png?resize=272%2C226&amp;ssl=1" alt="When I find them not monitoring" /></p>
+
+<p>This type of questions or comments make me wonder… <em>what is wrong with you people?</em> (That and thinking that automation is enough to know response times, I know I am weird)… But back to the heavy monitoring question, I get it often. So often that it pretty much became the whole reason for this blog post.</p>
+
+<p>Before I go on ranting examples on why I think this concern is a bit overblown, being a diligent performance engineer, I must say that yes, indeed monitoring adds some overhead to the performance of the system. That is just the sound of inevitability Mr. Anderson. Such as death, the extra load added by monitoring is a fact of life that has to be dealt with instead of being reckless to avoid it. It would be irresponsible to think that we can avoid death and act like if we could.</p>
+
+<p>Monitoring indeed adds load on the performance of your system to a certain point. But nowadays performance monitoring tools have evolved, server’s power has grown a lot and the extra load is considerably smaller than the user load. It can add up, but with the following examples we will understand that it is better to have it and deal with the extra load than not having it.</p>
+
+<h2 id="examples">EXAMPLES</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/Parachute.png?resize=145%2C145&amp;ssl=1" alt="Without monitor performance" /></p>
+
+<p>A first example. When you skydive you need multiple emergency parachutes system. It would be like saying that having multiple emergency parachute systems is a bit heavy. Let’s jump from the plane or the mountain riff with only one single parachute. That is smart, why should one carry on the extra load?</p>
+
+<p>The radar and navigation equipment of an airplane is heavy extra weight. The airline wants to be able to cramp up more people than the weight limit the airplane can carry. So why not ditching some of the navigation equipment to put more people and charge more?</p>
+
+<p>Another. To be able to carry more people again and save some money on equipment, let’s not have that many rescue boats on our <a href="https://en.wikipedia.org/wiki/RMS_Titanic">cruise</a> ship. Ask <a href="https://en.wikipedia.org/wiki/Edward_Smith_(sea_captain)">Edward John Smith</a> or <a href="https://en.wikipedia.org/wiki/Thomas_Andrews">Thomas Andrews</a> how did that worked out. Would you ride that boat?</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/Pinto.png?resize=287%2C160&amp;ssl=1" alt="Pinto performing poorly" /></p>
+
+<p>Another would be the all the meters your car has on the dashboard and the security frame. They add-on gas consumption and weight on your car. But it would be better to not to have them for the sake of savings, something like to go all the <a href="https://seanmunger.com/2014/11/13/the-devils-hatchback-the-horrifying-true-story-of-the-ford-pinto/">Pinto</a> way. Who would not love to have a cheap car with just an inch between bumper and gas tank, no fuel or speed meter and just a gas pedal? I mean you could halt the car just by not accelerating?</p>
+
+<h2 id="when-it-may-beskippedskimmed">WHEN IT MAY BE <del>SKIPPED</del> SKIMMED</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/Headlights.png?resize=383%2C235&amp;ssl=1" alt="No lights car no monitor parts" /></p>
+
+<p>There are occasions where some of the monitoring may be downgraded but not sipped. As in the last example, some racing high performance cars lack several meters that a conventional car has for the sake of being light and fast. They don’t even have full seats or real lights in front since those special cars race only on daytime. Lots of savings in terms of weight.</p>
+
+<p>On the other hand, those cars have other extra components that are not found on regular average cars. Special fuel tanks to fill up quickly, nitro boosts and many don’t even use conventional gasoline.</p>
+
+<p>Following up the analogy, on extreme conditions, you could skim conventional monitoring. You could choose lighter options, monitor only key elements or have special mechanisms. But still, you need to know something about the system, you should not be blind about it. <a href="https://www.theguardian.com/media/2019/jan/08/bird-box-challenge-why-blindfolding-yourself-and-walking-into-walls-is-even-more-stupid-than-it-sounds">Driving blind folded is never a good idea</a>.</p>
+
+<h2 id="what-to-do-then">WHAT TO DO THEN?</h2>
+
+<p>The follow up question is often what to do when the system is maxed out and monitoring may be adding frothing?</p>
+
+<p>This question has the intent of forcing you to answer suggesting that skipping monitoring is acceptable then. I must shatter that illusion. The plain answer is NO. It should not be the case.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/Airp.png?resize=219%2C155&amp;ssl=1" alt="Plane without monitors" /></p>
+
+<p>Opting out of monitoring just to fill up more load is a really bad idea. Such as on the airplane example, what do you do if you have more people than the plane has capacity for? Do you get another plane? Or do you remove all instruments and fly the plane by ear but being able to charge for more people? Which airplane would you choose to fly on? Please, be honest.</p>
+
+<p>The more you have, the better. As you get more information you are prepared for the world. The more you work, the luckier you will be. Ad an extra layer always.</p>
+
+<h2 id="conclusion">CONCLUSION</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/x.png?resize=137%2C170&amp;ssl=1" alt="Performo xray" /></p>
+
+<p>Monitoring is a crucial part of the art of performance testing. Many people have the wrong idea thinking that you don’t need to monitor and you need only load testing. Today we have awesome things such as APMs on several flavors. The world should not attempt to run without monitors on every environment (dev, test, prod) of your application. The more you know about them, the better!</p>
+
+<p>Please do not go out running apps without knowing yourself.</p>
+
+<p>Besos &lt;3</p>
+
+
+
+  <small>tags: <em></em></small>
+
+
+
+      </section>
+      <footer>
+       
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>

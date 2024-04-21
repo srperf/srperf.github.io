@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Script04correlations | Señor Performo</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Script04correlations" />
+<meta name="author" content="srperf" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="SCRIPTING 04: HUNTING CORRELATIONS" />
+<meta property="og:description" content="SCRIPTING 04: HUNTING CORRELATIONS" />
+<link rel="canonical" href="http://localhost:4000/2017/08/14/Script04Correlations.html" />
+<meta property="og:url" content="http://localhost:4000/2017/08/14/Script04Correlations.html" />
+<meta property="og:site_name" content="Señor Performo" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-08-14T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Script04correlations" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"srperf"},"dateModified":"2017-08-14T00:00:00-05:00","datePublished":"2017-08-14T00:00:00-05:00","description":"SCRIPTING 04: HUNTING CORRELATIONS","headline":"Script04correlations","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2017/08/14/Script04Correlations.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"srperf"},"url":"http://localhost:4000/2017/08/14/Script04Correlations.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+          <a href="http://localhost:4000/">
+            <img src="/assets/img/logo.png" alt="SrPerf" width="300" height="250"/>
+          </a>
+        
+
+        
+        <nav>
+    <h3><ul>
+        <li><a href="/">Blog</a></li>
+        <ul>
+            <li><a href="/about.html">History</a></li>
+        </ul>
+        <li><a href="/podcast.html">Podcast</a></li>
+        <li><a href="/youtube.html">YouTube</a></li>
+        <li><a href="/presenter.html">Presenter</a></li>
+        <li><a href="/me.html">Me</a></li>
+
+        <!-- Add additional menu items as needed -->
+    </ul></h3>
+</nav>
+
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <small>14 August 2017</small>
+<p class="view">by srperf</p>
+
+<h1 id="scripting-04-hunting-correlations">SCRIPTING 04: HUNTING CORRELATIONS</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/08/ArtBoard-Image-34.jpg?fit=1200%2C600&amp;ssl=1" alt="Script correlations" /></p>
+
+<p>On this post we will examine the process of finding and doing correlations. The <a href="https://www.srperf.com/scripting-date-first/">best practice</a> has brought you to the core point of the process. This is for most scripting as it focuses on HTTP and other web transfer protocols.</p>
+
+<p>With this best practice tips you will be able to correlate like a pro. You will be able to identify the exact point where the values are hiding. This will give you the terminator vision that will point exactly where it is; what is around that value; and how to find it. That detection vision may even show you if his boots, jeans and jacket will fit you.</p>
+
+<p>The best practice will leave your code with all the correlations that it may need. All of this while you get the values really fast. Instead of trying to guess, you will know exactly where are those values. Plus you will get certainty that you are getting them for sure. And the right ones too!</p>
+
+<p>Empecemos, lets move on to the first step.</p>
+
+<h2 id="spot-them-in-the-jungle">SPOT THEM IN THE JUNGLE</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/08/jurassic_park_robert_muldoon_H_0615_02.c93fe49de09b2de9701ad9ba5d47b839.jpg?resize=150%2C150&amp;ssl=1" alt="Spot correlations" />You must star looking for the parameter in the jungle of data that was transferred on the recordings. I call this the jungle of data. A bunch of weird calls and responses that happened between your computer and the server. They are usually <a href="https://www.tutorialspoint.com/http/http_requests.htm">HTTP</a> requests and responses. They are saved by most automating tools out there.</p>
+
+<p>You have the value that you noticed was changing on the <a href="https://www.srperf.com/scrpting-02-bring-pairs/">recorded</a> script. You must search that value on the communication recorded in between the client and the server.</p>
+
+<p>Once you find them, create a marker on the exact location. Such as a hunter would do when he finds the nest of his pray.</p>
+
+<p>This will help you to identify exactly what request generated the response where you need to correlate. Without it maybe you would place the correlations code on the wrong request of your script. Instead, with this you will know exactly where do you have to correlate.</p>
+
+<p>Instead of looking for the prey on the wrong rabbit hole, you will know which one is the one. Where that dang wabbit is hiding! Do not fall into the mistake of looking into the one where you last saw him. He came from beneath!</p>
+
+<h2 id="identify-the-correlations-surroundings">IDENTIFY THE CORRELATIONS SURROUNDINGS</h2>
+
+<p>You know exactly where is the data appearing for the first time. Now, you must identify what is surrounding it. In the case of HTTP communication it usually has hypertext or tags around. Those are easy to identify.</p>
+
+<p>Example:</p>
+
+<p>&lt;escribo <strong>parametro&gt;</strong><em>TACOS</em><strong>&lt;/escribo</strong>&gt;</p>
+
+<p>I have marked what is surrounding it that may be the clue to identify it. Of course we want to get TACOS. It is surrounded by <strong><em>parametro&gt;</em></strong> and <strong><em>&lt;/escribo</em></strong>. Take note of the surroundings for the correlations.</p>
+
+<p>Another may be slightly more complex. It could be part of the hypertext tag. Something like:</p>
+
+<p>&lt;<strong>escribo valor=”</strong>TACOS<strong>“&gt;</strong>Pastor con queso&lt;/escribo&gt;</p>
+
+<p>Here they are slightly different but the concept remains the same. Take note that on the left and right of TACOS we have: <em><strong>escribo valor=”</strong></em> and <em><strong>“&gt; .</strong></em> Be aware of the difference. You may wonder why on the left I kept more. I will explain a little more below. But first a third example.</p>
+
+<p>The communication could be different than regular hypertext tags. Something like:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>ØXÌõá£GñùË/½XMLLT?<strong>ûÙÏªcGŽV</strong><em>TACOS</em><strong>W¯^ Ù</strong>Uo¾ùfõƒü æÈ¼iëìÙ³±&lt;˜µ8þ</td>
+      <td>Ìö_ýõXÇ?ü°:uêT</td>
+      <td>~÷îÝXÖ¥Ì£+þîÜ¹Ïôýµ¯}­zï½÷ªË—/WG</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Now we have our TACOS in between  <em><strong>ûÙÏªcGŽV</strong></em> and <em><strong>W¯^ Ù</strong></em>  . Make sure you know the surroundings of your prey. You will need to locate and cage it in between them. We truly want that head trophy hanging in your wall!</p>
+
+<h2 id="find-the-best-hunt">FIND THE BEST HUNT</h2>
+
+<p>Now that you know what surrounds your pray you have better chances to hunt it. But we cannot get cocky and hunt for it right away. We must make sure that we can hunt the right one.</p>
+
+<p>At times the hiding place for our prey will be in between a rock and a palm tree. But there are many other places where that can happen right. If we send hunters and tell them, bring me whats in between the tree and the rock, they may bring anything.</p>
+
+<p>Now that you know the prey is in between the rock and the tree, we must check the jungle again. We must make sure that there are no other confusing trees and rocks.</p>
+
+<p>Go to your recorded HTTP communication. Search for the surroundings you identified. Check on the area after the response that you identified as the good one. If the first find is near your parameter it is awesome.</p>
+
+<p>If it is not, you may have to keep searching for the next tree and rock, then the next and the next. Do this until you find the right one. Take note of how many rocks and trees you needed to search to find the prey. Later you will be able to say “<em>Find the tacos in between the third rock and the third tree</em>“.</p>
+
+<h2 id="group-hunts">GROUP HUNTS</h2>
+
+<p>On a similar principle, you may be looking at correlating a series of values. This is slightly more complex but falls under the same principle.</p>
+
+<p>Imagine you want to hunt a pack of prairie dogs. They will be hiding always in between dirt holes. This one is easier once you identify where are their holes.</p>
+
+<p>You may see something like this.</p>
+
+<p>_<holes>_</holes></p>
+
+<p><em><hole>Duggie</hole></em></p>
+
+<p><em><hole>Perro</hole></em></p>
+
+<p>_<hole>Cat<hole>_</hole></hole></p>
+
+<p><em>&lt;/holes&gt;</em></p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/08/B0hAIIEIcAAU2Bz.jpg?resize=150%2C150&amp;ssl=1" alt="Group Correlation" /></p>
+
+<p>Here we will catch at once everything that is in between a hole (no pun intended). So our surroundings will be <em><strong>hole&gt;</strong></em> and <em><strong>&lt;/</strong></em>. Nice and easy a bulk hunt.</p>
+
+<h2 id="replace-what-is-caged">REPLACE WHAT IS CAGED</h2>
+
+<p>You have what surrounds your pray on both sides. Now we will proceed to put that on our script.</p>
+
+<p>Identify the request that generates the parameter that you are looking for. On it indicate that you want to hunt whatever is in between the surroundings that you identified.</p>
+
+<p>There is no way it can go wrong. You just tell it, it is in between a bush and a pond. The script will hunt for it with precision. You just have to make sure you give precise indications.</p>
+
+<p>If your value was not the first one, you must tell that to your script. Hey script, would you please hunt for the value that is just on the fourth pond? You can ignore the others.</p>
+
+<p>On the same way you can tell him to bring everything in between a pond and a bush. Just be careful here. A forest can have so many of them that you may break the script trying to catch so much at once. be wise.</p>
+
+<h2 id="correlations-done">CORRELATIONS DONE</h2>
+
+<p>Follow these steps until you have identified and hunted everything on your script. Afterwards, run it to see if it works. Most probably it will run without a problem.</p>
+
+<p>If there are problems most probably you forgot to hunt for something. Maybe it was not just tacos and you needed to catch tortas!</p>
+
+<p>Next we will replace the parameters. But for now, vamonos!</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/Continuara.png?resize=300%2C95&amp;ssl=1" alt="To be continued" /></p>
+
+<p>Besos&lt;3</p>
+
+<p>-Señor Performo</p>
+
+
+
+  <small>tags: <em></em></small>
+
+
+
+      </section>
+      <footer>
+       
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>

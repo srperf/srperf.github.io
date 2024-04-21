@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Scenariomodeling1 | Señor Performo</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Scenariomodeling1" />
+<meta name="author" content="srperf" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="LOAD SCENARIO MODELING 1: ONE PROCESS" />
+<meta property="og:description" content="LOAD SCENARIO MODELING 1: ONE PROCESS" />
+<link rel="canonical" href="http://localhost:4000/2019/10/08/ScenarioModeling1.html" />
+<meta property="og:url" content="http://localhost:4000/2019/10/08/ScenarioModeling1.html" />
+<meta property="og:site_name" content="Señor Performo" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-10-08T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Scenariomodeling1" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"srperf"},"dateModified":"2019-10-08T00:00:00-05:00","datePublished":"2019-10-08T00:00:00-05:00","description":"LOAD SCENARIO MODELING 1: ONE PROCESS","headline":"Scenariomodeling1","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/10/08/ScenarioModeling1.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"srperf"},"url":"http://localhost:4000/2019/10/08/ScenarioModeling1.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+          <a href="http://localhost:4000/">
+            <img src="/assets/img/logo.png" alt="SrPerf" width="300" height="250"/>
+          </a>
+        
+
+        
+        <nav>
+    <h3><ul>
+        <li><a href="/">Blog</a></li>
+        <ul>
+            <li><a href="/about.html">History</a></li>
+        </ul>
+        <li><a href="/podcast.html">Podcast</a></li>
+        <li><a href="/youtube.html">YouTube</a></li>
+        <li><a href="/presenter.html">Presenter</a></li>
+        <li><a href="/me.html">Me</a></li>
+
+        <!-- Add additional menu items as needed -->
+    </ul></h3>
+</nav>
+
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <small>8 October 2019</small>
+<p class="view">by srperf</p>
+
+<h1 id="load-scenario-modeling-1-one-process">LOAD SCENARIO MODELING 1: ONE PROCESS</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/HeaderModeling1.png?fit=1200%2C641&amp;ssl=1" alt="Performance Modeling" /></p>
+
+<p>Modeling scenarios for <a href="https://www.srperf.com/performance-testing/">load</a> tests is not a trivial task. It is not only to <a href="https://www.srperf.com/7-questions-for-performance-project/">blast 100 concurrent virtual users and slam a process</a>. We require to know how hard (often) to hit the processes, with how many threads (vUsers) and for this, how fast each thread should iterate.</p>
+
+<p>Also, the complexity increases as a load scenario can trigger multiple business processes. It can get complex to try to figure out how to distribute the virtual users among those processes. On top of that, the complexity increases when trying to design the different types of load tests: average load, spike, peak, endurance, etc.</p>
+
+<p>Today I will start explaining the thought process behind the simplest type. How to do load modeling on the iterations, number of users and total load for <strong>a single business process</strong>.</p>
+
+<h2 id="may-sound-silly-and-simple">MAY SOUND SILLY AND SIMPLE</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/Eureka.png?resize=265%2C300&amp;ssl=1" alt="Eureka Performance" /></p>
+
+<p>To many, this may sound a little bit “duh” or elemental, as the principle actually is a bit straight forward. But as many simple things they don’t sound simple until you see them. At the beginning it sounds evident. But it is hard to figure out on your own. <a href="https://en.wikipedia.org/wiki/Archimedes%27_principle">It is like finding out on your own that the amount of water displaced by a submerged object, is the same as it’s volume</a>. Ah duh, no way genius!?</p>
+
+<p>Well, yes way. And the same happens on a load test modeling, with the relation ‘tween totals, iterations and number of users simulated. You would not believe how many places I have been where people don’t seem to be aware of this relation. It is really common. If you don’t have a clear picture of this, don’t be ashamed or worried. I am here to try to make it really clear for you.</p>
+
+<p>You may even have some notions on this, but not a specific understanding. Or maybe you don’t know the almighty formula for it. Oh yeah, there is a formula. But do not be afraid, it is not a complex one. Once you see it you will not be able to un-see it. It is so simple that it consists of only three little pieces.</p>
+
+<h2 id="the-load-modeling-holy-trinity">THE LOAD MODELING HOLY TRINITY</h2>
+
+<p>As I mentioned there are three key elements to figure this out when you are load modeling. Often, you will be provided with only two of the three parameters. You will have to calculate the third piece from the other two.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/Trinity.png?resize=315%2C301&amp;ssl=1" alt="Performance trinity" /></p>
+
+<p>So the formula goes a bit like this:</p>
+
+<p><strong>T = U x H</strong></p>
+
+<p>Where each element means:</p>
+
+<ul>
+  <li>T -&gt; <strong>T</strong>otal number of hits per period</li>
+  <li>U -&gt; Number of <strong>U</strong>sers or threads simulated</li>
+  <li>H -&gt; Number of Hits each user does per period</li>
+</ul>
+
+<p>And that single formula will help you to model most of the scenario needs you may have. Let’s play out a few examples.</p>
+
+<h2 id="no-totals">NO TOTALS</h2>
+
+<p>One case you may receive only two data tips. 1 – The number of users to simulate. 2 – The approximate number of times each user acts or executes the business process. The project doesn’t care about the total number of actions in a given period of time, just want to simulate what they think is more or less realistic.</p>
+
+<p>In this case we do not need to do anything to the formula.</p>
+
+<p>Example: You get that the process has 500 concurrent users executing it. Also, on average each user clicks (executes) the process 15 times each hour.</p>
+
+<p>Easy peasy, we have U = 500 and H = 15, then 500 x 15 = 7500</p>
+
+<p>Running 500 threads (vUsers) that complete 15 iterations per hour will give you approx 7500 hits per hour. That will be the total goal.</p>
+
+<h2 id="no-idea-how-fast">NO IDEA HOW FAST</h2>
+
+<p>Another frequent case is when you receive just the total number of hits for that process and the number of concurrent users that must be simulated. Here it won’t matter or be known how fast each user acts.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/HowFast.png?resize=300%2C200&amp;ssl=1" alt="Iteration speed" /></p>
+
+<p>Or maybe you need to fix the speed as you have a limited number of threads or users. This is quite common. Be careful if that is the case (full separate post on that).</p>
+
+<p>In this case we will have to isolate the unknown variable on the formula, H. then we will have <strong>H = T / U</strong></p>
+
+<p>Quite simple equation, so let’s run the numbers. The system has 50 concurrent users. The process happens a total of 150 times per hour. Then we divide 150 / 50 = 3. Then, for your simulation you will have to tune the pacing and think times for each script to complete 3 iterations per hour.</p>
+
+<h2 id="dont-know-how-many-users">DON’T KNOW HOW MANY USERS</h2>
+
+<p>The last possibility is when you receive only how fast a user acts (maybe from the recorded think times) and the total number of hits that the process must receive. This is also common when you have multiple processes on your scenario and must just figure out how to distribute the number of users on each BP.</p>
+
+<p>So again isolating the unknown variable that we do not have this time is the number of virtual users. <strong>U = T / H</strong></p>
+
+<p>In this example we have that the process executes a total of 200 times per hour. Also that the average user does 5 executions in an hour. Applying the formula we divide 200 / 5 = 40. Using that configuration we should put a total of 40 virtual users or threads.</p>
+
+<p>On the next post we will analyze further the user distribution.</p>
+
+<h2 id="have-all-three">HAVE ALL THREE</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/AllThree.png?resize=300%2C190&amp;ssl=1" alt="Load modeling three variables" /></p>
+
+<p>Occasionally you will have happy times when you have all three and you do not even have to calculate a thing. But beware, as what may seem as happy times may have a hidden plot twist.</p>
+
+<p>There are times where they will not match. A wild example is that the instruction is to generate 100000 actions per hour in total. This using 10 users, each doing 5 actions per hour. Obviously something here does not add up.</p>
+
+<p>Substituting on our formula 10 x 5 = 100000…. something CLEARLY does not add up.</p>
+
+<p>This example is a bit exaggerated to make you notice that the information is very wrong. But at times it will not be so evident. You should always check with the formula. ALWAYS!</p>
+
+<h2 id="conclusion">CONCLUSION</h2>
+
+<p>When modeling a <a href="https://www.srperf.com/performance-load-different/">load</a> test scenario it is important to keep in mind the holy trinity of metrics for a single process.</p>
+
+<p><strong>T = U x H</strong></p>
+
+<p>All those three are proportional and should always match with the formula.</p>
+
+<p>At the same time you can use the formula for if one of them is missing. Or two. Or all the three could be missing! That is a trouble! You may need at least one.</p>
+
+<p>More to take into account on scenario modeling is how to configure pacing and think times to get the right number of iterations needed for each vuser/thread.</p>
+
+<p>Another piece will be how to distribute those users on scenarios that have more than one business process.</p>
+
+<p>So we will continue our modeling multi part series of posts.</p>
+
+<p>Besos &lt;3</p>
+
+
+
+  <small>tags: <em></em></small>
+
+
+
+      </section>
+      <footer>
+       
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>
