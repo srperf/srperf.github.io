@@ -1,8 +1,6 @@
 ---
-layout: default
+title: About yo
 ---
-
-# Hola
 
 Hola amigos I am el Señor Performo!
 

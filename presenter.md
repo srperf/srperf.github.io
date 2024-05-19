@@ -1,12 +1,11 @@
 ---
-layout: default
+title: My public speaking experience
+feature_image: "/assets/img/Cover.png"
 ---
-
-# Public speaking
 
 Here I am going to try to keep some record of the presentations that I have been given a chance to do. I hope this page grows and grows.
 
-## 2023
+# 2023
 
 - 20231110 QualitySense – Keynote – [Event page](https://qualitysenseconf.com/en/#agenda)
 - 20231018 P99Conf – Talk – [Event Page](https://www.p99conf.io/)
@@ -29,7 +28,7 @@ Here I am going to try to keep some record of the presentations that I have been
 - 20230202 Abstracta Tech Talks – Talk – [Presentation video](https://www.youtube.com/watch?v=5epoOK4fZd8)
 - 20230116 Synapse QA – Panel – [Event video](https://www.facebook.com/synapseqa/videos/5749940955075346)
 
-## [](https://github.com/grafana/k6-internal-docs/blob/master/company/devrel/LeandroCalendarActivities.md#2022)2022
+# 2022
 
 - 20221209 Quality Sense Talk – TBD
 - 20221206 WOPR Paper talk – [https://www.performance-workshop.org/wopr29/](https://www.performance-workshop.org/wopr29/)

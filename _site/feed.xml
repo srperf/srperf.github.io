@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-19T12:32:40-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My website</title><subtitle>This is my new website</subtitle><entry><title type="html">Joinedgrafanak6</title><link href="http://localhost:4000/2022/01/10/JoinedGrafanaK6/" rel="alternate" type="text/html" title="Joinedgrafanak6" /><published>2022-01-10T00:00:00-06:00</published><updated>2022-01-10T00:00:00-06:00</updated><id>http://localhost:4000/2022/01/10/JoinedGrafanaK6</id><content type="html" xml:base="http://localhost:4000/2022/01/10/JoinedGrafanaK6/"><![CDATA[<h1 id="i-joined-k6">I joined k6!</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/k6JoinCover.jpg?fit=1920%2C1080&amp;ssl=1" alt="I joined K6" /></p>
+
+<p>I joined K6</p>
+
+<p>Hola! It has been a bit since I last blogged here, but I think it is good to do it regularly again. Especially as I am starting this new journey. I am now a DevRel in the <a href="https://k6.io/">k6</a> family who advocates for excellent performance practices. In other words, I joined k6! A perfect way to begin this is to tell a story about how I ended up here. I mean, for some, it is no secret that k6 and I have been good friends for a while now. But how exactly did it all start?</p>
+
+<h2 id="a-while-ago">A while ago.</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/journey-blog-1.png?resize=345%2C184&amp;ssl=1" alt="My journey" /></p>
+
+<p>A long, long time ago, in a galax… Ehm… How about: Once upon a time…</p>
+
+<p>For over 10 years, I was a performance testing and QA consultant providing testing services to multiple organizations, polishing and growing my knowledge and expertise. It all got up to the point that I started to want to share that knowledge.</p>
+
+<p>I created a secret identity to do it. I would wear casual shirts, khakis, and blazers during the day. But at nights, I would wear a fake mustache and start blogging that knowledge, fighting against performance malpractices and ignorance as <a href="http://www.srperf.com/">Señor Performo</a>. Of course, by now, it is not a secret identity anymore. But hey, the costume is not a fake mustache anymore!</p>
+
+<p>That journey evolved into attending conferences. I gave it a try at ridiculing myself onstage by doing presentations. Then, I even got invited to host my own podcast to rant about performance. </p>
+
+<p>Then, things started to get interesting while I was at some of those European conferences.</p>
+
+<h2 id="people">People!</h2>
+
+<p>I met many fantastic people (which I still hang with at least virtually) in those conferences and many other venues. People who also preached the word of the performance practices. Some friends spoke Spanish (among several other languages) and were willing to collaborate for the podcast and many other cool things I have been doing.</p>
+
+<p>I learned a lot with those interactions, growing my knowledge and a better understanding of performance practices and creating better content. That included a boiling interest in ways to create video content. But bouncing tween jobs and the not-so-secret identity was a lot! I was not ready yet.</p>
+
+<p>But, what I was managing to create was getting attention. I got some more followers and exciting approaches. </p>
+
+<p>One lucky day, one of those came from k6 in Stockholm, Sweden. They were looking for a person that could help k6 by preaching the word of performance.</p>
+
+<p>I was just a newbie in content creation and was unsure if I would be capable of doing it. But as a coincidence, I had travel arrangements on those days to go Europe (actually to Vienna). Checked how hard would it be to add a Stockholm visit, and there I was, in beautiful Stockholm.</p>
+
+<p>I got a chance to meet the incredible k6 environment and its people. But was still unsure if I could deliver on the need. I mean, I was just a scripter/tester playing at this knowledge-sharing thing. What if I am not good at it? There are bills to pay, cats to feed, and a girlfriend I wanted to propose to.</p>
+
+<p>Let’s collaborate, I said. And that we did here and there over the years. </p>
+
+<p>In the meantime, I kept polishing my skills and knowledge. At work, I started to use more OSS tools. Got captivated with tool integrations to pipelines, got some chances to use k6, and got enamored at alternatives to visualize my ongoing load tests. Particularly with a tool that I started to use even for personal projects, named <a href="http://www.grafana.com/">Grafana</a> (Woah! Look out! A Checkov’s gun!).</p>
+
+<h2 id="cov-shift-19-happened-a-blessing-in-disguise">Cov-shift-19 happened… A blessing in disguise?</h2>
+
+<p>No one foresaw the upcoming chaos (maybe except Bill Gates), but we all know what happened. The last in-person conference I went to was already giving antibacterial gel swag. My final on-site project was canceled, and I was given early approval to fly back home to be safe.</p>
+
+<p>The lockdowns started, all work and projects stopped, and furloughs came to be. It was time to polish the content I was already doing, like the podcast’s sound engineering, online presentations, and writing. But there was also a chance at scratching the video content itch.</p>
+
+<p>We all kinda had to get on video content. Zoom meetings and webinars became the standard. I started doing webinars with a tiny webcam. </p>
+
+<p>Then I borrowed an old camcorder to officially start a <a href="https://www.srperf.com/el-youtube-channel/">YouTube channel</a>. As I was beginning to learn, we had poor quality in terms of video and audio. I began to understand and improve the art of video recording-editing and pairing it with good audio. The possibilities were huge!</p>
+
+<p>I upgraded the camcorder into a Canon M50. I learned a lot about lenses, takes, scenes, audio differences from podcasting, and rudimentary special effects. I loved it! I could die happily doing just that!</p>
+
+<p>I had to get better at it!</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/IMG-20201031-WA0001-Copy.jpeg?resize=1000%2C563&amp;ssl=1" alt="Learning this video thing" title="Learning" /></p>
+
+<h2 id="at-events">At events</h2>
+
+<p>I kept learning and improving for the next few months. I was learning so much and applied each improvement to my process. Getting better and better.</p>
+
+<p>Suddenly, news came up. Grafana had just acquired k6!</p>
+
+<p>Grafana, the company that made that other tool that I was getting a bit obsessed with (Ha! told ya about the gun!). They had just acquired another product (k6) that seemed to bring so much of the modern best practices I was figuring out!</p>
+
+<p>Right there and then, my mind was blown, thinking about all of the possibilities! Both tools and companies were an incredible complement to each other! I was so happy and could not wait to see what would come from that coalition.</p>
+
+<h2 id="the-moment-of-truth">The moment of truth</h2>
+
+<p>After a while, I was stunned when I got a heads up that the DevRel position was back. I must admit I froze for a bit. Those cinematic moments when your background zooms out from you. The moment had come to make a decision.</p>
+
+<p>After over a decade of doing it, leaving the consultant life behind was a tough decision. But there were so many factors pushing towards doing it and taking the step! A leap of faith!</p>
+
+<p>But I may say, three main things helped me.</p>
+
+<p>On the one hand, I already knew good friends and great people in k6. </p>
+
+<p>Adding up, I liked both products. There was so much energy from both being together. </p>
+
+<p>And last, I felt more comfortable creating content.</p>
+
+<p>All right. It was decided. I had to do it.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/leapoffaith.jpg?resize=500%2C223&amp;ssl=1" alt="Leap of faith" title="Leap of faith" /></p>
+
+<p>Once decided, I applied. Then started to check information about the company. I kept noticing incredible company culture, environment, energy, and a growing list of attributes as I read. I couldn’t be more excited.</p>
+
+<h2 id="the-adventure-begins">The adventure begins</h2>
+
+<p>It has already been a few weeks since I joined, and I can already say I made a great decision. But before I begin my babble, I must clarify something. I have not been asked to say anything about what I am about to write. This comes all from the bottom of my soul.</p>
+
+<p>First of all, as I already had the feeling, my suspicions were confirmed on my very first day. Both organizations come from different places (from the same country), but each had an incredible culture that mixed perfectly. This includes the pillars and principles of the organization such as transparency, empowerment, open source-ness, high say-do, diversity in perspectives, progress orientation, and fantastic collaboration. I paraphrased them from the company’s site, but trust me, they mean it!</p>
+
+<p>Second, the way that both solutions mix up drives me crazy! Each is in a growth and development state. k6, and Grafana, both have tremendous potential to keep growing and expanding.</p>
+
+<p>Grafana, on the one hand, is not anymore just the graphing solution I love. It has expanded its functionalities and even extended into other solutions like Loki or Tempo. As well as many different data sources and systems. The team just keeps adding stuff!</p>
+
+<p>k6 (yes, lower case k) is also growing. The performance automation tool continuously adds new features and functionalities with each release. The cloud platform as well is improved frequently. And they have just released a new automation tool that drives browser-based tests! All of it is oriented at developers, who IMO, should be the first line of defense in test automation.</p>
+
+<p>And last! They just onboarded a (not so) bad-hombre to help them spread the gospel of the performance assurance best practices!</p>
+
+<p>As I climb this fantastic new mountain, I just can look at the horizon and be perplexed by the tremendous outlook ahead. The view reaches far, everywhere, and is full of possibilities!</p>
+
+<p>Be prepared for what is soon to come!</p>
+
+<p>Besos &lt;3</p>
+
+<p>SrPerf</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/thePerspective.jpg?resize=1024%2C576&amp;ssl=1" alt="The horizon!" title="Into the horizon" /></p>
+
+<p>SHARE</p>
+
+<p>[</p>
+
+<p>](https://www.srperf.com/i-joined-k6/#)</p>
+
+<p>[</p>
+
+<p>](https://www.srperf.com/i-joined-k6/#)</p>]]></content><author><name>srperf</name></author><summary type="html"><![CDATA[I joined k6!]]></summary></entry><entry><title type="html">Scenariomodeling1</title><link href="http://localhost:4000/2019/10/08/ScenarioModeling1/" rel="alternate" type="text/html" title="Scenariomodeling1" /><published>2019-10-08T00:00:00-05:00</published><updated>2019-10-08T00:00:00-05:00</updated><id>http://localhost:4000/2019/10/08/ScenarioModeling1</id><content type="html" xml:base="http://localhost:4000/2019/10/08/ScenarioModeling1/"><![CDATA[<h1 id="load-scenario-modeling-1-one-process">LOAD SCENARIO MODELING 1: ONE PROCESS</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/HeaderModeling1.png?fit=1200%2C641&amp;ssl=1" alt="Performance Modeling" /></p>
+
+<p>Modeling scenarios for <a href="https://www.srperf.com/performance-testing/">load</a> tests is not a trivial task. It is not only to <a href="https://www.srperf.com/7-questions-for-performance-project/">blast 100 concurrent virtual users and slam a process</a>. We require to know how hard (often) to hit the processes, with how many threads (vUsers) and for this, how fast each thread should iterate.</p>
+
+<p>Also, the complexity increases as a load scenario can trigger multiple business processes. It can get complex to try to figure out how to distribute the virtual users among those processes. On top of that, the complexity increases when trying to design the different types of load tests: average load, spike, peak, endurance, etc.</p>
+
+<p>Today I will start explaining the thought process behind the simplest type. How to do load modeling on the iterations, number of users and total load for <strong>a single business process</strong>.</p>
+
+<h2 id="may-sound-silly-and-simple">MAY SOUND SILLY AND SIMPLE</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/Eureka.png?resize=265%2C300&amp;ssl=1" alt="Eureka Performance" /></p>
+
+<p>To many, this may sound a little bit “duh” or elemental, as the principle actually is a bit straight forward. But as many simple things they don’t sound simple until you see them. At the beginning it sounds evident. But it is hard to figure out on your own. <a href="https://en.wikipedia.org/wiki/Archimedes%27_principle">It is like finding out on your own that the amount of water displaced by a submerged object, is the same as it’s volume</a>. Ah duh, no way genius!?</p>
+
+<p>Well, yes way. And the same happens on a load test modeling, with the relation ‘tween totals, iterations and number of users simulated. You would not believe how many places I have been where people don’t seem to be aware of this relation. It is really common. If you don’t have a clear picture of this, don’t be ashamed or worried. I am here to try to make it really clear for you.</p>
+
+<p>You may even have some notions on this, but not a specific understanding. Or maybe you don’t know the almighty formula for it. Oh yeah, there is a formula. But do not be afraid, it is not a complex one. Once you see it you will not be able to un-see it. It is so simple that it consists of only three little pieces.</p>
+
+<h2 id="the-load-modeling-holy-trinity">THE LOAD MODELING HOLY TRINITY</h2>
+
+<p>As I mentioned there are three key elements to figure this out when you are load modeling. Often, you will be provided with only two of the three parameters. You will have to calculate the third piece from the other two.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/Trinity.png?resize=315%2C301&amp;ssl=1" alt="Performance trinity" /></p>
+
+<p>So the formula goes a bit like this:</p>
+
+<p><strong>T = U x H</strong></p>
+
+<p>Where each element means:</p>
+
+<ul>
+  <li>T -&gt; <strong>T</strong>otal number of hits per period</li>
+  <li>U -&gt; Number of <strong>U</strong>sers or threads simulated</li>
+  <li>H -&gt; Number of Hits each user does per period</li>
+</ul>
+
+<p>And that single formula will help you to model most of the scenario needs you may have. Let’s play out a few examples.</p>
+
+<h2 id="no-totals">NO TOTALS</h2>
+
+<p>One case you may receive only two data tips. 1 – The number of users to simulate. 2 – The approximate number of times each user acts or executes the business process. The project doesn’t care about the total number of actions in a given period of time, just want to simulate what they think is more or less realistic.</p>
+
+<p>In this case we do not need to do anything to the formula.</p>
+
+<p>Example: You get that the process has 500 concurrent users executing it. Also, on average each user clicks (executes) the process 15 times each hour.</p>
+
+<p>Easy peasy, we have U = 500 and H = 15, then 500 x 15 = 7500</p>
+
+<p>Running 500 threads (vUsers) that complete 15 iterations per hour will give you approx 7500 hits per hour. That will be the total goal.</p>
+
+<h2 id="no-idea-how-fast">NO IDEA HOW FAST</h2>
+
+<p>Another frequent case is when you receive just the total number of hits for that process and the number of concurrent users that must be simulated. Here it won’t matter or be known how fast each user acts.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/HowFast.png?resize=300%2C200&amp;ssl=1" alt="Iteration speed" /></p>
+
+<p>Or maybe you need to fix the speed as you have a limited number of threads or users. This is quite common. Be careful if that is the case (full separate post on that).</p>
+
+<p>In this case we will have to isolate the unknown variable on the formula, H. then we will have <strong>H = T / U</strong></p>
+
+<p>Quite simple equation, so let’s run the numbers. The system has 50 concurrent users. The process happens a total of 150 times per hour. Then we divide 150 / 50 = 3. Then, for your simulation you will have to tune the pacing and think times for each script to complete 3 iterations per hour.</p>
+
+<h2 id="dont-know-how-many-users">DON’T KNOW HOW MANY USERS</h2>
+
+<p>The last possibility is when you receive only how fast a user acts (maybe from the recorded think times) and the total number of hits that the process must receive. This is also common when you have multiple processes on your scenario and must just figure out how to distribute the number of users on each BP.</p>
+
+<p>So again isolating the unknown variable that we do not have this time is the number of virtual users. <strong>U = T / H</strong></p>
+
+<p>In this example we have that the process executes a total of 200 times per hour. Also that the average user does 5 executions in an hour. Applying the formula we divide 200 / 5 = 40. Using that configuration we should put a total of 40 virtual users or threads.</p>
+
+<p>On the next post we will analyze further the user distribution.</p>
+
+<h2 id="have-all-three">HAVE ALL THREE</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/AllThree.png?resize=300%2C190&amp;ssl=1" alt="Load modeling three variables" /></p>
+
+<p>Occasionally you will have happy times when you have all three and you do not even have to calculate a thing. But beware, as what may seem as happy times may have a hidden plot twist.</p>
+
+<p>There are times where they will not match. A wild example is that the instruction is to generate 100000 actions per hour in total. This using 10 users, each doing 5 actions per hour. Obviously something here does not add up.</p>
+
+<p>Substituting on our formula 10 x 5 = 100000…. something CLEARLY does not add up.</p>
+
+<p>This example is a bit exaggerated to make you notice that the information is very wrong. But at times it will not be so evident. You should always check with the formula. ALWAYS!</p>
+
+<h2 id="conclusion">CONCLUSION</h2>
+
+<p>When modeling a <a href="https://www.srperf.com/performance-load-different/">load</a> test scenario it is important to keep in mind the holy trinity of metrics for a single process.</p>
+
+<p><strong>T = U x H</strong></p>
+
+<p>All those three are proportional and should always match with the formula.</p>
+
+<p>At the same time you can use the formula for if one of them is missing. Or two. Or all the three could be missing! That is a trouble! You may need at least one.</p>
+
+<p>More to take into account on scenario modeling is how to configure pacing and think times to get the right number of iterations needed for each vuser/thread.</p>
+
+<p>Another piece will be how to distribute those users on scenarios that have more than one business process.</p>
+
+<p>So we will continue our modeling multi part series of posts.</p>
+
+<p>Besos &lt;3</p>]]></content><author><name>srperf</name></author><summary type="html"><![CDATA[LOAD SCENARIO MODELING 1: ONE PROCESS]]></summary></entry><entry><title type="html">Uivsprotocol</title><link href="http://localhost:4000/2019/09/03/UIvsProtocol/" rel="alternate" type="text/html" title="Uivsprotocol" /><published>2019-09-03T00:00:00-05:00</published><updated>2019-09-03T00:00:00-05:00</updated><id>http://localhost:4000/2019/09/03/UIvsProtocol</id><content type="html" xml:base="http://localhost:4000/2019/09/03/UIvsProtocol/"><![CDATA[<h1 id="load-automation--ui-vs-protocol">LOAD AUTOMATION – UI vs PROTOCOL</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/09/HeaderProtocolsUI.jpg?fit=1200%2C600&amp;ssl=1" alt="Different protocols load" /></p>
+
+<p>Lately new tools for load test automation have popped out that blur the distinction on the type of automation that they do. The principal types are Protocol or UI. As usual… I feel that this is causing some confusion.</p>
+
+<p>It is my dutty to try to bring some clarity on the differences and the ups and downs for each. Lets begin!</p>
+
+<h2 id="performance-automation">PERFORMANCE AUTOMATION</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/09/Buttons.png?resize=198%2C300&amp;ssl=1" alt="Decisions" /></p>
+
+<p>Generally speaking automation for <a href="https://www.srperf.com/performance-load-different/">load testing (not performance)</a> can happen in two forms or types.</p>
+
+<p><strong>PROTOCOL:</strong> One of them is the protocol type. This one consists of simulating or forging the communication in between the client and the solution that we are trying to test. It is not something too fancy, it is just a matter of reverse engineering the messages to forge new ones that look similar to the application so it will not distinguish and accept them.</p>
+
+<p><strong>UI:</strong> The other one is the UI type. This type doesnt care much about what is being sent to the solution that is being tested. Instead, it’s concerns are with what the user has to do on the client’s front end to interact with the solution. The deal with this one will be mostly to try to figure out how to do the actual clicks or key presses on the front end.</p>
+
+<h2 id="example-time">EXAMPLE TIME!</h2>
+
+<p>As usual, in case it was not clear lets use an example so that you will understand better.</p>
+
+<p>In this example we have a client application and the central server. Think of them as a remote controller and a TV respectively. The remote would be the client application (the UI). The TV will be the server responding to the commands from the application (the remote).</p>
+
+<p>On this example, automation is a robot that somehow will do the remote’s tasks of sending commands to the TV.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/09/Roboto.png?resize=139%2C300&amp;ssl=1" alt="Señor Roboto" /></p>
+
+<p>Welcome back to Señor Roboto.</p>
+
+<p><strong>UI:</strong> In the case of an automation at the UI level, Señor Roboto will be configured to be clicking the remote’s actual buttons. He will have to identify the power button, the channel up and down buttons, input, mute and the most frequently used ones. After he identifies them he must try the actions one can do with them, such as to press (click) as indicated to send the command to the TV. It will not care much how that comand is sent.</p>
+
+<p><strong>PROTOCOL:</strong> On the other hand, the protocol automation will work very different. Here, Señor roboto will first have infrared transmiters and vision like the Super Hombre. With it he will see what the remote is sending every time a person clicks on it. He will record that signal and learn how to copy it. Then it will send the signal using his transmiter. On this he will have to make sure that the signals he sends are accepted by the TV as if it was the remote who was sending them. He will impersonate the remote.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/09/Gort_Firing.jpg?resize=300%2C239&amp;ssl=1" alt="Infra red automation" /></p>
+
+<h2 id="advantages">ADVANTAGES</h2>
+
+<p>Both types of automation have their advantages which bring some benefits to each.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/09/robot-push-button-13419161.jpg?resize=300%2C175&amp;ssl=1" alt="automated click" /></p>
+
+<p><strong>UI:</strong> Generally, the UI automation has some advantages over the protocol type. I think the greatest advantage of the UI automation is that it often gets rid of most CORRELATION needs, making it easier for newbie scripters to automate them. Correlations are often the biggest headaches for protocol scripters which get an easier time through drag and drop automation. Also, this type of automation tends to be a bit mor stable and resilient to back end changes as it focuses on the front end objects that do not change that frequently.</p>
+
+<p><strong>PROTOCOL:</strong> The advantages of the protocol automation are, first that it tends to be considerably lighter than the UI automation. Lighter in terms of resources needed by the load generator; such as CPU and RAM. This enables the protocol automation to simulate hundreds (or even thousands) of concurrent threads/vUsers on a single box. As well it gives the scripter some visibility of what is happening internally on the tested application’s communications.</p>
+
+<h2 id="disadvantages">DISADVANTAGES</h2>
+
+<p>On the other hand both types of automation have some disadvantages that the other type counteracts but but also with some more disadvantages of their own.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/09/pic-remote-controls-pile-1.jpg?resize=300%2C290&amp;ssl=1" alt="Too many resources" /></p>
+
+<p><strong>UI:</strong> This automation is generally heavy in terms of resource utilization. The reason for this is that the automation tool has to render, create or plainly open the application or web browser and renders the whole thing. Just as in our example, Señor Roboto would need many remote controllers. This type of automation is common in <a href="https://www.srperf.com/functional-vs-performance-test-cases/">functional</a> testing as it is not so much of a hassle automating (even as at times it is). But in load testing is a fatal blow. Some of this tools may allow you to run 2, maybe 3 or even 5 threads or virtual users per computer. Good luck running a test needing a few hundreds or even thousands of threads or virtual users.</p>
+
+<p><strong>PROTOCOL:</strong> This automation is considerably lighter than the UI in orders of magnitude. But what it gains in lightness you must pay it in the currency of complexity. The tools simulate the calls which are often in forms of machine code such as HTTP, service calls, binaries and some times even encrypted. To be able to simulate a call the scripter often has to reverse engineer the tested solution. This will make you require a scripter(s) well versed in several IT topics. Not to mention someone good at doing the dreaded correlations and will also need to code stuff. Some may be afraid at this.</p>
+
+<p>Don’t be afraid. Be veeeery afraid! (No, JK, seriously don’t be).</p>
+
+<h2 id="which-one-is-better">WHICH ONE IS BETTER?</h2>
+
+<p>I must give my favorite answer as I do for any good question, <strong>IT DEPENDS</strong>.</p>
+
+<p>Most of the time I would recommend the <strong>protocol</strong> automation for load testing, as the load generation process becomes expensive and convoluted through UI when you need to simulate even smallish amounts of threads or users. Not to mention hundreds or even thousands.</p>
+
+<p>Don’t be shy, lazy or afraid. Correlating and forging protocol messages is a beautiful <strong>practice</strong>, but the name says it. It just needs <em>practice</em>.</p>
+
+<p>But for the UI side, there are few times where your only option is to simulate through the UI. It may be because the protocol communication is undecipherable, maybe it is proprietary… Or you just do not have a person good at protocol scripting, just beware, this last option will be more expensive in the long term. Just get a good scripter, please. PLEASE!</p>
+
+<h2 id="conclusion">CONCLUSION</h2>
+
+<p>Protocol automation and UI automation are on themselves two very different beasts. The choice on which one to use will depend on the type of testing that you are trying to do. Protocol based testing is the general recomendation for load testing.</p>
+
+<p>In the few times that it is NOT possible to automate through protocol, UI automation may be used as a last resource.</p>
+
+<p>Besos &lt;3</p>]]></content><author><name>srperf</name></author><summary type="html"><![CDATA[LOAD AUTOMATION – UI vs PROTOCOL]]></summary></entry><entry><title type="html">Monitoring</title><link href="http://localhost:4000/2019/06/03/Monitoring/" rel="alternate" type="text/html" title="Monitoring" /><published>2019-06-03T00:00:00-05:00</published><updated>2019-06-03T00:00:00-05:00</updated><id>http://localhost:4000/2019/06/03/Monitoring</id><content type="html" xml:base="http://localhost:4000/2019/06/03/Monitoring/"><![CDATA[<h1 id="monitoring-is-not-optional">MONITORING IS NOT OPTIONAL</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/CoverMonitoring.png?fit=1200%2C600&amp;ssl=1" alt="Monitoring Performo" /></p>
+
+<p>Monitoring is one of the first things I look for when I face a new project or a new system that requires some performance work to be done on it. And surprisingly most of the places, projects and customers that I have visited… do not have it, have misconceptions about it or just plainly do not know what is the deal with it. <a href="https://www.srperf.com/performance-load-different/">They are often wrongfully just asking for a load test</a>.</p>
+
+<p>So to help and enlighten I am going to explain a little why Monitoring is probably one of the most important things you must have to know the performance of your system. It is even more important than just doing plain load tests (I even think it is extremely unwise to run a load test without proper monitoring).</p>
+
+<h2 id="know-thyself">KNOW THYSELF</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/PerformanceBook.png?resize=277%2C315&amp;ssl=1" alt="Great Performance Book" /></p>
+
+<p>On the awesome book, “<a href="https://www.goodreads.com/book/show/17722080-every-computer-performance-book">Every computer performance book</a>“, Bob Wescott starts the book stating that knowing the current performance of your system is the absolute first step to do anything performance related with it. And I could not agree more with him.</p>
+
+<p>What he states as “knowing your system” is a wide statement. It includes knowing utilization patterns, current performance metrics, historical events, and having many logs with lots and lots of data. Data that can be gathered from a well established monitoring setup.</p>
+
+<p>Following the syllogism, if all systems should have information about their metrics, and monitoring provides that information, hence, ALL SYSTEMS SHOULD HAVE LOGGED MONITORING.</p>
+
+<p>In the question of the types of monitoring that should be available I tend to reply that the most complete suite is the best option (more on that below), but in doubt you should have at least something. Anything. Please! To run around not knowing anything about your system is like running around with pointy scissors, driving as drunk and stoned as Charlie Sheen, like running a marathon without tight underwear, like staring at a solar eclipse without glasses, or like doing any of the most reckless thing that you can think of.</p>
+
+<h2 id="but-isnt-it-too-heavy">BUT ISN’T IT TOO HEAVY?</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/Planet.png?resize=272%2C226&amp;ssl=1" alt="When I find them not monitoring" /></p>
+
+<p>This type of questions or comments make me wonder… <em>what is wrong with you people?</em> (That and thinking that automation is enough to know response times, I know I am weird)… But back to the heavy monitoring question, I get it often. So often that it pretty much became the whole reason for this blog post.</p>
+
+<p>Before I go on ranting examples on why I think this concern is a bit overblown, being a diligent performance engineer, I must say that yes, indeed monitoring adds some overhead to the performance of the system. That is just the sound of inevitability Mr. Anderson. Such as death, the extra load added by monitoring is a fact of life that has to be dealt with instead of being reckless to avoid it. It would be irresponsible to think that we can avoid death and act like if we could.</p>
+
+<p>Monitoring indeed adds load on the performance of your system to a certain point. But nowadays performance monitoring tools have evolved, server’s power has grown a lot and the extra load is considerably smaller than the user load. It can add up, but with the following examples we will understand that it is better to have it and deal with the extra load than not having it.</p>
+
+<h2 id="examples">EXAMPLES</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/Parachute.png?resize=145%2C145&amp;ssl=1" alt="Without monitor performance" /></p>
+
+<p>A first example. When you skydive you need multiple emergency parachutes system. It would be like saying that having multiple emergency parachute systems is a bit heavy. Let’s jump from the plane or the mountain riff with only one single parachute. That is smart, why should one carry on the extra load?</p>
+
+<p>The radar and navigation equipment of an airplane is heavy extra weight. The airline wants to be able to cramp up more people than the weight limit the airplane can carry. So why not ditching some of the navigation equipment to put more people and charge more?</p>
+
+<p>Another. To be able to carry more people again and save some money on equipment, let’s not have that many rescue boats on our <a href="https://en.wikipedia.org/wiki/RMS_Titanic">cruise</a> ship. Ask <a href="https://en.wikipedia.org/wiki/Edward_Smith_(sea_captain)">Edward John Smith</a> or <a href="https://en.wikipedia.org/wiki/Thomas_Andrews">Thomas Andrews</a> how did that worked out. Would you ride that boat?</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/Pinto.png?resize=287%2C160&amp;ssl=1" alt="Pinto performing poorly" /></p>
+
+<p>Another would be the all the meters your car has on the dashboard and the security frame. They add-on gas consumption and weight on your car. But it would be better to not to have them for the sake of savings, something like to go all the <a href="https://seanmunger.com/2014/11/13/the-devils-hatchback-the-horrifying-true-story-of-the-ford-pinto/">Pinto</a> way. Who would not love to have a cheap car with just an inch between bumper and gas tank, no fuel or speed meter and just a gas pedal? I mean you could halt the car just by not accelerating?</p>
+
+<h2 id="when-it-may-beskippedskimmed">WHEN IT MAY BE <del>SKIPPED</del> SKIMMED</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/Headlights.png?resize=383%2C235&amp;ssl=1" alt="No lights car no monitor parts" /></p>
+
+<p>There are occasions where some of the monitoring may be downgraded but not sipped. As in the last example, some racing high performance cars lack several meters that a conventional car has for the sake of being light and fast. They don’t even have full seats or real lights in front since those special cars race only on daytime. Lots of savings in terms of weight.</p>
+
+<p>On the other hand, those cars have other extra components that are not found on regular average cars. Special fuel tanks to fill up quickly, nitro boosts and many don’t even use conventional gasoline.</p>
+
+<p>Following up the analogy, on extreme conditions, you could skim conventional monitoring. You could choose lighter options, monitor only key elements or have special mechanisms. But still, you need to know something about the system, you should not be blind about it. <a href="https://www.theguardian.com/media/2019/jan/08/bird-box-challenge-why-blindfolding-yourself-and-walking-into-walls-is-even-more-stupid-than-it-sounds">Driving blind folded is never a good idea</a>.</p>
+
+<h2 id="what-to-do-then">WHAT TO DO THEN?</h2>
+
+<p>The follow up question is often what to do when the system is maxed out and monitoring may be adding frothing?</p>
+
+<p>This question has the intent of forcing you to answer suggesting that skipping monitoring is acceptable then. I must shatter that illusion. The plain answer is NO. It should not be the case.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/Airp.png?resize=219%2C155&amp;ssl=1" alt="Plane without monitors" /></p>
+
+<p>Opting out of monitoring just to fill up more load is a really bad idea. Such as on the airplane example, what do you do if you have more people than the plane has capacity for? Do you get another plane? Or do you remove all instruments and fly the plane by ear but being able to charge for more people? Which airplane would you choose to fly on? Please, be honest.</p>
+
+<p>The more you have, the better. As you get more information you are prepared for the world. The more you work, the luckier you will be. Ad an extra layer always.</p>
+
+<h2 id="conclusion">CONCLUSION</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/06/x.png?resize=137%2C170&amp;ssl=1" alt="Performo xray" /></p>
+
+<p>Monitoring is a crucial part of the art of performance testing. Many people have the wrong idea thinking that you don’t need to monitor and you need only load testing. Today we have awesome things such as APMs on several flavors. The world should not attempt to run without monitors on every environment (dev, test, prod) of your application. The more you know about them, the better!</p>
+
+<p>Please do not go out running apps without knowing yourself.</p>
+
+<p>Besos &lt;3</p>]]></content><author><name>srperf</name></author><summary type="html"><![CDATA[MONITORING IS NOT OPTIONAL]]></summary></entry><entry><title type="html">Whattheperf</title><link href="http://localhost:4000/2019/04/30/WhatThePerf/" rel="alternate" type="text/html" title="Whattheperf" /><published>2019-04-30T00:00:00-05:00</published><updated>2019-04-30T00:00:00-05:00</updated><id>http://localhost:4000/2019/04/30/WhatThePerf</id><content type="html" xml:base="http://localhost:4000/2019/04/30/WhatThePerf/"><![CDATA[<h1 id="what-is-performance-testing">WHAT IS PERFORMANCE TESTING</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/04/CoverWhatIsPT.png?fit=1446%2C574&amp;ssl=1" alt="Performance Testing" /></p>
+
+<p>It is so silly that I did not start this blog by defining what is performance testing, the core of this whole site. I am so sorry. I got distracted, I guess. Talking about tacos, puppies and talking about my cousin Pepe.</p>
+
+<p>The world has been confused for so long saying performance testing when they are thinking on a load test. Or even worst thinking that a load test is all there is to performance testing. Or the worst of all, people who just do not know well what it is and goes around using the practice’s name in vain using interchangeably performance optimization, testing, management and all of the other flavors.</p>
+
+<p>So in all this ramble, lets answer what is performance testing?</p>
+
+<h2 id="definition">DEFINITION</h2>
+
+<p>There are multiple variations of the definition of performance testing. I have not found one that universally accepted. Especially, as the definition gets blurred and confused by the practices that are surrounding performance testing. They are related but are not THE thing, such as performance optimization, capacity planning, tuning and others.</p>
+
+<p>I am going to provide the definition that makes more sense to me. It is based a bit from the one on Wikipedia. But I will rephrase it in my own words and in a way that I think will ease the understanding and this post’s content. So here it goes:</p>
+
+<blockquote>
+  <p>Performance testing:<br />
+A practice or action that consists in the validation and verification of the response’s speed of a computer system ,</p>
+
+  <p>while measuring the impact and reaction of it’s physical components ,</p>
+
+  <p>while being given a particular use.</p>
+
+  <p>-Me</p>
+</blockquote>
+
+<p>There is an important division that I did on the sentence on purpose. Divided by commas on three pieces with suspiciously long spaces after each. They denote that according to me, performance testing always consists of three parts. No matter what and no matter how, performance testing will have those three. And we will talk about them now.</p>
+
+<h2 id="speed">SPEED</h2>
+
+<p>It is the very thing that everyone thinks of when anyone mentions performance. How fast am I getting a response on this, how long will it take, how long am I willing to wait?</p>
+
+<p>Since speed defines how much distance you travel in a given unit of time, one would think that the important component there is the distance. On computer systems, that distance is the round trip that the data must do from the customer to the database, a more or less fixed measure. Like an Olympic runner for the 100 meters, the distance is fixed, so what measure do we have there then?</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/04/TimeMagazine.png?resize=224%2C314&amp;ssl=1" alt="" /></p>
+
+<p>TIME! Key measurement for speed on a system. How much time does it take to complete the process. Generally measured in seconds and/or milliseconds.</p>
+
+<p>Timing a computer process can be done in multiple ways and using many different devices. Examples: count the time that a single local process takes, or the time the information takes to do a round trip, the time each segment of the trip took, or all of the above and even more.</p>
+
+<p>To measure that time, solutions are vast and diverse. Starting with a silly stop watch or Mississippi counts on the occasions when the observer can easily time it and not to waste resources where you can easily tell that the process is definitely slow. There are internal time measurements that the solution can (or should) provide. Automations can measure response time (Warning, that should not be used as a silver bullet for everything , they can’t measure asynchronous calls). Also with advanced agents, probes, external analysis tools such as APM’s.</p>
+
+<p>No timing method is universal for all performance testing. The need will call to the right choice to be done when the time comes. (Oh snap… a pun!)</p>
+
+<h2 id="metrics">METRICS</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/04/Monitors.png?resize=252%2C252&amp;ssl=1" alt="" /></p>
+
+<p>The second component for performance testing are the physical things that can be metered. Most of the time, those readings are related to the hardware in charge of your solution. They are usually measured by things called monitors.</p>
+
+<p>The type of metrics that you can measure are many and varied as well. It is similar to measuring body functions during a fitness test. The metrics that can be measured are many, and will depend on where are you plugging the monitor. What you are looking for, will define the place that you plug it into (ouch).</p>
+
+<p>In terms of the hardware, the most common place to take metrics is on the solution’s main server. And the most common metrics gathered can be such as CPU, RAM, Network card traffic, processes running and so on. The list can be huge, and you must pick the most transcendent ones for your solution.</p>
+
+<p>But those are not the only places where you can get info and not the only metrics that you can gather. You must check what may have an impact and/or have use on your solution. Network interfaces, databases, load balancers, cloud interfaces, containers and so on.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/04/Metrics.png?resize=311%2C233&amp;ssl=1" alt="" /></p>
+
+<p>In the same way, the metrics will be diverse on each one of those. They could even be Celsius if you are metering temperature say in a CPU, a server room or Amazon’s microwave with Alexa. The point here is to see how the metrics jump when you do an action. Just like when a doctor HITS you in the knee with the tiny hammer. How high your knee jumped and how long it took to react.</p>
+
+<p>Speaking of HITS…</p>
+
+<h2 id="use">USE</h2>
+
+<p>The last component of the mix is a specific kind of use. I want to open with a rant that I did in a previous blog post. <a href="https://www.srperf.com/performance-load-different/">NOT ALL PERFORMANCE TESTS ARE LOAD TESTS</a>.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/04/PerfectStorm.png?resize=232%2C348&amp;ssl=1" alt="" /></p>
+
+<p>Now that I took that off of my chest, we can proceed with the types of use that you may be interested on. Being specific, this covers circumstances, scenarios or events. Not all scenarios can be covered at once on a single performance test. A performance test focuses on a specific use pattern to be tested and when one more type of use or event is at risk, one more test must be executed.</p>
+
+<p>Multiuser and multi action is a frequent test use requested. Known as load, stress endurance and many other names. All of them are sub-types of performance tests which commonly require load testing tools to be able to generate the load. Please don’t focus the use of load testing tools to gather response times.</p>
+
+<p>The type of events requiring a performance test are not always load tests (which focus on generating synthetic loads). The type of circumstances or scenarios can be varied. From organic load (generated by real working users), to just process execution (such as scheduled jobs and triggered routines that have no user interaction). There are some that even may require to measure the impact of a single user on the system.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/04/PerformanceTestingAlone.png?resize=290%2C231&amp;ssl=1" alt="" /></p>
+
+<p>Many other types of events may require a performance test. Not all of them require load tests or load testing solutions. Make sure that you are testing the right event, given the posed risk factor. That means the situation on which we want to check how our system does. Specifically when those scary events happen.</p>
+
+<h2 id="closing">CLOSING</h2>
+
+<p>In a short sentence: Performance testing is the action of checking response times while monitoring components on a particular event.</p>
+
+<p>Any other definition may be a sub family of performance testing, or may be another performance related action instead of testing (such as tuning, load, optimization, etc.)</p>
+
+<p>Now you know!</p>
+
+<p>Besos &lt;3</p>]]></content><author><name>srperf</name></author><summary type="html"><![CDATA[WHAT IS PERFORMANCE TESTING]]></summary></entry><entry><title type="html">Perfnotload</title><link href="http://localhost:4000/2019/03/27/PerfNotLoad/" rel="alternate" type="text/html" title="Perfnotload" /><published>2019-03-27T00:00:00-06:00</published><updated>2019-03-27T00:00:00-06:00</updated><id>http://localhost:4000/2019/03/27/PerfNotLoad</id><content type="html" xml:base="http://localhost:4000/2019/03/27/PerfNotLoad/"><![CDATA[<h1 id="performance-and-load-not-interchangeable">PERFORMANCE AND LOAD NOT INTERCHANGEABLE</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/03/TitleLoadPerf.jpg?fit=1200%2C600&amp;ssl=1" alt="Load Perf Diferent" /></p>
+
+<p>Performance and load are different. I am not so uptight about terms and grammar naziing definitions, but I have been for a long time in situations where people try to talk to me about one thing but I understand something completely different. Mostly because one of the parties involved in the conversation lacks the right terms to refer to the topic.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/03/irony.png?resize=282%2C179&amp;ssl=1" alt="irony" /></p>
+
+<p>Kinda ironic</p>
+
+<p>We should all do how <a href="https://en.wikipedia.org/wiki/Call_a_spade_a_spade">Plutarch</a> said (ironically mistranslated), “let’s call a spade a spade, not a gardening tool”.</p>
+
+<p>People have been asking me to use the gardening tool, the medical device or even worst a mysterious item referred universally as “the thing”.</p>
+
+<p>And to the point that I want to state here, it is a mistake to use the terms ‘Performance Testing’ and ‘Load Testing’ interchangeably. It would be like using ‘Microsoft Office’ and ‘Microsoft Word’ interchangeably. If you do not see the point on that analogy, please read <a href="https://www.quora.com/What-is-the-difference-between-MS-Word-and-MS-Office">THIS</a> and then come back so I can continue this rant.</p>
+
+<h2 id="what-is-performance">WHAT IS PERFORMANCE</h2>
+
+<p>There will be a post dedicated uniquely to describe performance testing as effectively as possible. For now we will say that Performance testing is a QA practice that tries to validate a systems reaction to a use.</p>
+
+<p>That use could be organic, it could be done by a single user, a single click or even by a developer while writing code.</p>
+
+<p>A performance test is done when you want to see how your system does under a given circumstance. And that circumstance is not always load, spike or stress.</p>
+
+<p>The most frequent use for a performance test has been changing as the technology and trends have been changing as well. And that frequent use confuses people on what performance testing actually is.</p>
+
+<h2 id="why-confused">WHY CONFUSED?</h2>
+
+<p>On a beginning performance testing used to be done mostly to model and project capabilities on the hardware for a given use. People used to confuse it, thinking on modeling rather than testing.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/03/bush-phone-meme.jpeg?resize=257%2C250&amp;ssl=1" alt="Wrong" /></p>
+
+<p>Other times performance testing has been confused with performance optimization. That the focus of the effort was the after thought of polishing the response of a system. But sadly this was another misconception on the terms, a good example would be to confuse programming and debugging.</p>
+
+<p>On the last iteration (no pun intended) of performance needs, <a href="https://www.srperf.com/functional-vs-performance-test-cases/">multiple user</a> interaction came up. It started to get difficult to simulate because the number of users to be tested became ridiculously high. This gave birth to the practice of automated load testing which has been the biggest focus lately. Many QA environments have lost focus of the goals for performance testing and blindly dive into load tests thinking that it will be enough to mitigate any performance risk.</p>
+
+<h2 id="loadexpensive">LOAD=EXPENSIVE</h2>
+
+<p>Many times the QA areas may not really need to do a load test given the risk they are facing. Many may be able to mitigate the risk just by measuring the responses or hardware effects of single user loads or organic loads.</p>
+
+<p>Nevertheless they keep attempting to use automation to measure response times and fulfill the true intent of performance testing. Trying to go through with load testing. In some perspective they may be trying to kill a single infantry soldier with a cannon. This is an expensive cannon. Companies are hiring these just because it is being used by everyone else. Some may be justified because they need to defend their fortresses against tanks. Others may be getting cannons cause a salesman said so.</p>
+
+<p>Solving small performance risks with load testing cannons is expensive. Automation for performance requires lots of time, skill, knowledge and smartness to be pulled off. Skills that tend to be expensive per hour on the market. Skills that could be leveraged by a tool which itself is usually super expensive or requires even more skill.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/03/28-bird-box.w700.h700.jpg?resize=243%2C243&amp;ssl=1" alt="" /></p>
+
+<p>On top of that many rely on the automation to tell them some of those response times. Which can get interesting to measure when they face asynchronous processes. Ripley’s believe it or not, many keep trying to measure asynchronous processing time through automation…</p>
+
+<p>For the last time, Performance testing is not automation or load automation.</p>
+
+<h2 id="closing">CLOSING</h2>
+
+<p>Performance testing is a huge practice and Load testing is a sub set of it. Do not confuse them or use them interchangeably. It could be a mistake to use the terms improperly when a risk you are trying to mitigate may be found in an easy way or missed completely because you went to the wrong approach out of inertia.</p>
+
+<p>Performance testing means to know how your system is doing in terms of response and hardware under a particular use or scenario. Load testing is, well… Load. A single specific type of use.</p>
+
+<p>Besos &lt;3</p>]]></content><author><name>srperf</name></author><summary type="html"><![CDATA[PERFORMANCE AND LOAD NOT INTERCHANGEABLE]]></summary></entry><entry><title type="html">Whatisagile</title><link href="http://localhost:4000/2018/09/20/WhatIsAgile/" rel="alternate" type="text/html" title="Whatisagile" /><published>2018-09-20T00:00:00-05:00</published><updated>2018-09-20T00:00:00-05:00</updated><id>http://localhost:4000/2018/09/20/WhatIsAgile</id><content type="html" xml:base="http://localhost:4000/2018/09/20/WhatIsAgile/"><![CDATA[<h1 id="what-is-this-agile-thing">WHAT IS THIS AGILE THING</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/whatIsAgile.jpg?fit=1000%2C512&amp;ssl=1" alt="What is Agile" /></p>
+
+<p>Agile is the soup of the day.  For that, I have an urge to describe some of it’s characteristics. The desire to talk about it comes from several experiences I have had lately with many who are so excited about it and trying to embrace it, but in the end, they aren’t becoming… Well…  Agile.</p>
+
+<p>I will talk about some of the characteristics. Some of the misconceptions I have observed around it. This agile fever that sprint by sprint is catching up like wild fire on many environments. But, that sadly for some, it is not having the best symptoms and side effects. Bad results that come from the wrong organizational culture, ignorance or from the way it is being embraced.</p>
+
+<p>In general, I will try to describe the philosophy of it. Explained to my understanding of it’s key characteristics. Hopefully you will notice if in your workplace it is being embraced with all it’s implications. You don’t want to be the one claiming that you are agile just because you use a Kanban board, do sprints and daily standups, while doing everything else  pretty much in the same way (true story!).</p>
+
+<p>Sorry but no talks about performance today. First we need to really understand agile.</p>
+
+<h2 id="what-is-agile-to-me">WHAT IS AGILE (TO ME).</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/I-think.jpg?resize=300%2C300&amp;ssl=1" alt="I think" />There are so many ways that I could describe Agile. <a href="https://www.srperf.com/agile-transition/">But I will try to approach it by what I feel and see it is</a>. Experts may try to lynch me for what I am about to write. But please Mr. Expert, if you want to add something and contribute to my and other’s education I will be more than glad to write a retraction with accurate information based on the comments.</p>
+
+<p>What I will write below will not be rules. They are just guidelines of what agile must be. Since being agile is more a journey than a destination. We have no fixed list of attributes. A question exemplifies it better. After how many times going to the gym are you fit and buffed? There is no precise number, but at some point and after acquiring more characteristics, suddenly some will tell you: “Hey you look like the terminator!”</p>
+
+<p>Below are <strong>some</strong> of the most important characteristics that I personally think makes you truly agile.</p>
+
+<h2 id="frequent-iterations-releases-and-feedback">FREQUENT ITERATIONS, RELEASES AND FEEDBACK</h2>
+
+<p>You may be doing sprints in a bi weekly fashion. But that is not what makes you agile. Well, not only a sprinted work fashion by itself.</p>
+
+<p>To have a true agile project, you should be pushing small new features to your customer as often as possible. In my experience, big bulky one time releases imply you are doing mini waterfalls. All aimed at that big release.</p>
+
+<p>Agile projects can have an end date, but the ability to play with it should be available way before the end date. It should be available pretty much right away after the start of the project,. Starting with a few features. Even just a skeleton, but something to mold and release sprint by sprint.</p>
+
+<p>The benefit here is that as soon as you have code out, your testers, developers and especially the users can give <a href="https://www.ibm.com/blogs/cloud-computing/2016/06/13/continuous-feedback-devops-application-deployment/">feedback</a>. Youi will receive several types of feedback. Usability, complaints, functionality, performance and usefulness (utilization). This feedback must not come only from people, but from automated mechanisms that you should have in place to report back to you even before the people does.</p>
+
+<h2 id="small-groups-of-specialistpolymaths">SMALL GROUPS OF SPECIALIST <a href="https://en.wikipedia.org/wiki/Polymath">POLYMATHS</a></h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/RenisanceMan.jpg?resize=207%2C300&amp;ssl=1" alt="Reinassance man" />The señor <a href="https://whatis.techtarget.com/definition/two-pizza-rule">Jeff Bezos stated that an optimal agile team should be well fed with two large pizzas</a>. A team of normal eating habits. I could easily chug those two pizzas myself. But what the señor Bezos meant was teams with around 5 to 10 people, not their eating capabilities.</p>
+
+<p>This small number of people creates an incredible synergy of accountability and cooperation. As a small team, if one person starts to lag, it will drag the whole team.</p>
+
+<p>The reason for the lag can be varied. But the team will have to step up, distribute work and let someone else help. <strong>Everyone should be able to pick up someone else’s work</strong>. Even with specialists on the team, they should be able to work on the other areas. The days for the monolingual member are over. There is still a need for specialists. But they must understand hello, hola, bon jour, konnichiwa, guten tag… and so on.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/Mr-T-Cereal.jpg?resize=150%2C150&amp;ssl=1" alt="TShaped" />A specialized dev should know automation and database. The scrum master should understand coding and release calls and so on. ‘T-shaped’ is how they are known. The body of the T is their specialty and the head has the other things they can speak and work. Another new type of person is called the E shaped. They have three big legs of knowledge and a common knowledge body. You don’t have to know it all, but at least try to be good at a few more things.</p>
+
+<p>Because of this, the tester role requires to have some other knowledge than just automation, manual or QA strategies. The QA role, engineer role and even the performance tester role become blurry lines in a group of people who all should know general QA with a well round everything QA engineer.</p>
+
+<h2 id="adaptative-work-without-leftovers">ADAPTATIVE WORK WITHOUT LEFTOVERS</h2>
+
+<p>Another component for the true agile team/project is to assign work, learn and adapt sprint by sprint.  As you move forward, you will learn if your prediction of time for a task was right. Don’t worry if it was bananas at the beginning. You should get better at it sprint by sprint. In the end, you are the one saying how long or much of an effort it will be.</p>
+
+<p>This eases the team on not biting more than they can chew. But as well forecasts how much can be done from the remaining work. At the same time leaving space for unforeseen tasks.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/technical-debt-ceos-perspective.jpg?resize=300%2C219&amp;ssl=1" alt="Stop and fix" />The goal is to complete new features and keep moving forward. <a href="https://en.wikipedia.org/wiki/Technical_debt">Technical debt</a> is a spooky term in agile. It also has to be kept in balance. When new features are added, bugs tend to appear, automation tends to break, builds start to fail, and the general entropy principle will keep bringing chaos.</p>
+
+<p>With this constant chaos appearance, the technical debt will start to creep up and in. Another team duty will be to balance the urge for new feature creation with the constant discipline of keeping technical debt at bay. Even if you to get often a greasy steak and ice cream, you should always have some balance with veggies and fruit. Otherwise you will get in trouble. Too much ice cream can derail your team’s sprint by sprint feature releasing capabilities.</p>
+
+<p>To clean the chaos constantly was not possible on the old ways. A key characteristic of truly being agile, don’t let the chaos pile until you have it up to your neck.</p>
+
+<h2 id="conclussion">CONCLUSSION</h2>
+
+<p>Agile is a huge mindset change in the IT world. Several were used to the old waterfall methodologies. They are having a hard time letting go the old mindsets. It is crucial that project managers and leaders with traditional mindsets let go many concepts regarding the old ways. Forget about it and LET IT GO.</p>
+
+<p>The practice consists of small frequent releases to the product. The final user should be able to use parts of the product right away and the team should get all types of feedback from such release. <em>‘Big-ass once-in-ages releases’</em> feel to me totally anti agile.</p>
+
+<p>The teams are small with multidisciplinary people. Having a specialist that can’t do decently a few other tricks might not be the best elements for an agile team. The scrum master or Project lead should definitely be the biggest polymath.</p>
+
+<p>Workload deficiencies, defects and technical debt should be found and fixed as soon and as automatically as possible. The urge for creation and the need for maintenance must be balanced. In sufficient smart ways that constant change is manageable, chaos should be handled without losing speed in creating new features.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/letItGo.jpg?resize=300%2C300&amp;ssl=1" alt="Let Waterfall go" />And last, Agile is not the new efficiency path to deliver projects. Traditional PM’s and leaders must let go those old mindsets. Agile is not a more efficient way of doing things. It is a more effective way of doing things. If it is  applied well. Since the product generated will be usable while the team keeps working on it, everyone can leverage the use of the product by the clients, to improve, change direction if needed and deliver the best tailor suited solution.</p>
+
+<p>So for the old ways… Let it go, let it goooooOOO!!</p>]]></content><author><name>srperf</name></author><summary type="html"><![CDATA[WHAT IS THIS AGILE THING]]></summary></entry><entry><title type="html">Agilejourney</title><link href="http://localhost:4000/2018/09/04/AgileJourney/" rel="alternate" type="text/html" title="Agilejourney" /><published>2018-09-04T00:00:00-05:00</published><updated>2018-09-04T00:00:00-05:00</updated><id>http://localhost:4000/2018/09/04/AgileJourney</id><content type="html" xml:base="http://localhost:4000/2018/09/04/AgileJourney/"><![CDATA[<h1 id="agile--my-journey-and-insights">AGILE – MY JOURNEY AND INSIGHTS</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/agileTop.jpg?fit=1000%2C512&amp;ssl=1" alt="Agile Journey" /></p>
+
+<p>My Agile Journey</p>
+
+<p>Agile got me. Long long time ago, in a Gringo client far far away. It got me from the back and without any warning.</p>
+
+<p>Well, not so long ago. Actually, it was a little bit more than a year ago. But it has been a huge experience.</p>
+
+<p>Before that, to me agile was a weirdo way of creating software. A way that seemed ridiculous because with the fast paced sprints, it did not leave a chance to do the load tests that I was used to. In general agile was total nonsense to me.</p>
+
+<p>Before that, I had been only on a few environments that tried to embrace agile. But, for most of them, I was not involved given the nature of my waterfall specialty.</p>
+
+<p>I had to observe agile from a distance. Whenever I was involved, I still was requested to follow the waterfall practices (so ridiculous) and waited for a big time deliverable to script it and do a full performance load test.</p>
+
+<p>On top of this, most of the agile teams that delivered to me were awful. Not organized at all. And now that I know agile better, they were just wannabes. All of them thinking they were agile but in reality they were just doing mini waterfalls.</p>
+
+<h2 id="before-agile-waterfall">BEFORE AGILE, WATERFALL</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/oldvsnew.jpg?resize=300%2C268&amp;ssl=1" alt="OldWaterfall" /></p>
+
+<p>Before agile I only had eyes and beliefs for what I did all of my life as a performance tester. I was following the steps that I have been writing so far on this blog. Most of them – waterfall.</p>
+
+<p>The thing about a full load test is that you depend completely on the product being almost completed and finalized. It needs to be totally frozen.</p>
+
+<p>You need a long time learning about the solution. Then, you need time to reverse engineer it. The developers are long gone and encrypted all the code.</p>
+
+<p>If everything went well, you would have a bunch of automated scripts. Most of them (fr)agile and very dependent on no changes on the system. This gives you a one shot opportunity window. If you miss it and something changes, you may have to start all over again.</p>
+
+<p>This meant that on a best case scenario, it would take up to 3 weeks to pull off a full performance load test. In a best case scenario.</p>
+
+<p>Sadly, this way of doing things was longer than a traditional agile sprint. But, let me say this isn’t wrong. It is impossible to be done “effectively” within a two week sprint. Better said: it could not be done in the way I used to think as “the right way”.</p>
+
+<p>That is the reason why agile seemed preposterous to me. Not doable due to so many changes happening without time to adapt your scripts.</p>
+
+<p>On top of that most of waterfall teams were unorganized. There were lots of silos and unbelievable communication problems.</p>
+
+<p>And the cherry on the top… There were several companies that were trying agile. They lacked so many things. They had no idea. Not culturally, neither technologically.</p>
+
+<h2 id="everything-changed-welcome-to-agile">EVERYTHING CHANGED. WELCOME TO AGILE</h2>
+
+<p>As I have mentioned earlier, I got to an agile project a little over a year ago. I had little to no agile experience or formal knowledge. I had been pretty much thrown at the fire.</p>
+
+<p>The experience was interesting. To say the least.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/agilejourney.jpg?resize=300%2C154&amp;ssl=1" alt="Inspirational" /></p>
+
+<p>Agile has some characteristics that work inherently against the traditional way of doing load tests. But at the same time, has some characteristics that enable many interesting things in terms of performance testing.</p>
+
+<p>I will not dwell much in a deep description of agile. But I promise a post about it in the near future.</p>
+
+<p>But agile’s main component that makes it hard to adapt for a traditional load test is that it is constantly changing. In the time that a scripter has finished to script an automation, it has already changed. Thus, breaking the script(s).</p>
+
+<p>Second, the solution keeps growing. It doesn’t just change often, but it keeps growing and growing (load and features). This makes the labor of creating and maintaining scripts to grow almost exponentially.</p>
+
+<h2 id="it-is-not-just-load-test-anymore">IT IS NOT JUST LOAD TEST ANYMORE</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/overload1.jpg?resize=300%2C277&amp;ssl=1" alt="JustLoad" />Was it ever?</p>
+
+<p>Yeah, a full load test becomes increasingly difficult if you just keep doing things as usual. The maintenance of the automated scripts requires time. That time adds up after all the constant changes. You would hold everyone. That gives them a hard time for both scripting and executing.</p>
+
+<p>That goes totally against the agile credo. Not very practical even for a hardening sprint. So the question goes: HOW DO WE <strong>ASSURE</strong> GOOD PERFORMANCE? (Later we can worry about the load)</p>
+
+<p>You may notice the word assure in bold text. It is not anymore just about testing. Not anymore just about load testing. It is about assuring that the system performs well. It is performance assurance.</p>
+
+<p>To be able to assure that a system performs and that you know exactly where it doesn’t, you need to change the mindset on how you proceed about it.</p>
+
+<p>Things have changed with agile and so has performance <del>testing</del> assurance. The answer is not automating as much and fast as possible. We need to be smarter about it. Just to stop thinking about the big ass load test we used to do right at the end of the project. Now we have multiple and constant ends on the project. So many moving pieces.</p>
+
+<p>It is not about the silver bullet automation tool that will magically enable you to script as fast as needed. Or not to scrip at all. That is not possible. Whoever tells you that a tool just by itself will enable you to do agile, might require follow up questions on those fantastic claims. It definitely is not about tools. They may help a bit, but the true answer is elsewhere.</p>
+
+<p>Beware! The changes are coming!</p>
+
+<h2 id="conclusion">CONCLUSION</h2>
+
+<p>Agile brings several challenges to the old art of performance or load testing. Especially because of the fast pace on everything. It keeps growing and that would make the maintenance of a growing pool of automated scripts, impossible.</p>
+
+<p>To assure good performance the course of action needs to be changed. The old ways will just not work. Stop trying to automate as much as possible and as fast as possible. It is not about a tool. It is about mindsets, culture and cooperation.</p>
+
+<p>I have found several ideas that have helped me to assure performance on agile teams. I will write about them and open a can of worms that will be fun to talk about. But mostly I hope will be helpful and give material for thought. This story will keep going… In two week sprints.</p>
+
+<p>Besos &lt;3</p>
+
+<p>-Señor Performo</p>]]></content><author><name>srperf</name></author><summary type="html"><![CDATA[AGILE – MY JOURNEY AND INSIGHTS]]></summary></entry><entry><title type="html">Script10all2gether</title><link href="http://localhost:4000/2018/02/09/Script10All2Gether/" rel="alternate" type="text/html" title="Script10all2gether" /><published>2018-02-09T00:00:00-06:00</published><updated>2018-02-09T00:00:00-06:00</updated><id>http://localhost:4000/2018/02/09/Script10All2Gether</id><content type="html" xml:base="http://localhost:4000/2018/02/09/Script10All2Gether/"><![CDATA[<h1 id="scripting-10-everything-together">SCRIPTING 10: EVERYTHING TOGETHER</h1>
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-42.jpg?fit=1200%2C600&amp;ssl=1" alt="" /></p>
+
+<p>The last step for the <a href="https://www.srperf.com/scripting-date-first/">scripting best practice series</a> is to test that everything can run together. Our script is almost finished. This step consists of running the script together with all of the scripts in the project.</p>
+
+<p>Because of this, this last step has to be done until all of the other scripts are ready to be run together. In other words, it has to be done at the end of the creation process of all of the scripts, once the scenario creation process has started. This makes the step to intersect with the scenario creation best practice. But we will talk about that best practice in future posts.</p>
+
+<p>As you are testing all of the scripts together, You can think it as some sort of small scenario test. Instead, you are doing this step to ensure that the script that you just finished does not collide with other scripts. The goal is to make sure you have no errors on this step. You will have a bulletproof script. Even better, as you will have a bunch of bulletproof scripts,  you will have as well a bulletproof scenario.</p>
+
+<p>Let’s get going and walk through the steps.</p>
+
+<h2 id="the-point-everything-together">THE POINT EVERYTHING TOGETHER</h2>
+
+<h2 id="thefocus-of-this-step-is-simple-it-is-to-try-to-see-if-your-script-can-run-for-a-while-together-with-the-rest-of-the-scripts-in-the-project-in-other-words-to-run-with-every-script-on-your-current-project">The focus of this step is simple. It is to try to see if your script can run for a while, together with the rest of the scripts in the project. In other words, to run with every script on your current project.</h2>
+
+<p>On previous steps of the best practice, you ran multiple people doing the same thing. Now you are going to expand that. You are going to add to the mix, the rest of the scripts as well. In other words, your multiple people doing the same thing together with other people doing other things.</p>
+
+<p>Here you are going to check that such fights and collisions for data will not happen. Those collisions can make a user throw errors on your test or even to fail completely. Similar to the house test we did earlier. There is a bunch of people in the house doing a life and interacting. Just like a family with the same last name in it in the same appartment.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-47.jpg?resize=500%2C500&amp;ssl=1" alt="" /><br />
+But their apartment is in apartment building. Many different families interacting. Most of them minding their own business, but at times sharing common areas. Such as sharing an elevator, where they must make sure they don’t overload it. Others crossing through the gym while trying to go to the pool. They must make sure to not to step on the ones using the gym.</p>
+
+<p>Make sure they do not collide on those small areas where they may have to interact.</p>
+
+<h2 id="part-of-another-best-practice">PART OF ANOTHER BEST PRACTICE</h2>
+
+<p>Some times, this test may not be done directly by the scripter.</p>
+
+<p>This step is different in the way its done and in the people included. It has someone that has power over all the scripts contained in the project plan. This because we are running something close to a full load scenario.</p>
+
+<p>Most of the time a test lead will be the one who can put all the scripts together. He will be doing this as part of the best practice for scenario creation. That step is a concurrent script run.</p>
+
+<p>Regardless of this, if the test lead is running this step, the scripters must be present. Or at least, they must be easy to reach. There is the possibility that you could find issues with a script. So, who you’re gonna call?</p>
+
+<p>Not the ghost busters, neither the test lead. You will call the scripter that created the script that has issues. Or the scripters, as usually a collision means that the issue is found in more than one script.</p>
+
+<h2 id="run-everything-in-a-quick-mix">RUN EVERYTHING IN A QUICK MIX</h2>
+
+<p>This step in the best practice will be like throwing everything into a blender. Here we will do a quick everything smoothie.</p>
+
+<p>We will put three pieces of each ingredient into the blender. Lets create a simple scenario and configure three virtual users with each different script that you have. Prepare them to start all at the same time and set the blender at max speed. This means no wait times in between steps or iterations. We want all of them running as fast as possible.</p>
+
+<p>In a real load test the scripts should wait in between commands. But on this step we are not aiming at the execution of a load test. We are aiming at testing the test.</p>
+
+<p>So in order to quickly test if they do not collide, we need them to collide as soon as possible. Put three of each to run as fast as possible for 10 minutes. Let them run for that period of time and check if they can make it.</p>
+
+<p>Again, this doesn’t focuses on anything on the tested system. This is just about testing the test. Validate that the test can run for a while with no problems for anybody.</p>
+
+<h2 id="fix-if-collided">FIX IF COLLIDED</h2>
+
+<p>If you find issues with one or more scripts, we should check the problem. The causes could be many, but the most frequentis data collision with another script.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-48.jpg?resize=500%2C800&amp;ssl=1" alt="" /><br />
+Here you must detect if different processes share the same data when they shouldn’t.</p>
+
+<p>The action to take is going to be different depending on your role. If you are a test lead, you must get the scripters responsible for the scripts together. So that they can talk about the steps of each script and understand where may be the collision to find a fix.</p>
+
+<p>You could have another situation on which the same scripter did both scripts. This one will be easier as one person has no discussion to do with himself. It will be just figuring out fixes. Although, it may be needed to contact the system users to get clarification on why the collision may be happening.</p>
+
+<p>If you are the scripter, you just have to contact your peer who developed the other conflicting script. Or just figure out why your script(s) is(are) failing.</p>
+
+<p>After the fixes are applied, repeat the quick execution process until you get a flawless execution for ten minutes. To ensure better quality, extend or repeat the time that this test lasts. With these efforts, you will have extra confidence in your scripts. All of the scripts</p>
+
+<h2 id="finally">FINALLY!</h2>
+
+<p>Bravo amigos! At last, after so many steps and recommendations we are done. We have finally completed all of the steps to ensure that we have flawless scripts. They are ready and sharp like the blade of a samurai. Strong as Hercules resisting any possible challenge.</p>
+
+<p>The script is in a state that I like to call <em>bulletproof</em>. Ready for everything!</p>
+
+<p>And it isn’t just that. Now the script is for sure ready to be run with others. The script is at the point where you can can say with confidence that it will not fail on itself. If there is any error on the execution, you are sure it will come from the tested solution. Not from your script.</p>
+
+<p>The huge advantage here is that you will know for sure your script does not break. You will get rid forever from the blame some managers try to impose on you saying “<em>for sure what is failing is their test, not our system</em>“.</p>
+
+<p>Oh no no no, my scripts are tested for failures. If any problem came it is because the system broke, or worse, because <a href="https://en.wikiquote.org/wiki/Edward_V._Berard">something was changed</a>.</p>
+
+<p>And that is it with scripting best practices!</p>
+
+<p>I hope you have enjoyed the series. Please write back if there are any comments and suggestions that you consider should be neat for me to add.</p>
+
+<p>Next we will continue with the scenario creation best practices! But for now, we are done! Vamonos!</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/Continuara.png?resize=713%2C225&amp;ssl=1" alt="" /></p>
+
+<p>Besos &lt;3</p>
+
+<p>-Señor Performo</p>]]></content><author><name>srperf</name></author><summary type="html"><![CDATA[SCRIPTING 10: EVERYTHING TOGETHER]]></summary></entry><entry><title type="html">Script08makeup</title><link href="http://localhost:4000/2017/11/28/Script08Makeup/" rel="alternate" type="text/html" title="Script08makeup" /><published>2017-11-28T00:00:00-06:00</published><updated>2017-11-28T00:00:00-06:00</updated><id>http://localhost:4000/2017/11/28/Script08Makeup</id><content type="html" xml:base="http://localhost:4000/2017/11/28/Script08Makeup/"><![CDATA[<h1 id="scripting-08-makeup-and-final-touches">SCRIPTING 08: MAKEUP AND FINAL TOUCHES</h1>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-40.jpg?fit=1200%2C600&amp;ssl=1" alt="" /></p>
+
+<p>Some of the final steps to do when you are scripting is to add timers and wait commands. They are like makeup for the script so it is prettier and more useful. We must add the timers on the points where there is a step that is interesting to the test. This is essential to the ones that generate communication with the server.</p>
+
+<p>Then we must add as well some wait times. The reason for the wait times is to simulate more realistically how a real user behaves. Instead of just letting the tool create them, we will hold some better control over them by using fixed waits.</p>
+
+<p>But first, I will tell you why I recommend to do this at the end. This is contrary to what most people and tools advise to do. Lets see why.</p>
+
+<h2 id="why-not-makeup-at-the-beginning">WHY NOT MAKEUP AT THE BEGINNING</h2>
+
+<p>It is a common practice to put these makeup steps at the beginning of the scripting process. But to be honest, I am not entirely sure why these are suggested to be done first. Even most of the scripting and recording tools have options to add these while you are recording. I recommend to not to do it that way. That practice sounds bonkers to me!</p>
+
+<p>This is because,  if you do those steps at the beginning, it can be a huge waste of time. I feel that doing it this way is not optimal  because you will have to repeat these steps if there is any problem while scripting. So, those bits of time you waste creating those timers and waits, will have to be spent again if you have to record the script a second or third time.</p>
+
+<p>I don’t know if you always get a perfect script at the first attempt. I often have to record the whole damn thing again. This is why I think it is better to put the waits and timers only once. So I recommend to add them at the moment that you are sure you are not typing them many times. And that moment is at the end.</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-43.jpg?resize=500%2C281&amp;ssl=1" alt="" /></p>
+
+<p>It is like paying for your groceries before you go to the supermarket. What would happen if the super market doesn’t have the type of tortillas that you already paid for? You would have to cancel the payment and pay again for the ones you found instead. Or cancel the payment at all and loose that time spent paying for something you would not get in the end.</p>
+
+<h2 id="start-and-end-timers">START AND END TIMERS</h2>
+
+<p>Finally we will proceed to add the timers. First, make sure that you have the list of defined timers together with their names. They must follow a specific naming convention and be available on the <a href="https://www.srperf.com/importance-test-cases-dummies/">test</a> case.</p>
+
+<p>Be careful while you check where to place the timers. The statement that starts the timer must be placed right before the instruction that executes the action that you are timing. Some times, more than one command may be inside the timer. Identify the right ones and and put them all inside.</p>
+
+<p>There are some instructions in the code of your script that do not talk to the server. We do not care about timing them. Those do a specific action for sure, but they do not require to be timed.</p>
+
+<p>Identify all the group of instructions that you want to time. Then at the end of that group of instructions place the stop command for that timer. This is also known as the end timer command.</p>
+
+<p>If you notice that in between the start and end commands there is a wait command, please remove them. Most scripting tools will not count them into the timer results. In essence this means to count the time of the process and add the wait into it, not good. It is better to make sure that you do not have noise in the timer (unintended time counted). We do not want any possible sources of errors.</p>
+
+<h2 id="sit-and-wait">SIT AND WAIT</h2>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-44.jpg?resize=500%2C405&amp;ssl=1" alt="Wait" /></p>
+
+<p>After we added the timers, we must proceed to add the wait times. These mean the time that a real human stops to think and do the task at hand. Hence, it is known as well as a <a href="https://msdn.microsoft.com/en-us/library/dd997697.aspx">think time</a>.</p>
+
+<p>As mentioned earlier, many scripting tools add these wait time automatically while recording. This I believe is useful if you have the real user recording the script. This is almost never the case. Or maybe you would say you now know well the process. But even as you got familiar with the steps earlier, you cannot act exactly as the real deal.</p>
+
+<p>To work with this, first we will add the wait commands in between an end and start timer. You must add it after the end of the previous timer and before the start of the next one. Do not ever do this in between the same timer’s start and end. Ensure that you are placing the wait commands out of any timer’s start and end indicators.</p>
+
+<p>Last set the wait times duration to a specific value. If possible set the wait time to a global variable on every timer. In other words, set the wait value to 5 seconds on every place that you decide it has to do so. Or set the global variable to 5 seconds and replace every time value on the waits to the variable. Don’t worry if you feel that the script may go faster or slower than a real user if you do this. Later, we will check that it waits in an adequate way.</p>
+
+<h2 id="test-the-makeup-again">TEST THE MAKEUP AGAIN</h2>
+
+<p>Now we must make sure that we did not break anything by adding makeup to the script. We do not want to be like the girl that added so much that cannot go out with it. The point is to be able to go out without looking like a clown with so much powder in the face.</p>
+
+<p>Run the script once and make sure it goes through all the steps without a problem. Here you will get for the first time readings of the response times that your timers can catch now. Check that the steps complete and take note for the timers’s results. They may show some performance issues from the beginning. Report to management if you notice any.</p>
+
+<p>If you completed one run without any problem, move on to the concurrent run. Put them together as we did in the previous post and run 5 of the same for a few minutes. This will ensure the script is still working and you will gather early response times under load. Here you can identify possible early trouble makers.</p>
+
+<h2 id="conclusion">CONCLUSION</h2>
+
+<p>It is important to be presentable and pretty, such as what you would achieve wearing makeup. If you are too macho lets call it getting tidy, fresh and ready for your lady.</p>
+
+<p>The same goes to the scripts that you are creating. But instead of adding them at the beginning, it is more reasonable to do it near the end. Put the make up on a few minutes before you leave home. Do not do it as soon as you wake up.</p>
+
+<p>Add the timers and waiting times to your script at the end. Be careful to not to break the script by doing so. Poop happens and you don’t want it hitting any fan. so, test again your script after adding the makeup and gather early metrics.</p>
+
+<p>Now, with all that we have done, we are close to the end. Now, you almost have a bulletproof script amigo! Next we will try them with other actions to see if they can interact without crashing again.</p>
+
+<p>For now it is time to go. Vamonos!</p>
+
+<p><img src="https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/Continuara.png?resize=713%2C225&amp;ssl=1" alt="" /></p>
+
+<p>Besos &lt;3</p>
+
+<p>-Señor Performo</p>]]></content><author><name>srperf</name></author><summary type="html"><![CDATA[SCRIPTING 08: MAKEUP AND FINAL TOUCHES]]></summary></entry></feed>
