@@ -1,8 +1,8 @@
-const version = '20240519123240';
+const version = '20240527190447';
 const cacheName = `static::${version}`;
 
 const buildContentBlob = () => {
-  return ["/2022/01/10/JoinedGrafanaK6/","/2019/10/08/ScenarioModeling1/","/2019/09/03/UIvsProtocol/","/2019/06/03/Monitoring/","/2019/04/30/WhatThePerf/","/2019/03/27/PerfNotLoad/","/2018/09/20/WhatIsAgile/","/2018/09/04/AgileJourney/","/2018/02/09/Script10All2Gether/","/2017/11/28/Script08Makeup/","/categories/","/blog/","/","/me/","/podcast/","/presenter/","/assets/styles.css","/youtube/","/manifest.json","/assets/search.json","/redirects.json","/sitemap.xml","/robots.txt","/blog/page2/","/blog/page3/","/blog/page4/","/blog/page5/","/blog/page6/","/feed.xml","/assets/styles.css.map","/assets/img/logo.png?s=52", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
+  return ["/2022/01/10/JoinedGrafanaK6/","/2019/10/08/ScenarioModeling1/","/2019/09/03/UIvsProtocol/","/2019/06/03/Monitoring/","/2019/04/30/WhatThePerf/","/2019/03/27/PerfNotLoad/","/2018/09/20/WhatIsAgile/","/2018/09/04/AgileJourney/","/2018/02/09/Script10All2Gether/","/2017/11/28/Script08Makeup/","/book/","/categories/","/courses/","/blog/","/","/me/","/podcast/","/presenter/","/assets/styles.css","/youtube/","/manifest.json","/assets/search.json","/redirects.json","/sitemap.xml","/robots.txt","/blog/page2/","/blog/page3/","/blog/page4/","/blog/page5/","/blog/page6/","/feed.xml","/assets/styles.css.map","/assets/img/logo.png?s=52", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
   ]
 }
 

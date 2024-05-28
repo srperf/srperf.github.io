@@ -38,14 +38,18 @@ navigation_header:
   url: /
 - title: Me
   url: /me/
+- title: Blog
+  url: /blog/
 - title: YouTube
   url: /youtube/
 - title: Podcast
   url: /podcast/
 - title: Presenter
   url: /presenter/
-- title: Blog
-  url: /blog/
+- title: Book
+  url: /book/
+- title: Courses
+  url: /courses/
 
 # Footer nav
 navigation_footer:

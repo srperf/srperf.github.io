@@ -191,10 +191,24 @@
   
   
   {
+    "title": "El performance book!",
+    "excerpt": "\n",
+    "content": "I wrote a book about load testing!\nIf you are interested you can buy it on Amazon\n\n",
+    "url": "/book/"
+  },
+  
+  {
     "title": "Categories",
     "excerpt": "Category index\n",
     "content": "\n",
     "url": "/categories/"
+  },
+  
+  {
+    "title": "My courses",
+    "excerpt": "\n",
+    "content": "Coming soon!\n",
+    "url": "/courses/"
   },
   
   {
@@ -219,9 +233,9 @@
   },
   
   {
-    "title": "About this website",
+    "title": "The podcasts",
     "excerpt": "\n",
-    "content": "I’m not sure yet what this website is about, but I’m sure I’ll work it out soon.\n",
+    "content": "Hola!\nGuess what? I am a podcaster!\nI host a podcast and collaborate on a second one:\nHOST - PerfBytes en Español\nListen to “PerfBytes Español” on Spreaker.\nCo-HOST - PerfBytes(in English)\nListen to “PerfBytes” on Spreaker.\n\n\n\n",
     "url": "/podcast/"
   },
   
