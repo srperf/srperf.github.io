@@ -1,13 +1,82 @@
-title: Señor Performo
-logo: /assets/img/logo.png
-description: Performance 4 all
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-minimal
-navigation:
-  - title: Home
-    url: /
-  - title: About
-    url: /about.html
-  - title: Contact
-    url: /contact.html
+# Set theme
+remote_theme: daviddarnes/alembic@main
+
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+# Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
+- jekyll-remote-theme
+
+# Site settings
+url: 'https://mydomain.com'
+baseurl: ''
+title: 'My website'
+description: 'This is my new website'
+permalink: pretty
+logo: "/assets/img/logo.png?s=52"
+
+# Pagination
+paginate: 5
+paginate_path: blog/page:num
+
+# Header nav
+navigation_header:
+- title: Home
+  url: /
+- title: Me
+  url: /me/
+- title: Blog
+  url: /blog/
+- title: YouTube
+  url: /youtube/
+- title: Podcast
+  url: /podcast/
+- title: Presenter
+  url: /presenter/
+- title: Book
+  url: /book/
+- title: Courses
+  url: /courses/
+
+# Footer nav
+navigation_footer:
+- title: Back to top
+  url: "#top"
+
+# Collections
+collections:
+  posts:
+    title: Posts
+    output: true
+    description: "My thoughts and ideas"
+    feature_text: |
+      Welcome to el blog
+    feature_image: "https://aecom.com/jp/wp-content/uploads/2015/08/our-brands-thin-banner.png"
+
+# Collection settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post # Set the default layout for posts
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page # Set the default layout for pages

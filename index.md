@@ -1,12 +1,10 @@
 ---
-layout: default
+title: Hola!
+feature_image: "/assets/img/Cover.png"
+feature_text: |
+  ## SrPerf
 ---
 
-# Hola!
-
-**Leandro Melendez - Señor Performo**
-
-- [Webpage](https://www.srperf.com/)
 - [Talks](https://www.srperf.com/presenter/) - I have presented in some places
 - [Linkedin](https://www.linkedin.com/in/leandromelendez/) - Connect with me
 - [X-Twitter](https://twitter.com/SrPerf) - Follow me
