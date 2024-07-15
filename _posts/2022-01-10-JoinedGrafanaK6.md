@@ -1,9 +1,14 @@
 ---
 layout: post
 author: srperf
+title: "I Joined k6!"
+date: 2022-01-10
+categories: blog
+tags: [blogs, carreer]
+description: "This is a short excerpt from my blog post."
+image: "https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/k6JoinCover.jpg?fit=1920%2C1080&ssl=1"
 ---
-# I joined k6!
-  
+
 ![I joined K6](https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/k6JoinCover.jpg?fit=1920%2C1080&ssl=1)
 
 I joined K6
