@@ -1,9 +1,13 @@
 ---
 layout: post
 author: srperf
+title: "LOAD SCENARIO MODELING 1: ONE PROCESS"
+date: 2019-10-08
+categories: blog
+tags: [blogs, scenarios]
+description: "This is a short excerpt from my blog post."
+image: "https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/HeaderModeling1.png?fit=1200%2C641&ssl=1"
 ---
-# LOAD SCENARIO MODELING 1: ONE PROCESS
-  
 ![Performance Modeling](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/HeaderModeling1.png?fit=1200%2C641&ssl=1)
 
 Modeling scenarios for [load](https://www.srperf.com/performance-testing/) tests is not a trivial task. It is not only to [blast 100 concurrent virtual users and slam a process](https://www.srperf.com/7-questions-for-performance-project/). We require to know how hard (often) to hit the processes, with how many threads (vUsers) and for this, how fast each thread should iterate.

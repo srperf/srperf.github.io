@@ -80,3 +80,9 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+  -
+    scope:
+      path: "/blog"  # Verify this path
+      type: ""
+    values:
+      layout: blog
