@@ -5,8 +5,14 @@ feature_image: "/assets/img/Cover.png"
 
 Here I am going to try to keep some record of the presentations that I have been given a chance to do. I hope this page grows and grows.
 
+# 2025
+
+- 20250219 Quality Summit - Online - Talk about AI
+- 20250427 StarEast - Panel, Tutorial, interviews and streams
+
 # 2024
 
+- 20241128 PolyWorks - Puebla, Mexico - Closing Keynote
 - 20241120 AgileTestingDays - Potsdam, Germany - Tutorial, talk, interviews
 - 20241106 TestingUnited Conference - Vienna, Austria - Tutorial, talk, interviews
 - 20241029 GitHub Universe - San Francisco, CA - Conference coverage
@@ -15,13 +21,14 @@ Here I am going to try to keep some record of the presentations that I have been
 - 20241009 AutomationStar 2024 - Vienna, Austria - Tutorial, conference talk and [interviews](https://www.youtube.com/playlist?list=PLEk-c-Uv-7Y44wqcm55vPFXAbPzShcD2H)
 - 20241002 VLCTESTING 2024 - Valencia,Spain - Closing keynote and [interviews](https://www.youtube.com/playlist?list=PLEk-c-Uv-7Y5vnvsPExK0vLHOOVWCSsrk)
 - 20240923 StarWest 2024 - Anaheim,CA - Tutorial, Panel, Lightning keynote and [interviews](https://www.youtube.com/playlist?list=PLEk-c-Uv-7Y6SBdK9o13N_h9572YdPDIJ)
-- 20240830 HandsOnTexting - Mexico City - Conference talk, panel and [interviews](https://www.youtube.com/playlist?list=PLEk-c-Uv-7Y5jwlSLzMWKp7KbeoZ95mws)
+- 20240830 HandsOnTesting - Mexico City - Conference talk, panel and [interviews](https://www.youtube.com/playlist?list=PLEk-c-Uv-7Y5jwlSLzMWKp7KbeoZ95mws)
 - 20240731 QonfX - Online - Observability [conference talk](https://www.thetesttribe.com/qonfx-leandro-melendez/)
 - 20240730 TribuTechTalks - Online - Observability [session](https://www.youtube.com/watch?v=eBLuL-PrLAg)
 - 20240724 Testng Channel TV - Online - Performance and observability [webinar](https://www.youtube.com/watch?v=wORpSVDtcrk)
 - 20240605 AbstractaTechTalks - Online - [Presenting observability](https://www.youtube.com/watch?v=ZnTiYtCYSG4&t=739s)
 - 20240430 StarEast - Orlando, FL - Full day tutorial, Lightning keynote, Performance panel, interviews. [Event Page](https://conferences.techwell.com/archives/stareast-2024/) - [Interviews and tours](https://www.youtube.com/playlist?list=PLGmvnlBL70bR3BqaMcmjxhTqb94G5MucX)
 - 20240411 Testing UY - Uruguay - Perf round table, presentation and interviews. [Event Page](https://testinguy.org/edition-2024)
+- 20240214 Fosdem - Volunteer
 
 # 2023
 
