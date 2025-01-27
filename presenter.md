@@ -7,8 +7,12 @@ Here I am going to try to keep some record of the presentations that I have been
 
 # 2025
 
-- 20250219 Quality Summit - Online - Talk about AI
+- 20250922 StarWest - Tutorial, Panel, interviews and streams
+- 20250609 AICon - Panel moderation and streamed interviews
+- 20250603 EuroStar - Tutorial and streamed interviews
 - 20250427 StarEast - Panel, Tutorial, interviews and streams
+- 20250326 SeleniumConf - Conference presentation and moderated panel
+- 20250219 Quality Summit - Online - Talk about AI
 
 # 2024
 
