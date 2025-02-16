@@ -6,10 +6,10 @@ date: 2022-01-10
 categories: blog
 tags: [blogs, carreer]
 description: "This is a short excerpt from my blog post."
-image: "https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/k6JoinCover.jpg?fit=1920%2C1080&ssl=1"
+image: "https://res.cloudinary.com/dpdwof2hx/image/upload/f_avif,q_auto/k6JoinCover.jpg"
 ---
 
-![I joined K6](https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/k6JoinCover.jpg?fit=1920%2C1080&ssl=1)
+![I joined K6](https://res.cloudinary.com/dpdwof2hx/image/upload/f_avif,q_auto/k6JoinCover.jpg?fit=1920%2C1080&ssl=1)
 
 I joined K6
 
@@ -17,7 +17,7 @@ Hola! It has been a bit since I last blogged here, but I think it is good to do 
 
 ## A while ago.
 
-![My journey](https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/journey-blog-1.png?resize=345%2C184&ssl=1)
+![My journey](https://res.cloudinary.com/dpdwof2hx/image/upload/f_avif,q_auto/journey-blog-1.png)
 
 A long, long time ago, in a galax… Ehm… How about: Once upon a time…
 
@@ -61,7 +61,7 @@ I upgraded the camcorder into a Canon M50. I learned a lot about lenses, takes, 
 
 I had to get better at it!
 
-![Learning this video thing](https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/IMG-20201031-WA0001-Copy.jpeg?resize=1000%2C563&ssl=1 "Learning")
+![Learning this video thing](https://res.cloudinary.com/dpdwof2hx/image/upload/f_avif,q_auto/IMG-20201031-WA0001.jpeg "Learning")
 
 ## At events
 
@@ -89,7 +89,7 @@ And last, I felt more comfortable creating content.
 
 All right. It was decided. I had to do it.
 
-![Leap of faith](https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/leapoffaith.jpg?resize=500%2C223&ssl=1 "Leap of faith")
+![Leap of faith](https://res.cloudinary.com/dpdwof2hx/image/upload/f_avif,q_auto/leapoffaith.jpg "Leap of faith")
 
 Once decided, I applied. Then started to check information about the company. I kept noticing incredible company culture, environment, energy, and a growing list of attributes as I read. I couldn’t be more excited.
 
@@ -115,14 +115,6 @@ Besos <3
 
 SrPerf
 
-![The horizon!](https://i0.wp.com/www.srperf.com/wp-content/uploads/2022/01/thePerspective.jpg?resize=1024%2C576&ssl=1 "Into the horizon")
+![The horizon!](https://res.cloudinary.com/dpdwof2hx/image/upload/f_avif,q_auto/thePerspective.jpg "Into the horizon")
 
-SHARE
-
-[
-
-](https://www.srperf.com/i-joined-k6/#)
-
-[
-
-](https://www.srperf.com/i-joined-k6/#)
+[SHARE](https://www.srperf.com/i-joined-k6/#)
