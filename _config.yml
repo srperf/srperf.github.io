@@ -21,10 +21,10 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://mydomain.com'
+url: 'https://www.srperf.com.com'
 baseurl: ''
-title: 'My website'
-description: 'This is my new website'
+title: 'Señor Performo / Leandro Melendez'
+description: 'SrPerf Website'
 permalink: pretty
 logo: "/assets/img/logo.png?s=52"
 
