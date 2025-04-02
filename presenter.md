@@ -7,11 +7,15 @@ Here I am going to try to keep some record of the presentations that I have been
 
 # 2025
 
+- 20251110 AutomationStar - Conference presentation and streams
 - 20250922 StarWest - Tutorial, Panel, interviews and streams
+- 20259011 TSQA - Talk presentation and streams
 - 20250609 AICon - Panel moderation and streamed interviews
 - 20250603 EuroStar - Tutorial and streamed interviews
+- 20250515 AWS CDMX - Meetup presentation
 - 20250427 StarEast - Panel, Tutorial, interviews and streams
-- 20250326 SeleniumConf - Conference presentation and moderated panel
+- 20250402 TestCrunch - Conference presentation
+- 20250326 SeleniumConf - Conference presentation, streams and moderated Keynote panel
 - 20250219 Quality Summit - Online - Talk about AI
 
 # 2024
