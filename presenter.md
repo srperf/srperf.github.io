@@ -128,42 +128,13 @@ Here I am going to try to keep some record of the presentations that I have been
 - 202002 AutoGuildJoe
 - 202002 ISQI
 
-## 2019-10-16 > Mexico City – SrPerf Agile,Testing and performance
+# 2019
 
-Gave a presentation on Mexico City sponsored by Load ninja on topics regarding Agile, testing and performance. Explaining how to mix them all.
-
-## 2019-10-02 > Online – SQA Advisory BeFunctional/Fast/Useful
-
-Participated on a short introduction describing what is performance testing.
-
-## 2019-09-25 > Online – Virtual PAC
-
-Presenting about the Pareto principle and using it to optimize the monetary resource utilization while load testing.
-
-## 2019-05-23 > Online – ArgenTesting
-
-Webinar on Monitoring importance and principles
-
-## 2019-04-24 > Mexico city, Mexico – QAMinds/Globant
-
-Workshop-Principles of performance testing
-
-[https://www.youtube.com/watch?v=p6hShNKnkVc](https://www.youtube.com/watch?v=p6hShNKnkVc)
-
-## 2019-04-08 > Online – PerfGuild
-
-IPA (Integrated Performance Assurance)
-
-Not public, please register for full presentation.
-
-## 2019-03-02 > Guadalajara, Mexico – Hands On Testing/QAM
-
-Performance testing history
-
-## 2019-02-06 > Chamonix, France – Neotys PAC
-
-Switching Performance left and right
-
-## 2019-01-31 > Mexico City, Mexico – TestTalks
-
-Phases or levels on performance testing projects.
+- 2019-10-16 > Mexico City – SrPerf Agile,Testing and performance
+- 2019-10-02 > Online – SQA Advisory BeFunctional/Fast/Useful
+- 2019-05-23 > Online – ArgenTesting
+- 2019-04-24 > Mexico city, Mexico – QAMinds/Globant [https://www.youtube.com/watch?v=p6hShNKnkVc](https://www.youtube.com/watch?v=p6hShNKnkVc)
+- 2019-04-08 > Online – PerfGuild IPA (Integrated Performance Assurance)
+- 2019-03-02 > Guadalajara, Mexico – Hands On Testing/QAM
+- 2019-02-06 > Chamonix, France – Neotys PAC
+- 2019-01-31 > Mexico City, Mexico – TestTalks Phases or levels on performance testing projects.
