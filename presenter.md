@@ -5,17 +5,32 @@ feature_image: "/assets/img/Cover.png"
 
 Here I am going to try to keep some record of the presentations that I have been given a chance to do. I hope this page grows and grows.
 
+# 2026
+
+- 20250920 StarWest - Anaheim, USA - Tutorial, Panel, interviews and streams
+- 20260607 AICon - Seattle, USA - Panel moderation and streamed interviews
+- 20260604 Innovate QA - Seattle, USA - Talk, tutorial, livestreams
+- 20260526 ExpoQA - Madrid, Spain - Tutorial and livestreamed interviews
+- 202605xx ????
+- 20260426 StarEast - Orlando, USA - Panel, Tutorial, interviews and streams
+
 # 2025
 
-- 20251110 AutomationStar - Conference presentation and streams
-- 20250922 StarWest - Tutorial, Panel, interviews and streams
-- 20259011 TSQA - Talk presentation and streams
-- 20250609 AICon - Panel moderation and streamed interviews
-- 20250603 EuroStar - Tutorial and streamed interviews
-- 20250515 AWS CDMX - Meetup presentation
-- 20250427 StarEast - Panel, Tutorial, interviews and streams
-- 20250402 TestCrunch - Conference presentation
-- 20250326 SeleniumConf - Conference presentation, streams and moderated Keynote panel
+- 20251110 AutomationSTAR - Amsterdam, NL - Talk, streamed interviews and award winner
+- 20251029 CTM - Online - AI performance webinar
+- 20251014 HUSTEF - Budapest, Hungary - Masterclass, Talk and streams
+- 20251008 QA Innovations - Online - Keynote
+- 20251001 VLC Testing - Valencia, Spain - Content and interviews
+- 20250922 StarWest - Anaheim, USA - Tutorial, Panel, interviews and streams
+- 20250910 TestearLA - Buenos Aires Argentina - Keynote and interviews
+- 20250820 PNSQC - Online - Webinar on perf and o11y
+- 20250813 ShiftSync - Online - Webinar on performance
+- 20250609 AICon - Seattle, USA - Panel moderation and streamed interviews
+- 20250603 EuroStar - Edinburgh, Scrotland - Tutorial, talk and streamed interviews
+- 20250515 AWS Ajolotes - Mexico City, Mex - Meetup presentation
+- 20250427 StarEast - Orlando, USA - Panel, Tutorial, interviews and streams
+- 20250401 TestCrunch - Brno, Czech Rep - Presentation and interview
+- 20250326 SeleniumConf - Valencia, Spain - Conference presentation and moderated panel
 - 20250219 Quality Summit - Online - Talk about AI
 
 # 2024
