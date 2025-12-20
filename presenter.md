@@ -26,7 +26,7 @@ Here I am going to try to keep some record of the presentations that I have been
 - 20250820 PNSQC - Online - Webinar on perf and o11y
 - 20250813 ShiftSync - Online - Webinar on performance
 - 20250609 AICon - Seattle, USA - Panel moderation and streamed interviews
-- 20250603 EuroStar - Edinburgh, Scrotland - Tutorial, talk and streamed interviews
+- 20250603 EuroStar - Edinburgh, Scotland - Tutorial, talk and streamed interviews
 - 20250515 AWS Ajolotes - Mexico City, Mex - Meetup presentation
 - 20250427 StarEast - Orlando, USA - Panel, Tutorial, interviews and streams
 - 20250401 TestCrunch - Brno, Czech Rep - Presentation and interview
