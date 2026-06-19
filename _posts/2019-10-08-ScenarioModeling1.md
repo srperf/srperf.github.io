@@ -6,9 +6,9 @@ date: 2019-10-08
 categories: blog
 tags: [blogs, scenarios]
 description: "This is a short excerpt from my blog post."
-image: "https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/HeaderModeling1.png?fit=1200%2C641&ssl=1"
+image: "/assets/img/BackupMedia/2019/10/HeaderModeling1.png"
 ---
-![Performance Modeling](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/HeaderModeling1.png?fit=1200%2C641&ssl=1)
+![Performance Modeling](/assets/img/BackupMedia/2019/10/HeaderModeling1.png)
 
 Modeling scenarios for [load](https://www.srperf.com/performance-testing/) tests is not a trivial task. It is not only to [blast 100 concurrent virtual users and slam a process](https://www.srperf.com/7-questions-for-performance-project/). We require to know how hard (often) to hit the processes, with how many threads (vUsers) and for this, how fast each thread should iterate.
 
@@ -18,7 +18,7 @@ Today I will start explaining the thought process behind the simplest type. How 
 
 ## MAY SOUND SILLY AND SIMPLE
 
-![Eureka Performance](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/Eureka.png?resize=265%2C300&ssl=1)
+![Eureka Performance](/assets/img/BackupMedia/2019/10/Eureka.png)
 
 To many, this may sound a little bit “duh” or elemental, as the principle actually is a bit straight forward. But as many simple things they don’t sound simple until you see them. At the beginning it sounds evident. But it is hard to figure out on your own. [It is like finding out on your own that the amount of water displaced by a submerged object, is the same as it’s volume](https://en.wikipedia.org/wiki/Archimedes%27_principle). Ah duh, no way genius!?
 
@@ -30,7 +30,7 @@ You may even have some notions on this, but not a specific understanding. Or may
 
 As I mentioned there are three key elements to figure this out when you are load modeling. Often, you will be provided with only two of the three parameters. You will have to calculate the third piece from the other two.
 
-![Performance trinity](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/Trinity.png?resize=315%2C301&ssl=1)
+![Performance trinity](/assets/img/BackupMedia/2019/10/Trinity.png)
 
 So the formula goes a bit like this:
 
@@ -60,7 +60,7 @@ Running 500 threads (vUsers) that complete 15 iterations per hour will give you 
 
 Another frequent case is when you receive just the total number of hits for that process and the number of concurrent users that must be simulated. Here it won’t matter or be known how fast each user acts.
 
-![Iteration speed](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/HowFast.png?resize=300%2C200&ssl=1)
+![Iteration speed](/assets/img/BackupMedia/2019/10/HowFast.png)
 
 Or maybe you need to fix the speed as you have a limited number of threads or users. This is quite common. Be careful if that is the case (full separate post on that).
 
@@ -80,7 +80,7 @@ On the next post we will analyze further the user distribution.
 
 ## HAVE ALL THREE
 
-![Load modeling three variables](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/10/AllThree.png?resize=300%2C190&ssl=1)
+![Load modeling three variables](/assets/img/BackupMedia/2019/10/AllThree.png)
 
 Occasionally you will have happy times when you have all three and you do not even have to calculate a thing. But beware, as what may seem as happy times may have a hidden plot twist.
 

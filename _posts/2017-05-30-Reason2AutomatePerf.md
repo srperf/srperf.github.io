@@ -4,7 +4,7 @@ author: srperf
 ---
 # THE REASON FOR PERFORMANCE AUTOMATION
   
-![Performance testing automation](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/05/ArtBoard-Image-112.jpg?fit=1826%2C1028&ssl=1)
+![Performance testing automation](/assets/img/BackupMedia/2017/05/ArtBoard-Image-112.jpg)
 
 While trying to write about a lot of topics around performance testing I found out that it may be wise to start talking about this deep question.
 
@@ -26,7 +26,7 @@ Then the networked computer was created. The software on it still ran there but 
 
 Then the internet was created. This central location was still more or less a repository. Having there your mail, static webpages, dirty pictures and other things that you’d access with specialized programs. A few more had access to it. Testing these central computers was a little bit harder but still doable with some people at the same time.
 
-![Performance evolution](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/05/ArtBoard-Image-122.jpg?resize=968%2C544&ssl=1)
+![Performance evolution](/assets/img/BackupMedia/2017/05/ArtBoard-Image-122.jpg)
 
 ## A PROBLEM ARISES
 
@@ -36,7 +36,7 @@ You can put a building full of people clicking at the same time. And you wouldn�
 
 So the main deal of automation in performance load tests is…
 
-## ![Automation for performance testing](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/05/ArtBoard-Image-132.jpg?resize=300%2C225&ssl=1)NOT TO HAVE LOTS OF PEOPLE CLICKING
+## ![Automation for performance testing](/assets/img/BackupMedia/2017/05/ArtBoard-Image-132.jpg)NOT TO HAVE LOTS OF PEOPLE CLICKING
 
 It is as simple as that. The ultimate life purpose. You automate because having rooms full of people generating load or liking the same thing at the same time is mucho. You can just create a little program that clicks that for you and then you can clone it.
 

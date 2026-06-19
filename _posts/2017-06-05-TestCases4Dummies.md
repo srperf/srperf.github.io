@@ -4,7 +4,7 @@ author: srperf
 ---
 # THE IMPORTANCE OF TEST CASES FOR DUMMIES
   
-![Performo test cases dummies](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/ArtBoard-Image-14.jpg?fit=1200%2C600&ssl=1)
+![Performo test cases dummies](/assets/img/BackupMedia/2017/06/ArtBoard-Image-14.jpg)
 
 This topic goes in honor of a friend of mine who reminded me that it was necessary to talk about the importance of test cases quality. To be shared among the testing community. Here I am implying the whole testing community because this is importante not only for performance testing. I believe it is beneficial for all  of the testing practices.
 
@@ -22,7 +22,7 @@ _Barely recovering his breath, the poor consultant just managed to spit some bab
 
 _The client almost lost it. Went all bananas while his body was agitating like a chihuahua that just had a red bull. He said almost shouting “I thought you had some experience testing SAP! I was told that I would get an expert! Especially after what I am paying here! I can’t believe this! How is this possible that you need me to tell you how to use SAP???”. This left again a peculiar expression on the consul__tant’s face._ 
 
-![A tester is sad](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/performoSad.jpg?resize=150%2C150&ssl=1)
+![A tester is sad](/assets/img/BackupMedia/2017/06/performoSad.jpg)
 
 _After a few seconds the consultant dragged all the air he could get on his lungs and all the wits he could get on his cojones, and started a speech…_
 
@@ -46,7 +46,7 @@ Picture this. Somehow you receive a test case to work. And it reads something li
 
 I am sure your have been there. With the familiar expression…
 
-![Test cases not for dummies](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/performoConfused.jpg?resize=150%2C150&ssl=1)
+![Test cases not for dummies](/assets/img/BackupMedia/2017/06/performoConfused.jpg)
 
 ## KEEP IT CLEAR AND SIMPLE STUPID – KICASS!
 
@@ -96,7 +96,7 @@ _“I need you to show me how you use your system in your particular way, or you
 
 _The consultant dropped the mic and after a few moments of silence the client slowly started clapping and stood up. Kept clapping louder and faster until it hurt. Right after, the client almost hugged the consultant. The client directed him with fanfare to the wing where the expert users were working._
 
-![Performo Out drop mic](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/performo_Out.jpg?resize=300%2C225&ssl=1)
+![Performo Out drop mic](/assets/img/BackupMedia/2017/06/performo_Out.jpg)
 
 _And they lived happily ever after._
 

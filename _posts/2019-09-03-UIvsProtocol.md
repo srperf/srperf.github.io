@@ -4,7 +4,7 @@ author: srperf
 ---
 # LOAD AUTOMATION – UI vs PROTOCOL
   
-![Different protocols load](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/09/HeaderProtocolsUI.jpg?fit=1200%2C600&ssl=1)
+![Different protocols load](/assets/img/BackupMedia/2019/09/HeaderProtocolsUI.jpg)
 
 Lately new tools for load test automation have popped out that blur the distinction on the type of automation that they do. The principal types are Protocol or UI. As usual… I feel that this is causing some confusion.
 
@@ -12,7 +12,7 @@ It is my dutty to try to bring some clarity on the differences and the ups and d
 
 ## PERFORMANCE AUTOMATION
 
-![Decisions](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/09/Buttons.png?resize=198%2C300&ssl=1)
+![Decisions](/assets/img/BackupMedia/2019/09/Buttons.png)
 
 Generally speaking automation for [load testing (not performance)](https://www.srperf.com/performance-load-different/) can happen in two forms or types.
 
@@ -28,7 +28,7 @@ In this example we have a client application and the central server. Think of th
 
 On this example, automation is a robot that somehow will do the remote’s tasks of sending commands to the TV.
 
-![Señor Roboto](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/09/Roboto.png?resize=139%2C300&ssl=1)
+![Señor Roboto](/assets/img/BackupMedia/2019/09/Roboto.png)
 
 Welcome back to Señor Roboto.
 
@@ -36,13 +36,13 @@ Welcome back to Señor Roboto.
 
 **PROTOCOL:** On the other hand, the protocol automation will work very different. Here, Señor roboto will first have infrared transmiters and vision like the Super Hombre. With it he will see what the remote is sending every time a person clicks on it. He will record that signal and learn how to copy it. Then it will send the signal using his transmiter. On this he will have to make sure that the signals he sends are accepted by the TV as if it was the remote who was sending them. He will impersonate the remote.
 
-![Infra red automation](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/09/Gort_Firing.jpg?resize=300%2C239&ssl=1)
+![Infra red automation](/assets/img/BackupMedia/2019/09/Gort_Firing.jpg)
 
 ## ADVANTAGES
 
 Both types of automation have their advantages which bring some benefits to each.
 
-![automated click](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/09/robot-push-button-13419161.jpg?resize=300%2C175&ssl=1)
+![automated click](/assets/img/BackupMedia/2019/09/robot-push-button-13419161.jpg)
 
 **UI:** Generally, the UI automation has some advantages over the protocol type. I think the greatest advantage of the UI automation is that it often gets rid of most CORRELATION needs, making it easier for newbie scripters to automate them. Correlations are often the biggest headaches for protocol scripters which get an easier time through drag and drop automation. Also, this type of automation tends to be a bit mor stable and resilient to back end changes as it focuses on the front end objects that do not change that frequently.
 
@@ -52,7 +52,7 @@ Both types of automation have their advantages which bring some benefits to each
 
 On the other hand both types of automation have some disadvantages that the other type counteracts but but also with some more disadvantages of their own.
 
-![Too many resources](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/09/pic-remote-controls-pile-1.jpg?resize=300%2C290&ssl=1)
+![Too many resources](/assets/img/BackupMedia/2019/09/pic-remote-controls-pile-1.jpg)
 
 **UI:** This automation is generally heavy in terms of resource utilization. The reason for this is that the automation tool has to render, create or plainly open the application or web browser and renders the whole thing. Just as in our example, Señor Roboto would need many remote controllers. This type of automation is common in [functional](https://www.srperf.com/functional-vs-performance-test-cases/) testing as it is not so much of a hassle automating (even as at times it is). But in load testing is a fatal blow. Some of this tools may allow you to run 2, maybe 3 or even 5 threads or virtual users per computer. Good luck running a test needing a few hundreds or even thousands of threads or virtual users.
 

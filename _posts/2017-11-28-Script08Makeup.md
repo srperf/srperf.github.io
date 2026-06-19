@@ -4,7 +4,7 @@ author: srperf
 ---
 # SCRIPTING 08: MAKEUP AND FINAL TOUCHES
   
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-40.jpg?fit=1200%2C600&ssl=1)
+![](/assets/img/BackupMedia/2017/11/ArtBoard-Image-40.jpg)
 
 Some of the final steps to do when you are scripting is to add timers and wait commands. They are like makeup for the script so it is prettier and more useful. We must add the timers on the points where there is a step that is interesting to the test. This is essential to the ones that generate communication with the server.
 
@@ -20,7 +20,7 @@ This is because,  if you do those steps at the beginning, it can be a huge wast
 
 I don’t know if you always get a perfect script at the first attempt. I often have to record the whole damn thing again. This is why I think it is better to put the waits and timers only once. So I recommend to add them at the moment that you are sure you are not typing them many times. And that moment is at the end.
 
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-43.jpg?resize=500%2C281&ssl=1)
+![](/assets/img/BackupMedia/2017/11/ArtBoard-Image-43.jpg)
 
 It is like paying for your groceries before you go to the supermarket. What would happen if the super market doesn’t have the type of tortillas that you already paid for? You would have to cancel the payment and pay again for the ones you found instead. Or cancel the payment at all and loose that time spent paying for something you would not get in the end.
 
@@ -38,7 +38,7 @@ If you notice that in between the start and end commands there is a wait command
 
 ## SIT AND WAIT
 
-![Wait](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-44.jpg?resize=500%2C405&ssl=1)
+![Wait](/assets/img/BackupMedia/2017/11/ArtBoard-Image-44.jpg)
 
 After we added the timers, we must proceed to add the wait times. These mean the time that a real human stops to think and do the task at hand. Hence, it is known as well as a [think time](https://msdn.microsoft.com/en-us/library/dd997697.aspx).
 
@@ -68,7 +68,7 @@ Now, with all that we have done, we are close to the end. Now, you almost have a
 
 For now it is time to go. Vamonos!
 
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/Continuara.png?resize=713%2C225&ssl=1)
+![](/assets/img/BackupMedia/2017/06/Continuara.png)
 
 Besos <3
 

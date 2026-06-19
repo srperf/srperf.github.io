@@ -4,7 +4,7 @@ author: srperf
 ---
 # SCRIPTINGSCRIPTING 07: SO HAPPY TOGETHER
   
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-37.jpg?fit=1200%2C600&ssl=1)
+![](/assets/img/BackupMedia/2017/11/ArtBoard-Image-37.jpg)
 
 There is another characteristic for the scripts that we create. They will be simulating different users doing the same process all together at the same time. This is known as [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)).
 
@@ -14,7 +14,7 @@ Just like moving into a house together, concurrency can bring problems of coexis
 
 ## MOVE TO THE HOUSE TOGETHER
 
-![Living together](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-38.jpg?resize=400%2C334&ssl=1)
+![Living together](/assets/img/BackupMedia/2017/11/ArtBoard-Image-38.jpg)
 
 The first step is to move everyone into the house that you will be shared. In this case the scripts will be the people, and the load testing tool will be the house. The system counts as the house as well, but it is more like the actions that you can do in it.
 
@@ -50,7 +50,7 @@ Leave the scripts running for 10 minutes. Start the virtual users at the same ti
 
 ## FAMILY INTERVENTION TOGETHER
 
-![Problems together](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-39.jpg?resize=290%2C193&ssl=1)
+![Problems together](/assets/img/BackupMedia/2017/11/ArtBoard-Image-39.jpg)
 
 You could encounter that the family has issues running any of these trials. If you find this, you must call them back and check the rules to make sure that there will be no fights.
 
@@ -72,7 +72,7 @@ Next we will add some makeup to the script to make sure it looks pretty. We will
 
 But for now it is time to go. Vamonos!
 
-![To be continued](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/Continuara.png?resize=713%2C225&ssl=1)
+![To be continued](/assets/img/BackupMedia/2017/06/Continuara.png)
 
 Besos <3
 

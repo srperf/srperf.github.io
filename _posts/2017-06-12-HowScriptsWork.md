@@ -4,7 +4,7 @@ author: srperf
 ---
 # PERFORMANCE TEST SCRIPT – HOW DOES IT REALLY WORK?
   
-![Performance scripts how works](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/ArtBoard-Image-16.jpg?fit=1000%2C500&ssl=1)
+![Performance scripts how works](/assets/img/BackupMedia/2017/06/ArtBoard-Image-16.jpg)
 
 I have noticed several times that many people do not know how does the performance test automation work. Not only clients, but even some testers seem to be slightly confused about the true ways of the performance test script.
 
@@ -16,7 +16,7 @@ I am going to use one cool description for performance automation to show you ho
 
 ## PERFORMANCE TEST AUTOMATION IS LIKE HACKING
 
-![Señor hacker performo](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/ArtBoard-Image-15.jpg?resize=300%2C300&ssl=1)Say whaaaaa? Are you surprised? Don’t be! This is so true that you would be shocked how similar it is that actually it could be the same. At times it is.
+![Señor hacker performo](/assets/img/BackupMedia/2017/06/ArtBoard-Image-15.jpg)Say whaaaaa? Are you surprised? Don’t be! This is so true that you would be shocked how similar it is that actually it could be the same. At times it is.
 
 There is a term called [DDoS](https://en.wikipedia.org/wiki/Denial-of-service_attack) (stands for Distributed Denial of Service) that refers to a technique some hackers use to make web sites and apps slow or even unresponsive. They do this by sending a big amount of requests to the attacked site from many different computers at the same time to bring it down.
 
@@ -72,7 +72,7 @@ But for this to work, we need to identify the parts that change. We will structu
 
 “Hola, habla a taco pelota le atiende CHANGE. Quien Habla? -Hola CHANGE soy CHANGE. Quiero CHANGE. Gracias”.
 
-![Performance kitchen server](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/ArtBoard-Image-17.jpg?resize=300%2C300&ssl=1)We have now a working message. Knowing what to change and insert on them is a whole topic on itself. But once we know what to change and make sense, we will be able to create as many combinations as possible. Have an automatic player and call orders nonstop without much trouble.
+![Performance kitchen server](/assets/img/BackupMedia/2017/06/ArtBoard-Image-17.jpg)We have now a working message. Knowing what to change and insert on them is a whole topic on itself. But once we know what to change and make sense, we will be able to create as many combinations as possible. Have an automatic player and call orders nonstop without much trouble.
 
 This way the server will think we are someone else and take our order. Even if we don’t know Spanish we can make orders that the server will recognize.
 

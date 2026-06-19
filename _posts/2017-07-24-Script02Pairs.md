@@ -4,7 +4,7 @@ author: srperf
 ---
 # SCRPTING 02: BRING THEM IN PAIRS
   
-![Bring Pairs](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/07/ArtBoard-Image-31.jpg?fit=1200%2C600&ssl=1)
+![Bring Pairs](/assets/img/BackupMedia/2017/07/ArtBoard-Image-31.jpg)
 
 Today we will continue with the scripting series. I will tell you about the second recommended step. It is ‘record twice the same steps so you can get pairs’. The advantage here is that when you get two recordings of the same steps you will have comparisons. That will ensure you can identify everything that changes.
 
@@ -39,7 +39,7 @@ Select a different set of data, wherever the data changes. This is really import
 - Dates
 - Variable data
 
-![Female Pair](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/07/ArtBoard-Image-32.jpg?resize=300%2C256&ssl=1)
+![Female Pair](/assets/img/BackupMedia/2017/07/ArtBoard-Image-32.jpg)
 
 Once you have the data selected proceed to record a NEW script. You must make sure it is in a new one. Generate it completely from scratch. Please, you must be careful to not to overwrite the previous one.
 
@@ -59,7 +59,7 @@ Talking about your animals, is like having puppies from the original perros that
 
 ## COMPARISON AND BACKUP
 
-![Pair Dinosaurs](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/07/noah-dinosaurs-5-pm.jpg?resize=275%2C300&ssl=1)You will not touch the original files but the copies for the rest of the steps on the post series to come. They are your pristine point of return. You have pairs just to make sure you can compare them with the different data.
+![Pair Dinosaurs](/assets/img/BackupMedia/2017/07/noah-dinosaurs-5-pm.jpg)You will not touch the original files but the copies for the rest of the steps on the post series to come. They are your pristine point of return. You have pairs just to make sure you can compare them with the different data.
 
 Like the proverbial ark you will have a pairs of all the selected animals. That will allow you to populate everything again in the case of a flood. Or any other big catastrophe. Like you erasing a semicolon on the script by accident.
 
@@ -71,7 +71,7 @@ We will continue with this series making sure we clean up those puppies. Getting
 
 But for today I think that is enough. Vamonos!
 
-![To be continued](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/Continuara.png?resize=300%2C95&ssl=1)
+![To be continued](/assets/img/BackupMedia/2017/06/Continuara.png)
 
 Besos <3
 

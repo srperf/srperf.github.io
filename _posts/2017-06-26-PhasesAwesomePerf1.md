@@ -4,7 +4,7 @@ author: srperf
 ---
 # THE PHASES TO AN AWESOME PERFORMANCE TEST
   
-![Performance testing project phases](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/ArtBoard-Image-23.jpg?fit=1200%2C600&ssl=1)
+![Performance testing project phases](/assets/img/BackupMedia/2017/06/ArtBoard-Image-23.jpg)
 
 A performance load test project requires to be done in phases to be done right. This phases could be thought as levels in a video game. These phases are known by different names. But in essence they refer to the same things. Ketchup or Catsup, the same bloody thing.
 
@@ -24,7 +24,7 @@ Let’s try to clean this “Mexican way” stigma. I will show you now the step
 
 ## PHASE 1: FIGURE THINGS OUT
 
-![Discover project](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/ArtBoard-Image-24.jpg?resize=150%2C150&ssl=1)This is the starting point. This phase may be known as DISCOVERY, ANALYSIS, FINDINGS, REQUIREMENTS, etc. Therefore, this is the phase where we will discover the details of the project.
+![Discover project](/assets/img/BackupMedia/2017/06/ArtBoard-Image-24.jpg)This is the starting point. This phase may be known as DISCOVERY, ANALYSIS, FINDINGS, REQUIREMENTS, etc. Therefore, this is the phase where we will discover the details of the project.
 
 We may not know the nature of the tested application, even as we are expert testers on that technology. We will have to answer a bunch of questions. [These questions were detailed earlier](https://www.srperf.com/7-questions-for-performance-project/). It is really super important to have an answer for them. Trust me, I am a consultant. (wink wink)
 
@@ -56,7 +56,7 @@ Here you will create a detailed set of steps that will take you to the goal. Dur
 
 For the first one, you need to select and document the test cases that you will use to automate the load generation during this project.
 
-![No blueprint](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/NoBlueprint.jpg?resize=251%2C300&ssl=1)
+![No blueprint](/assets/img/BackupMedia/2017/06/NoBlueprint.jpg)
 
 However, you will not test all of the business processes that the system is capable of. We already ranted about that [here](https://www.srperf.com/wise-load-performance-test-everything/). Here you will filter the worthy ones and document them. Than you will proceed to create the almighty test cases optimized for performance testing. Jesus! Please, not from preexisting functional cases, like I mentioned [earlier](https://www.srperf.com/functional-vs-performance-test-cases/).
 
@@ -88,7 +88,7 @@ But the only way to eat an elephant is… One bite at a time.
 
 I will leave you with a cliffhanger and continue the post on the next post. But to increase the suspense, next show we will discuss of the actual state of that bathroom door! But for now… Vamonos!
 
-![To be continued](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/Continuara.png?resize=300%2C95&ssl=1)
+![To be continued](/assets/img/BackupMedia/2017/06/Continuara.png)
 
 Besos <3
 

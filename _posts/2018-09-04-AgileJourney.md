@@ -4,7 +4,7 @@ author: srperf
 ---
 # AGILE – MY JOURNEY AND INSIGHTS
   
-![Agile Journey](https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/agileTop.jpg?fit=1000%2C512&ssl=1)
+![Agile Journey](/assets/img/BackupMedia/2018/09/agileTop.jpg)
 
 My Agile Journey
 
@@ -22,7 +22,7 @@ On top of this, most of the agile teams that delivered to me were awful. Not org
 
 ## BEFORE AGILE, WATERFALL
 
-![OldWaterfall](https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/oldvsnew.jpg?resize=300%2C268&ssl=1)
+![OldWaterfall](/assets/img/BackupMedia/2018/09/oldvsnew.jpg)
 
 Before agile I only had eyes and beliefs for what I did all of my life as a performance tester. I was following the steps that I have been writing so far on this blog. Most of them – waterfall.
 
@@ -48,7 +48,7 @@ As I have mentioned earlier, I got to an agile project a little over a year ago.
 
 The experience was interesting. To say the least.
 
-![Inspirational](https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/agilejourney.jpg?resize=300%2C154&ssl=1)
+![Inspirational](/assets/img/BackupMedia/2018/09/agilejourney.jpg)
 
 Agile has some characteristics that work inherently against the traditional way of doing load tests. But at the same time, has some characteristics that enable many interesting things in terms of performance testing.
 
@@ -60,7 +60,7 @@ Second, the solution keeps growing. It doesn’t just change often, but it keeps
 
 ## IT IS NOT JUST LOAD TEST ANYMORE
 
-![JustLoad](https://i0.wp.com/www.srperf.com/wp-content/uploads/2018/09/overload1.jpg?resize=300%2C277&ssl=1)Was it ever?
+![JustLoad](/assets/img/BackupMedia/2018/09/overload1.jpg)Was it ever?
 
 Yeah, a full load test becomes increasingly difficult if you just keep doing things as usual. The maintenance of the automated scripts requires time. That time adds up after all the constant changes. You would hold everyone. That gives them a hard time for both scripting and executing.
 

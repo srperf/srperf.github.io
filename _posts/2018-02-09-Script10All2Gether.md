@@ -3,7 +3,7 @@ layout: post
 author: srperf
 ---
 # SCRIPTING 10: EVERYTHING TOGETHER  
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-42.jpg?fit=1200%2C600&ssl=1)
+![](/assets/img/BackupMedia/2017/11/ArtBoard-Image-42.jpg)
 
 The last step for the [scripting best practice series](https://www.srperf.com/scripting-date-first/) is to test that everything can run together. Our script is almost finished. This step consists of running the script together with all of the scripts in the project.
 
@@ -21,7 +21,7 @@ On previous steps of the best practice, you ran multiple people doing the same t
 
 Here you are going to check that such fights and collisions for data will not happen. Those collisions can make a user throw errors on your test or even to fail completely. Similar to the house test we did earlier. There is a bunch of people in the house doing a life and interacting. Just like a family with the same last name in it in the same appartment.
 
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-47.jpg?resize=500%2C500&ssl=1)  
+![](/assets/img/BackupMedia/2017/11/ArtBoard-Image-47.jpg)  
 But their apartment is in apartment building. Many different families interacting. Most of them minding their own business, but at times sharing common areas. Such as sharing an elevator, where they must make sure they don’t overload it. Others crossing through the gym while trying to go to the pool. They must make sure to not to step on the ones using the gym.
 
 Make sure they do not collide on those small areas where they may have to interact.
@@ -54,7 +54,7 @@ Again, this doesn’t focuses on anything on the tested system. This is just abo
 
 If you find issues with one or more scripts, we should check the problem. The causes could be many, but the most frequentis data collision with another script.
 
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-48.jpg?resize=500%2C800&ssl=1)  
+![](/assets/img/BackupMedia/2017/11/ArtBoard-Image-48.jpg)  
 Here you must detect if different processes share the same data when they shouldn’t.
 
 The action to take is going to be different depending on your role. If you are a test lead, you must get the scripters responsible for the scripts together. So that they can talk about the steps of each script and understand where may be the collision to find a fix.
@@ -83,7 +83,7 @@ I hope you have enjoyed the series. Please write back if there are any comments 
 
 Next we will continue with the scenario creation best practices! But for now, we are done! Vamonos!
 
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/Continuara.png?resize=713%2C225&ssl=1)
+![](/assets/img/BackupMedia/2017/06/Continuara.png)
 
 Besos <3
 

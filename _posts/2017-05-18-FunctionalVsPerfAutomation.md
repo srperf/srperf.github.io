@@ -3,7 +3,7 @@ layout: post
 author: srperf
 ---
 # DIFFERENCES BETWEEN FUNCTIONAL AND PERFORMANCE TEST CASES
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/05/ArtBoard-Image-82.jpg?fit=1570%2C883&ssl=1)
+![](/assets/img/BackupMedia/2017/05/ArtBoard-Image-82.jpg)
 
 Hola amigos!
 
@@ -31,7 +31,7 @@ On the real deal a functional test case must make sure everything is clicked an
 
 ##   
 
-## ![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/05/ArtBoard-Image-92.jpg?resize=300%2C300&ssl=1)FRONT VS BACK
+## ![](/assets/img/BackupMedia/2017/05/ArtBoard-Image-92.jpg)FRONT VS BACK
 
 Both automated scripts will work on separated levels, chasing each their life purpose. To find or to fetch.
 
@@ -47,7 +47,7 @@ Your cute Basset will be there years and years. Will be getting used to smell an
 
 The same way functional automation was build to easily test again and again. The solution can be used with the same billion patterns. Helps the poor tester to not to loose their minds repeating the same task so many times on every fix or release. On the other hand, performance automation was created to avoid having a room full of people. All of them counting to 3 and then clicking at the same time as fast as possible to generate load. Imagine that you have to test 10,000 people using the software and you have no automation. Mi madre!
 
-## UNO VS MANY![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/05/ArtBoard-Image-93.jpg?resize=300%2C300&ssl=1)
+## UNO VS MANY![](/assets/img/BackupMedia/2017/05/ArtBoard-Image-93.jpg)
 
 The way to handle data is very different as well. To handle it, to prepare it and to generate it will be very different, because the different ways each type of automation uses it.
 
@@ -69,7 +69,7 @@ Por favor! Don’t let anyone bully you into using functional test cases to crea
 
 It may be seen as smart savings. But this approach will be a huge waste of time and resources (money money!). You might not end up with a test script that fulfills the need loading the system in a wrong or useless way. It would be like testing with the squeaky Chihuahua.
 
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/05/ArtBoard-Image-102.jpg?resize=300%2C169&ssl=1)
+![](/assets/img/BackupMedia/2017/05/ArtBoard-Image-102.jpg)
 
 Do good, perform well and be feliz!
 

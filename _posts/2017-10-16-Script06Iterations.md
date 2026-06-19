@@ -4,7 +4,7 @@ author: srperf
 ---
 # SCRIPTING 06: DOING THE REPS (ITERATIONS)
   
-![Script repetitions](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/10/ArtBoard-Image-36.jpg?fit=1200%2C600&ssl=1)
+![Script repetitions](/assets/img/BackupMedia/2017/10/ArtBoard-Image-36.jpg)
 
 The main goal for a ‘_load test automated script_‘ is to do the same [process several times again and again](https://www.srperf.com/reason-performance-automation/). In essence to be able to put some reps while working. Just like when you workout, you must repeat the same exercise many times to see the gains.
 
@@ -14,7 +14,7 @@ Many load scripters create scripts that fault on some iterations. When they run 
 
 ## FIRST DAY
 
-![First Day](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/09/First-day.jpg?resize=273%2C300&ssl=1)Often you will find people in the gym whom are new or haven’t been there in a long time. Most probably, they won’t be back soon because of over working. They will throw to the trash can the membership that they just payed, together with their plan for a better shape. Instead, to ensure that they have a long story of being in shape, they should start little by little. They should do some exercises only once at the beginning.
+![First Day](/assets/img/BackupMedia/2017/09/First-day.jpg)Often you will find people in the gym whom are new or haven’t been there in a long time. Most probably, they won’t be back soon because of over working. They will throw to the trash can the membership that they just payed, together with their plan for a better shape. Instead, to ensure that they have a long story of being in shape, they should start little by little. They should do some exercises only once at the beginning.
 
 In the same way, we should just check that our script completes one run. Do just one process from start to end. Only then you will make sure that the script can complete a cycle without hurting himself. You will see if all the previous work we have done([Correlations](https://www.srperf.com/scripting-hunting-correlations/), Data, etc.) completes at least once. Hurrah! If you can complete just one tiny run of a workout, you will be able to come back the next day to keep moving on.
 
@@ -28,7 +28,7 @@ I usually recommend to go from 3 to 5 iterations. At times I feel wild and let i
 
 ## ADD VARIETY
 
-![variety](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/09/legsgym.jpg?resize=241%2C300&ssl=1)After you notice that without much problem you can do the same reps, it is time to add variety to work all of the muscle groups.
+![variety](/assets/img/BackupMedia/2017/09/legsgym.jpg)After you notice that without much problem you can do the same reps, it is time to add variety to work all of the muscle groups.
 
 Doing the same was good exercise to get your body used to the activity. But now you want to ensure that you get more gains. So now you will cycle each body part on each rep. First work the biceps. After the guns are trained, move on to the chest. Then, you may work out the legs to not to look like Johnny Bravo. Even add  some yoga or stretching at the end. Then you will have a complete workout.
 
@@ -62,7 +62,7 @@ Down the road you may notice that you get tired of it after some time. This will
 
 The next step here is to leave your script running by itself for a given period of time. Forget the reps, now, this time we are in for duration. Put the script in the loading tool and let it run by itself for about 10 minutes so it does as many reps as it can. Here we will validate that the process is good iterating for long periods of time and make sure you can iterate a lot and that the process never fails. This will leave you with a bulletproof script that runs and runs like the battery bunny.
 
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/10/oldFit.jpg?resize=500%2C246&ssl=1)
+![](/assets/img/BackupMedia/2017/10/oldFit.jpg)
 
 ## CLOSING
 
@@ -76,7 +76,7 @@ We have awesome steps now that assure that our script can do the reps. On the ne
 
 But for now, it is time to go. Vamonos!
 
-![To be continued](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/Continuara.png?resize=500%2C158&ssl=1)
+![To be continued](/assets/img/BackupMedia/2017/06/Continuara.png)
 
 Besos <3
 

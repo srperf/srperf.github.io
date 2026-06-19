@@ -4,11 +4,11 @@ author: srperf
 ---
 # PERFORMANCE AND LOAD NOT INTERCHANGEABLE
   
-![Load Perf Diferent](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/03/TitleLoadPerf.jpg?fit=1200%2C600&ssl=1)
+![Load Perf Diferent](/assets/img/BackupMedia/2019/03/TitleLoadPerf.jpg)
 
 Performance and load are different. I am not so uptight about terms and grammar naziing definitions, but I have been for a long time in situations where people try to talk to me about one thing but I understand something completely different. Mostly because one of the parties involved in the conversation lacks the right terms to refer to the topic.
 
-![irony](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/03/irony.png?resize=282%2C179&ssl=1)
+![irony](/assets/img/BackupMedia/2019/03/irony.png)
 
 Kinda ironic
 
@@ -32,7 +32,7 @@ The most frequent use for a performance test has been changing as the technology
 
 On a beginning performance testing used to be done mostly to model and project capabilities on the hardware for a given use. People used to confuse it, thinking on modeling rather than testing.
 
-![Wrong](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/03/bush-phone-meme.jpeg?resize=257%2C250&ssl=1)
+![Wrong](/assets/img/BackupMedia/2019/03/bush-phone-meme.jpeg)
 
 Other times performance testing has been confused with performance optimization. That the focus of the effort was the after thought of polishing the response of a system. But sadly this was another misconception on the terms, a good example would be to confuse programming and debugging.
 
@@ -46,7 +46,7 @@ Nevertheless they keep attempting to use automation to measure response times an
 
 Solving small performance risks with load testing cannons is expensive. Automation for performance requires lots of time, skill, knowledge and smartness to be pulled off. Skills that tend to be expensive per hour on the market. Skills that could be leveraged by a tool which itself is usually super expensive or requires even more skill.
 
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2019/03/28-bird-box.w700.h700.jpg?resize=243%2C243&ssl=1)
+![](/assets/img/BackupMedia/2019/03/28-bird-box.w700.h700.jpg)
 
 On top of that many rely on the automation to tell them some of those response times. Which can get interesting to measure when they face asynchronous processes. Ripley’s believe it or not, many keep trying to measure asynchronous processing time through automation…
 

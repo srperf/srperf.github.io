@@ -4,7 +4,7 @@ author: srperf
 ---
 # DON’T TEST EVERYTHING ON A PERFORMANCE TEST
   
-![Performance test everything](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/ArtBoard-Image-19.jpg?fit=1200%2C600&ssl=1)
+![Performance test everything](/assets/img/BackupMedia/2017/06/ArtBoard-Image-19.jpg)
 
 Have you ever arrived to a performance test project where the client wants to load test everything? Where you are told that you should automate a gazillion business processes? Have you got upset from that nonsense? Especially when you are asked to automate something silly like a batch process call?
 
@@ -52,7 +52,7 @@ Usually a performance automation takes from 4 to 16 hours to have a finished tes
 
 On the market nowadays I believe a performance scripter [consultant costs](http://consultantjournal.com/blog/setting-consulting-fee-rates) $50 dollars per hour on the cheapest side.
 
-![Expensive performance test everything](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/05/ArtBoard-Image-20.jpg?resize=171%2C200&ssl=1)
+![Expensive performance test everything](/assets/img/BackupMedia/2017/05/ArtBoard-Image-20.jpg)
 
 The script will cost the client $500 dollars. Just for the script. No travel included. Neither the consultant’s presence during the execution. The script will need some baby sitting just in case. Dont forget it.
 
@@ -88,7 +88,7 @@ Most solutions already trace those hyper important processes automatically.  I 
 
 Gather those from the solution. But if the solution is not a good one. If there is no record of the time the processes take, there are more choices.
 
-![Stopwatch performance manual](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/05/ArtBoard-Image-21.jpg?resize=300%2C229&ssl=1)
+![Stopwatch performance manual](/assets/img/BackupMedia/2017/05/ArtBoard-Image-21.jpg)
 
 Another one is a stopwatch.
 
@@ -106,7 +106,7 @@ I really don’t want to make it just about the money. There are many other reas
 
 But the money will be a good starting point to make a manager or leader understand. You would be using their lingo. Taco’bout dinero dinero!
 
-![Performo test dinero](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/05/ArtBoard-Image-22.jpg?resize=1024%2C456&ssl=1)
+![Performo test dinero](/assets/img/BackupMedia/2017/05/ArtBoard-Image-22.jpg)
 
 More will follow on the reasons to not to automate test everything.
 

@@ -4,7 +4,7 @@ author: srperf
 ---
 # SCRIPTING 09: TUNING THE WAIT TIMERS
   
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-41.jpg?fit=1200%2C600&ssl=1)
+![](/assets/img/BackupMedia/2017/11/ArtBoard-Image-41.jpg)
 
 Wait [times](http://www.robvanderwoude.com/wait.php) in between steps and iterations are vital parts of your script. But they are not so easy to get right. That is why we need to do some tuning on them.
 
@@ -20,7 +20,7 @@ Last, the most fun of all, we will let them run a bit. There we will find out if
 
 ## TUNING BECAUSE OF RANDOMIZING
 
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-45.jpg?resize=500%2C500&ssl=1)
+![](/assets/img/BackupMedia/2017/11/ArtBoard-Image-45.jpg)
 
 The first step is to add some randomization to the wait times in between steps.
 
@@ -74,7 +74,7 @@ Doing this we will ensure realism.
 
 ## RUNNING AND TUNING
 
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/11/ArtBoard-Image-46.jpg?resize=300%2C225&ssl=1)
+![](/assets/img/BackupMedia/2017/11/ArtBoard-Image-46.jpg)
 
 There are so many variables that are not fixed values here. That makes it difficult to get good wait times at first with just math. Especially with so much random variables flying around and unpredictable response times.
 
@@ -102,7 +102,7 @@ Just like you would do while cooking. You may have followed the recipe by the le
 
 Enough for today amigos. Now you have scripts that pace perfectly! Vamonos!
 
-![](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/Continuara.png?resize=600%2C189&ssl=1)
+![](/assets/img/BackupMedia/2017/06/Continuara.png)
 
 Besos <3
 

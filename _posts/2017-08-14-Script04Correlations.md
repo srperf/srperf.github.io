@@ -4,7 +4,7 @@ author: srperf
 ---
 # SCRIPTING 04: HUNTING CORRELATIONS
   
-![Script correlations](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/08/ArtBoard-Image-34.jpg?fit=1200%2C600&ssl=1)
+![Script correlations](/assets/img/BackupMedia/2017/08/ArtBoard-Image-34.jpg)
 
 On this post we will examine the process of finding and doing correlations. The [best practice](https://www.srperf.com/scripting-date-first/) has brought you to the core point of the process. This is for most scripting as it focuses on HTTP and other web transfer protocols.
 
@@ -16,7 +16,7 @@ Empecemos, lets move on to the first step.
 
 ## SPOT THEM IN THE JUNGLE
 
-![Spot correlations](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/08/jurassic_park_robert_muldoon_H_0615_02.c93fe49de09b2de9701ad9ba5d47b839.jpg?resize=150%2C150&ssl=1)You must star looking for the parameter in the jungle of data that was transferred on the recordings. I call this the jungle of data. A bunch of weird calls and responses that happened between your computer and the server. They are usually [HTTP](https://www.tutorialspoint.com/http/http_requests.htm) requests and responses. They are saved by most automating tools out there.
+![Spot correlations](/assets/img/BackupMedia/2017/08/jurassic_park_robert_muldoon_H_0615_02.c93fe49de09b2de9701ad9ba5d47b839.jpg)You must star looking for the parameter in the jungle of data that was transferred on the recordings. I call this the jungle of data. A bunch of weird calls and responses that happened between your computer and the server. They are usually [HTTP](https://www.tutorialspoint.com/http/http_requests.htm) requests and responses. They are saved by most automating tools out there.
 
 You have the value that you noticed was changing on the [recorded](https://www.srperf.com/scrpting-02-bring-pairs/) script. You must search that value on the communication recorded in between the client and the server.
 
@@ -78,7 +78,7 @@ _<hole>Cat<hole>_
 
 _</holes>_
 
-![Group Correlation](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/08/B0hAIIEIcAAU2Bz.jpg?resize=150%2C150&ssl=1)
+![Group Correlation](/assets/img/BackupMedia/2017/08/B0hAIIEIcAAU2Bz.jpg)
 
 Here we will catch at once everything that is in between a hole (no pun intended). So our surroundings will be _**hole>**_ and _**</**_. Nice and easy a bulk hunt.
 
@@ -102,7 +102,7 @@ If there are problems most probably you forgot to hunt for something. Maybe it w
 
 Next we will replace the parameters. But for now, vamonos!
 
-![To be continued](https://i0.wp.com/www.srperf.com/wp-content/uploads/2017/06/Continuara.png?resize=300%2C95&ssl=1)
+![To be continued](/assets/img/BackupMedia/2017/06/Continuara.png)
 
 Besos<3
 
