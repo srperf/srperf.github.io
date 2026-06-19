@@ -28,6 +28,13 @@ description: 'SrPerf Website'
 permalink: pretty
 logo: "/assets/img/logo.png?s=52"
 
+favicons:
+  16: '/assets/img/logo.png'
+  32: '/assets/img/logo.png'
+  96: '/assets/img/logo.png'
+  180: '/assets/img/logo.png'
+  512: '/assets/img/logo.png'
+
 # Pagination
 paginate: 5
 paginate_path: blog/page:num
