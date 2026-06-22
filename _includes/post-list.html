@@ -4,11 +4,14 @@
       {% for page in paginator.posts %}
         <li class="item  item--post">
           <article class="article  article--post">
-            
-            <a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.title }}</h2>
-            {% include post-meta.html %}
-            {{ page.excerpt | markdownify | truncatewords: 60 }}</a>
-
+            {% capture excerpt_html %}{{ page.excerpt | markdownify | truncatewords: 60 }}{% endcapture %}
+            <a href="{{ site.baseurl }}{{ page.url }}">
+              {% unless excerpt_html contains '<h1' %}
+                <h2>{{ page.title }}</h2>
+              {% endunless %}
+              {% include post-meta.html %}
+              {{ excerpt_html }}
+            </a>
           </article>
         </li>
       {% endfor %}
@@ -21,11 +24,12 @@
       {% for page in site.posts %}
         <li class="item  item--post">
           <article class="article  article--post">
-
-            <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+            {% capture excerpt_html %}{{ page.excerpt | markdownify | truncatewords: 60 }}{% endcapture %}
+            {% unless excerpt_html contains '<h1' %}
+              <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+            {% endunless %}
             {% include post-meta.html %}
-            {{ page.excerpt | markdownify | truncatewords: 60 }}
-
+            {{ excerpt_html }}
           </article>
         </li>
       {% endfor %}
