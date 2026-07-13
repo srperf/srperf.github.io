@@ -9,6 +9,7 @@
   <script src="components/templo-mayor.js"></script>
   <script src="components/color-model.js"></script>
   <script src="components/collision-player.js"></script>
+  <script src="components/touch-move.js"></script>
   <style>
     body { margin: 0; overflow: hidden; font-family: 'Segoe UI', system-ui, sans-serif; }
     .ui-hint {
@@ -138,7 +139,7 @@
       position="-28 -4 -16" scale="0.5 0.5 0.5"></a-entity>
 
     <!-- Cámara primera persona -->
-    <a-entity position="0 0.8 3" look-controls wasd-controls collision-player="radius: 0.3">
+    <a-entity position="0 0.8 3" look-controls wasd-controls collision-player="radius: 0.3" touch-move>
       <a-entity camera position="0 0.8 0">
         <a-entity cursor="fuse: false" raycaster="objects: .clickable"
                   geometry="primitive: ring; radiusInner: 0.004; radiusOuter: 0.008"
