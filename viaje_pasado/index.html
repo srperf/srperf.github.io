@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viaje Pasado - Entorno Virtual</title>
+  <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+  <script src="components/piramide-kukulcan.js"></script>
+  <script src="components/templo-mayor.js"></script>
+  <script src="components/color-model.js"></script>
+  <style>
+    body { margin: 0; overflow: hidden; font-family: 'Segoe UI', system-ui, sans-serif; }
+    .ui-hint {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: rgba(255, 255, 255, 0.7);
+      background: rgba(0, 0, 0, 0.4);
+      padding: 8px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      pointer-events: none;
+      z-index: 10;
+      backdrop-filter: blur(4px);
+      user-select: none;
+    }
+    @media (max-width: 600px) {
+      .ui-hint { font-size: 11px; padding: 6px 14px; bottom: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="ui-hint">WASD · mover &nbsp;|&nbsp; Mouse · mirar</div>
+
+  <a-scene fog="type: linear; color: #a8d4e6; near: 50; far: 120">
+    <!-- Cielo -->
+    <a-sky color="#87CEEB"></a-sky>
+
+    <!-- Iluminación -->
+    <a-light type="ambient" color="#ffffff" intensity="0.5"></a-light>
+    <a-light type="directional" color="#fff7e8" intensity="0.9" position="15 25 10" castshadow="true"></a-light>
+    <a-light type="hemisphere" color="#87CEEB" groundColor="#4a7c3f" intensity="0.3"></a-light>
+
+    <a-assets>
+      <a-asset-item id="kukulcan" src="components/chichen-itza-pyramid-of-kukulkan-by-miniworld3d-reconstruction.glb"></a-asset-item>
+      <a-asset-item id="templo-mayor" src="components/templo-mayor-tenochtitlan-by-miniworld3d-reconstruction.glb"></a-asset-item>
+      <img id="grassTex">
+    </a-assets>
+
+    <script>
+      (function () {
+        var c = document.createElement('canvas')
+        c.width = 256; c.height = 256
+        var ctx = c.getContext('2d')
+
+        ctx.fillStyle = '#4a8c3f'
+        ctx.fillRect(0, 0, 256, 256)
+
+        for (var i = 0; i < 600; i++) {
+          var cx = Math.random() * 256, cy = Math.random() * 256
+          var r = Math.random() * 14 + 3
+          var a = (Math.random() - 0.5) * 0.15
+          ctx.fillStyle = a > 0
+            ? 'rgba(70,170,55,' + a + ')'
+            : 'rgba(20,50,12,' + (-a) + ')'
+          ctx.beginPath()
+          ctx.arc(cx, cy, r, 0, Math.PI * 2)
+          ctx.fill()
+        }
+
+        for (var i = 0; i < 80; i++) {
+          var cx = Math.random() * 256, cy = Math.random() * 256
+          var r = Math.random() * 6 + 2
+          ctx.fillStyle = 'rgba(120,90,45,' + (Math.random() * 0.07 + 0.02) + ')'
+          ctx.beginPath()
+          ctx.arc(cx, cy, r, 0, Math.PI * 2)
+          ctx.fill()
+        }
+
+        ctx.strokeStyle = 'rgba(50,120,35,0.12)'
+        for (var i = 0; i < 2000; i++) {
+          var x = Math.random() * 256, y = Math.random() * 256
+          var len = Math.random() * 8 + 3
+          ctx.lineWidth = Math.random() * 1.5 + 0.3
+          ctx.beginPath()
+          ctx.moveTo(x, y)
+          ctx.lineTo(x + (Math.random() - 0.5) * 2.5, y - len)
+          ctx.stroke()
+        }
+
+        ctx.strokeStyle = 'rgba(30,80,20,0.08)'
+        for (var i = 0; i < 1200; i++) {
+          var x = Math.random() * 256, y = Math.random() * 256
+          var len = Math.random() * 5 + 2
+          ctx.lineWidth = Math.random() * 1 + 0.2
+          ctx.beginPath()
+          ctx.moveTo(x, y)
+          ctx.lineTo(x + (Math.random() - 0.5) * 2, y - len)
+          ctx.stroke()
+        }
+
+        document.getElementById('grassTex').src = c.toDataURL()
+      })()
+    </script>
+
+    <!-- Suelo -->
+    <a-plane rotation="-90 0 0" width="300" height="300"
+      material="src: #grassTex; repeat: 50 50; roughness: 0.95; metalness: 0"
+      position="0 -0.1 0"></a-plane>
+
+    <!-- Letrero de entrada -->
+    <a-entity position="1 0 -1.5">
+      <a-box width="0.08" height="1.6" depth="0.08" position="0 0.8 0" color="#5C3A21"></a-box>
+      <a-box width="1.3" height="0.8" depth="0.04" position="0 2 0" color="#D4B888"></a-box>
+      <a-text value="Area de&#10;Leandro" position="0 2 0.03" align="center" width="4" color="#2C1810"></a-text>
+    </a-entity>
+
+    <!-- Camino de tierra (segmentos) -->
+    <a-plane rotation="-90 0 0" width="2.4" height="4" color="#C4A882" position="0 0 -2"></a-plane>
+    <a-plane rotation="-90 0 0" width="2.6" height="5" color="#BFA07A" position="-0.5 0 -5.5"></a-plane>
+    <a-plane rotation="-90 15 0" width="2.4" height="5" color="#C2A47E" position="-1.8 0 -9.5"></a-plane>
+    <a-plane rotation="-90 -10 0" width="2.6" height="5" color="#BFA07A" position="-2.5 0 -13.5"></a-plane>
+    <a-plane rotation="-90 5 0" width="2.4" height="5" color="#C4A882" position="-1.5 0 -17.5"></a-plane>
+    <a-plane rotation="-90 0 0" width="2.6" height="5" color="#BFA07A" position="0 0 -21.5"></a-plane>
+
+    <!-- Pirámide de Kukulcán — estuco pintado de rojo (Chichén Itzá) -->
+    <a-entity gltf-model="#kukulcan"
+      model-color="topColor: #C44020; midColor: #8B2518; bottomColor: #5C1810; roughness: 0.8"
+      position="3 0 -22" scale="0.4 0.4 0.4"></a-entity>
+
+    <!-- Templo Mayor — estuco blanco + rojo (Huitzilopochtli) / azul (Tláloc) -->
+    <a-entity gltf-model="#templo-mayor"
+      model-color="topColor: #F0E4D0; midColor: #D8C8AC; bottomColor: #A08870; leftColor: #8B2518; rightColor: #1E5A99; xBlend: 0.65; roughness: 0.8"
+      position="-28 -4 -16" scale="0.5 0.5 0.5"></a-entity>
+
+    <!-- Cámara primera persona -->
+    <a-entity camera position="0 1.6 3" look-controls wasd-controls>
+      <a-entity cursor="fuse: false" raycaster="objects: .clickable"
+                geometry="primitive: ring; radiusInner: 0.004; radiusOuter: 0.008"
+                material="color: #fff; shader: flat; transparent: true; opacity: 0.8"
+                position="0 0 -0.6">
+      </a-entity>
+    </a-entity>
+  </a-scene>
+</body>
+</html>
