@@ -283,7 +283,7 @@
 
         // ------------------------ HAPTICS ------------------------
         function haptico() {
-            try { navigator.vibrate(15); } catch (_) {}
+            try { navigator.vibrate([30, 20, 30, 20, 30]); } catch (_) {}
         }
 
         // ------------------------ WAKE LOCK ------------------------
