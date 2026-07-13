@@ -8,6 +8,7 @@
   <script src="components/piramide-kukulcan.js"></script>
   <script src="components/templo-mayor.js"></script>
   <script src="components/color-model.js"></script>
+  <script src="components/collision-player.js"></script>
   <style>
     body { margin: 0; overflow: hidden; font-family: 'Segoe UI', system-ui, sans-serif; }
     .ui-hint {
@@ -124,22 +125,26 @@
     <a-plane rotation="-90 5 0" width="2.4" height="5" color="#C4A882" position="-1.5 0 -17.5"></a-plane>
     <a-plane rotation="-90 0 0" width="2.6" height="5" color="#BFA07A" position="0 0 -21.5"></a-plane>
 
-    <!-- Pirámide de Kukulcán — estuco pintado de rojo (Chichén Itzá) -->
+    <!-- Kukulcán — caja colisión invisible + modelo visual -->
+    <a-box class="collider" width="5.5" height="4" depth="5.5" position="3 2 -22" visible="false"></a-box>
     <a-entity gltf-model="#kukulcan"
       model-color="topColor: #C44020; midColor: #8B2518; bottomColor: #5C1810; roughness: 0.8"
       position="3 0 -22" scale="0.4 0.4 0.4"></a-entity>
 
-    <!-- Templo Mayor — estuco blanco + rojo (Huitzilopochtli) / azul (Tláloc) -->
+    <!-- Templo Mayor — caja colisión invisible + modelo visual -->
+    <a-box class="collider" width="8" height="5" depth="7" position="-28 -1.5 -16" visible="false"></a-box>
     <a-entity gltf-model="#templo-mayor"
       model-color="topColor: #F0E4D0; midColor: #D8C8AC; bottomColor: #A08870; leftColor: #8B2518; rightColor: #1E5A99; xBlend: 0.65; roughness: 0.8"
       position="-28 -4 -16" scale="0.5 0.5 0.5"></a-entity>
 
     <!-- Cámara primera persona -->
-    <a-entity camera position="0 1.6 3" look-controls wasd-controls>
-      <a-entity cursor="fuse: false" raycaster="objects: .clickable"
-                geometry="primitive: ring; radiusInner: 0.004; radiusOuter: 0.008"
-                material="color: #fff; shader: flat; transparent: true; opacity: 0.8"
-                position="0 0 -0.6">
+    <a-entity position="0 0.8 3" look-controls wasd-controls collision-player="radius: 0.3">
+      <a-entity camera position="0 0.8 0">
+        <a-entity cursor="fuse: false" raycaster="objects: .clickable"
+                  geometry="primitive: ring; radiusInner: 0.004; radiusOuter: 0.008"
+                  material="color: #fff; shader: flat; transparent: true; opacity: 0.8"
+                  position="0 0 -0.6">
+        </a-entity>
       </a-entity>
     </a-entity>
   </a-scene>
