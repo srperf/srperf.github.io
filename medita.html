@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>RespiroBeep</title>
+    <style>
+        * { -webkit-tap-highlight-color: transparent; box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: #0f172a;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            user-select: none;
+            touch-action: manipulation;
+            overflow: hidden;
+        }
+        main {
+            text-align: center;
+            padding: 1.5rem;
+            max-width: 24rem;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        /* Header */
+        .header-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        h1 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #34d399;
+        }
+
+        /* Fullscreen button */
+        #btnFullscreen {
+            background: none;
+            border: none;
+            color: #94a3b8;
+            font-size: 1.25rem;
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: color 0.15s, background-color 0.15s;
+            line-height: 0;
+        }
+        #btnFullscreen:hover { color: #fff; background: #1e293b; }
+        #btnFullscreen:active { background: #334155; }
+
+        /* Circle + ring */
+        .circle-wrap {
+            position: relative;
+            width: 14rem;
+            height: 14rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .circle-wrap svg {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .ring-bg { stroke: rgba(255,255,255,0.15); }
+        .ring-fg {
+            stroke: rgba(255,255,255,0.7);
+            transition: stroke-dashoffset 0.4s ease;
+        }
+
+        #circulo {
+            width: 12rem;
+            height: 12rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        /* Counter */
+        #contador {
+            font-size: 4.5rem;
+            font-weight: 900;
+            color: #e2e8f0;
+            font-variant-numeric: tabular-nums;
+            margin: 0.25rem 0;
+        }
+
+        /* Select */
+        #rutina {
+            width: 100%;
+            background: #1e293b;
+            color: #fff;
+            padding: 1rem 1.25rem;
+            border-radius: 0.75rem;
+            border: 1px solid #334155;
+            font-size: 1.125rem;
+            cursor: pointer;
+            outline: none;
+            appearance: none;
+            -webkit-appearance: none;
+            transition: box-shadow 0.15s;
+        }
+        #rutina:focus { box-shadow: 0 0 0 2px #34d399; }
+        #rutina:disabled { opacity: 0.3; cursor: not-allowed; }
+
+        /* Action button */
+        .btn-primary {
+            width: 100%;
+            font-weight: 700;
+            padding: 1.25rem 0;
+            border-radius: 1rem;
+            font-size: 1.5rem;
+            border: none;
+            cursor: pointer;
+            background: #10b981;
+            color: #0f172a;
+            transition: background 0.15s;
+        }
+        .btn-primary:hover { background: #059669; }
+        .btn-primary:active { background: #047857; }
+
+        .btn-danger {
+            width: 100%;
+            font-weight: 700;
+            padding: 1.25rem 0;
+            border-radius: 1rem;
+            font-size: 1.5rem;
+            border: none;
+            cursor: pointer;
+            background: #ef4444;
+            color: #fff;
+            transition: background 0.15s;
+        }
+        .btn-danger:hover { background: #dc2626; }
+        .btn-danger:active { background: #b91c1c; }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div class="header-row">
+            <h1>RespiroBeep</h1>
+            <button id="btnFullscreen" aria-label="Pantalla completa">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M21 8V5a2 2 0 0 0-2-2h-3"/><path d="M3 16v3a2 2 0 0 0 2 2h3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="circle-wrap">
+            <svg viewBox="0 0 100 100">
+                <circle class="ring-bg" cx="50" cy="50" r="46" fill="none" stroke-width="3" />
+                <circle id="progressRing" class="ring-fg" cx="50" cy="50" r="46" fill="none" stroke-width="3"
+                    stroke-linecap="round" stroke-dasharray="289.03" stroke-dashoffset="289.03" />
+            </svg>
+            <div id="circulo" style="background: #10b981; transform: scale(1);">Listo</div>
+        </div>
+
+        <p id="contador" role="timer" aria-live="polite">0</p>
+
+        <select id="rutina">
+            <option value="4x4">Caja (4-4-4-4)</option>
+            <option value="478">Relajación (4-7-8)</option>
+            <option value="5-0-5-0">Respiración simple (5-0-5-0)</option>
+            <option value="345">Labios fruncidos (3-4-5)</option>
+            <option value="6-6">Pranayama (6-6)</option>
+            <option value="3x4">Caja corta (3-3-3-3)</option>
+            <option value="5x4">Caja larga (5-5-5-5)</option>
+            <option value="8-8">Pranayama profundo (8-8)</option>
+            <option value="1010">Respiración rápida (1-0-1-0)</option>
+        </select>
+
+        <button id="btnAccion" class="btn-primary">Comenzar</button>
+    </main>
+
+    <script>
+        // ------------------------ ROUTINES ------------------------
+        const rutinas = {
+            "4x4": [
+                { fase: "Inhala", tiempo: 4, hz: 440, color: "#3b82f6" },
+                { fase: "Mantén", tiempo: 4, hz: 554, color: "#f59e0b" },
+                { fase: "Exhala", tiempo: 4, hz: 659, color: "#10b981" },
+                { fase: "Mantén", tiempo: 4, hz: 554, color: "#f59e0b" }
+            ],
+            "478": [
+                { fase: "Inhala", tiempo: 4, hz: 440, color: "#3b82f6" },
+                { fase: "Mantén", tiempo: 7, hz: 554, color: "#f59e0b" },
+                { fase: "Exhala", tiempo: 8, hz: 659, color: "#10b981" }
+            ],
+            "5-0-5-0": [
+                { fase: "Inhala", tiempo: 5, hz: 440, color: "#3b82f6" },
+                { fase: "Exhala", tiempo: 5, hz: 659, color: "#10b981" }
+            ],
+            "345": [
+                { fase: "Inhala", tiempo: 3, hz: 440, color: "#3b82f6" },
+                { fase: "Exhala", tiempo: 5, hz: 659, color: "#10b981" }
+            ],
+            "6-6": [
+                { fase: "Inhala", tiempo: 6, hz: 440, color: "#3b82f6" },
+                { fase: "Exhala", tiempo: 6, hz: 659, color: "#10b981" }
+            ],
+            "3x4": [
+                { fase: "Inhala", tiempo: 3, hz: 440, color: "#3b82f6" },
+                { fase: "Mantén", tiempo: 3, hz: 554, color: "#f59e0b" },
+                { fase: "Exhala", tiempo: 3, hz: 659, color: "#10b981" },
+                { fase: "Mantén", tiempo: 3, hz: 554, color: "#f59e0b" }
+            ],
+            "5x4": [
+                { fase: "Inhala", tiempo: 5, hz: 440, color: "#3b82f6" },
+                { fase: "Mantén", tiempo: 5, hz: 554, color: "#f59e0b" },
+                { fase: "Exhala", tiempo: 5, hz: 659, color: "#10b981" },
+                { fase: "Mantén", tiempo: 5, hz: 554, color: "#f59e0b" }
+            ],
+            "8-8": [
+                { fase: "Inhala", tiempo: 8, hz: 440, color: "#3b82f6" },
+                { fase: "Exhala", tiempo: 8, hz: 659, color: "#10b981" }
+            ],
+            "1010": [
+                { fase: "Inhala", tiempo: 1, hz: 440, color: "#3b82f6" },
+                { fase: "Exhala", tiempo: 1, hz: 659, color: "#10b981" }
+            ]
+        };
+
+        // ------------------------ STATE ------------------------
+        let activo = false;
+        let indexFase = 0;
+        let tiempoRestante = 0;
+        let duracionFase = 0;
+        let intervalo = null;
+        let audioCtx = null;
+        let wakeLockRef = null;
+
+        const circulo = document.getElementById("circulo");
+        const contador = document.getElementById("contador");
+        const btnAccion = document.getElementById("btnAccion");
+        const selector = document.getElementById("rutina");
+        const progressRing = document.getElementById("progressRing");
+        const btnFullscreen = document.getElementById("btnFullscreen");
+        const RING_LENGTH = 2 * Math.PI * 46;
+
+        progressRing.style.strokeDasharray = RING_LENGTH;
+
+        // ------------------------ FULLSCREEN ------------------------
+        btnFullscreen.addEventListener("click", async () => {
+            if (!document.fullscreenElement) {
+                try { await document.documentElement.requestFullscreen(); } catch (_) {}
+            } else {
+                try { await document.exitFullscreen(); } catch (_) {}
+            }
+        });
+
+        // ------------------------ AUDIO ------------------------
+        function reproducirBeep(frecuencia) {
+            if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = 'sine';
+            osc.frequency.value = frecuencia;
+            gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.00001, audioCtx.currentTime + 0.4);
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            osc.start();
+            osc.stop(audioCtx.currentTime + 0.4);
+        }
+
+        // ------------------------ HAPTICS ------------------------
+        function haptico() {
+            try { navigator.vibrate(15); } catch (_) {}
+        }
+
+        // ------------------------ WAKE LOCK ------------------------
+        async function adquirirWakeLock() {
+            try { wakeLockRef = await navigator.wakeLock.request('screen'); } catch (_) {}
+        }
+        function liberarWakeLock() {
+            if (wakeLockRef) { try { wakeLockRef.release(); } catch (_) {} wakeLockRef = null; }
+        }
+
+        // ------------------------ PHASE UI ------------------------
+        function actualizarFase(fase) {
+            const t = Math.min(Math.max(fase.tiempo * 200, 200), 1000);
+            circulo.style.transition = `transform ${t}ms ease, background-color ${t}ms ease`;
+            circulo.style.backgroundColor = fase.color;
+            circulo.innerText = fase.fase;
+            if (fase.fase === "Inhala") circulo.style.transform = "scale(1.2)";
+            else if (fase.fase === "Exhala") circulo.style.transform = "scale(0.9)";
+            else circulo.style.transform = "scale(1.05)";
+            duracionFase = fase.tiempo;
+        }
+
+        function actualizarProgreso(t) {
+            progressRing.style.strokeDashoffset = RING_LENGTH * (1 - t);
+        }
+
+        // ------------------------ CYCLE ------------------------
+        function actualizarCiclo() {
+            const rutina = rutinas[selector.value];
+            if (tiempoRestante <= 0) {
+                const fase = rutina[indexFase];
+                actualizarFase(fase);
+                tiempoRestante = fase.tiempo;
+                actualizarProgreso(0);
+                reproducirBeep(fase.hz);
+                haptico();
+                indexFase = (indexFase + 1) % rutina.length;
+            }
+            contador.innerText = tiempoRestante;
+            actualizarProgreso(1 - (tiempoRestante - 1) / duracionFase);
+            tiempoRestante--;
+        }
+
+        // ------------------------ START / STOP ------------------------
+        btnAccion.addEventListener("click", () => {
+            activo = !activo;
+            if (activo) {
+                btnAccion.innerText = "Detener";
+                btnAccion.className = "btn-danger";
+                selector.disabled = true;
+                indexFase = 0;
+                tiempoRestante = 0;
+                duracionFase = 0;
+                actualizarProgreso(0);
+                actualizarCiclo();
+                intervalo = setInterval(actualizarCiclo, 1000);
+                adquirirWakeLock();
+            } else {
+                btnAccion.innerText = "Comenzar";
+                btnAccion.className = "btn-primary";
+                selector.disabled = false;
+                clearInterval(intervalo);
+                contador.innerText = "0";
+                circulo.innerText = "Listo";
+                circulo.style.transition = "transform 300ms ease, background-color 300ms ease";
+                circulo.style.backgroundColor = "#10b981";
+                circulo.style.transform = "scale(1)";
+                actualizarProgreso(0);
+                liberarWakeLock();
+            }
+        });
+
+        document.addEventListener("visibilitychange", () => {
+            if (document.visibilityState === "visible" && activo) adquirirWakeLock();
+        });
+    </script>
+</body>
+</html>
