@@ -95,133 +95,6 @@
       border-color: #0f62fe;
     }
 
-    /* Modal */
-    .modal-overlay {
-      position: fixed;
-      inset: 0;
-      background: rgba(26, 26, 46, 0.45);
-      backdrop-filter: blur(4px);
-      z-index: 50;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
-    }
-
-    .modal-overlay.show {
-      display: flex;
-    }
-
-    .modal {
-      background: #ffffff;
-      border-radius: 16px;
-      width: 92%;
-      max-width: 520px;
-      max-height: 90vh;
-      display: flex;
-      flex-direction: column;
-      box-shadow: 0 20px 40px rgba(26, 26, 46, 0.25);
-    }
-
-    .modal-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1rem 1.25rem;
-      border-bottom: 1px solid #e2e4e8;
-    }
-
-    .modal-header h2 {
-      font-size: 1.25rem;
-      font-weight: 800;
-      color: #1a1a2e;
-    }
-
-    .modal-close {
-      background: transparent;
-      border: none;
-      font-size: 1.75rem;
-      font-weight: 700;
-      color: #8a94a6;
-      cursor: pointer;
-      touch-action: manipulation;
-      line-height: 1;
-      padding: 0;
-    }
-
-    .modal-close:active {
-      color: #57606a;
-    }
-
-    .modal-body {
-      padding: 1.25rem;
-      overflow-y: auto;
-    }
-
-    .modal-table {
-      width: 100%;
-      border-collapse: separate;
-      border-spacing: 0;
-    }
-
-    .modal-table th,
-    .modal-table td {
-      text-align: center;
-      padding: 0.75rem 0.5rem;
-      border: 1px solid #d0d5da;
-      font-size: 1rem;
-    }
-
-    .modal-table th {
-      background: #f4f6f8;
-      font-weight: 800;
-      color: #1a1a2e;
-    }
-
-    .modal-table th:first-child,
-    .modal-table td:first-child {
-      text-align: left;
-      font-weight: 700;
-      color: #0f62fe;
-    }
-
-    .modal-table td:first-child {
-      color: #57606a;
-    }
-
-    .modal-table .col-masc {
-      color: #0f62fe;
-      font-weight: 800;
-    }
-
-    .modal-table .col-fem {
-      color: #d81b60;
-      font-weight: 800;
-    }
-
-    .modal-table .col-neutr {
-      color: #6e6e6e;
-      font-weight: 600;
-    }
-
-    .modal-table .col-plur {
-      color: #6e6e6e;
-      font-weight: 600;
-    }
-
-    .modal-note {
-      margin-top: 1rem;
-      font-size: 0.8rem;
-      color: #8a94a6;
-      text-align: center;
-    }
-
-    .modal-hidden {
-      display: none;
-    }
-
-    @media (min-width: 480px) {
-
     /* Scores */
     .scores {
       display: flex;
@@ -435,6 +308,30 @@
       border: 1px solid #f5c2bd;
     }
 
+    /* Next button */
+    .next-btn {
+      margin: 1rem auto 0;
+      display: none;
+      background: #0f62fe;
+      color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      padding: 0.85rem 1.75rem;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      touch-action: manipulation;
+      transition: background 0.15s ease;
+    }
+
+    .next-btn.show {
+      display: block;
+    }
+
+    .next-btn:active {
+      background: #0d53d1;
+    }
+
     /* Completion */
     .completion {
       text-align: center;
@@ -478,37 +375,132 @@
       background: #0d53d1;
     }
 
-    .disabled-btn {
-      opacity: 0.45;
-      background: #f0f0f0;
-      border-color: #d0d5da;
-      color: #a0a8b0;
-      pointer-events: none;
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(26, 26, 46, 0.45);
+      backdrop-filter: blur(4px);
+      z-index: 50;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
     }
 
-    .next-btn {
-      margin: 1rem auto 0;
-      display: none;
-      background: #0f62fe;
-      color: #ffffff;
+    .modal-overlay.show {
+      display: flex;
+    }
+
+    .modal {
+      background: #ffffff;
+      border-radius: 16px;
+      width: 92%;
+      max-width: 520px;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 20px 40px rgba(26, 26, 46, 0.25);
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid #e2e4e8;
+    }
+
+    .modal-header h2 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #1a1a2e;
+    }
+
+    .modal-close {
+      background: transparent;
       border: none;
-      border-radius: 10px;
-      padding: 0.85rem 1.75rem;
-      font-size: 1rem;
+      font-size: 1.75rem;
       font-weight: 700;
+      color: #8a94a6;
       cursor: pointer;
       touch-action: manipulation;
-      transition: background 0.15s ease;
+      line-height: 1;
+      padding: 0;
     }
 
-    .next-btn.show {
-      display: block;
+    .modal-close:active {
+      color: #57606a;
     }
 
-    .next-btn:active {
-      background: #0d53d1;
+    .modal-body {
+      padding: 1.25rem;
+      overflow-y: auto;
     }
 
+    .modal-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+    }
+
+    .modal-table th,
+    .modal-table td {
+      text-align: center;
+      padding: 0.75rem 0.5rem;
+      border: 1px solid #d0d5da;
+      font-size: 1rem;
+    }
+
+    .modal-table th {
+      background: #f4f6f8;
+      font-weight: 800;
+      color: #1a1a2e;
+    }
+
+    .modal-table th:first-child,
+    .modal-table td:first-child {
+      text-align: left;
+      font-weight: 700;
+      color: #0f62fe;
+    }
+
+    .modal-table td:first-child {
+      color: #57606a;
+    }
+
+    .modal-table .col-masc {
+      color: #0f62fe;
+      font-weight: 800;
+    }
+
+    .modal-table .col-fem {
+      color: #d81b60;
+      font-weight: 800;
+    }
+
+    .modal-table .col-neutr {
+      color: #6e6e6e;
+      font-weight: 600;
+    }
+
+    .modal-table .col-plur {
+      color: #6e6e6e;
+      font-weight: 600;
+    }
+
+    .modal-note {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: #8a94a6;
+      text-align: center;
+    }
+
+    .modal-hidden {
+      display: none;
+    }
+
+    /* Desktop adjustments (min-width: 480px) */
     @media (min-width: 480px) {
       .container {
         padding: 1rem 1.5rem 3rem;
@@ -713,9 +705,6 @@
     };
 
     const DEFINITE_BUTTONS = ['der', 'die', 'das', 'den', 'dem', 'des'];
-    const INDEFINITE_BUTTONS = ['ein', 'eine', 'einen', 'einem', 'eones', 'eines'].filter(Boolean);
-
-    // Unique indefinite buttons (dedup)
     const INDEFINITE_BUTTONS_UNIQUE = [...new Set(['ein', 'eine', 'einen', 'einem', 'eines'])];
 
     let mode = 'definite'; // 'definite' | 'indefinite'
@@ -835,7 +824,6 @@
 
     function setCaseFilter(newFilter) {
       caseFilter = newFilter;
-      // Update active states on buttons
       const filterMap = {
         null: els.caseBtnAll,
         nominative: els.caseBtnNominative,
@@ -852,10 +840,8 @@
     function getUncompletedCombinations() {
       const combos = [];
       for (const c of CASES) {
-        // Skip cases that don't match the filter
         if (caseFilter && c.key !== caseFilter) continue;
         for (const g of GENDERS) {
-          // Skip plural for indefinite mode
           if (mode === 'indefinite' && g.key === 'plural') continue;
           if (!isCompleted(c.key, g.key)) {
             combos.push({ caseKey: c.key, genderKey: g.key });
@@ -876,7 +862,6 @@
       els.feedback.classList.remove('show');
       els.nextBtn.classList.remove('show');
 
-      // Pick random
       const pick = uncompleted[Math.floor(Math.random() * uncompleted.length)];
       current = pick;
 
@@ -887,7 +872,6 @@
       els.promptGender.textContent = `${genderObj.label} (${genderObj.abbr})`;
       els.promptLabel.textContent = 'Select the correct article:';
 
-      // Enable all buttons
       document.querySelectorAll('.article-btn').forEach(btn => {
         btn.disabled = false;
         btn.classList.remove('correct', 'wrong');
@@ -908,11 +892,9 @@
     }
 
     function openInfo() {
-      // Show the table matching the current mode
       els.modalTableDefinite.classList.toggle('modal-hidden', mode !== 'definite');
       els.modalTableIndefinite.classList.toggle('modal-hidden', mode !== 'indefinite');
       els.modalOverlay.classList.add('show');
-      // Prevent scrolling behind the modal
       document.body.style.overflow = 'hidden';
     }
 
@@ -933,7 +915,6 @@
       const correct = getAnswer(current.caseKey, current.genderKey);
       const buttons = document.querySelectorAll('.article-btn');
 
-      // Disable all buttons so the user cannot keep guessing
       buttons.forEach(btn => (btn.disabled = true));
       els.nextBtn.classList.remove('show');
 
@@ -946,10 +927,8 @@
         });
         els.feedback.textContent = 'Correct!';
         els.feedback.className = 'feedback show correct';
-        // Auto-advance after a short delay when the answer is correct
         setTimeout(nextExercise, 800);
       } else {
-        // Highlight the wrong choice and reveal the correct one
         buttons.forEach(btn => {
           if (btn.textContent === clicked) {
             btn.classList.add('wrong');
@@ -960,7 +939,6 @@
         });
         els.feedback.textContent = `Wrong. The correct article is "${correct}".`;
         els.feedback.className = 'feedback show wrong';
-        // Show the Next button; user must tap it to continue
         els.nextBtn.classList.add('show');
       }
     }
