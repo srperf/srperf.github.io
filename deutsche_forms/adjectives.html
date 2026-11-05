@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Adjective Endings — Deutsche Forms</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f4f6f8;
+      color: #1a1a2e;
+      line-height: 1.5;
+      min-height: 100vh;
+      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    }
+
+    .container {
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 0.75rem 1rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: stretch;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #e2e4e8;
+    }
+
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: transparent;
+      border: none;
+      color: #0f62fe;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 0.5rem;
+      cursor: pointer;
+      touch-action: manipulation;
+      border-radius: 8px;
+      transition: background 0.1s ease;
+    }
+
+    .back-btn:active {
+      background: #e7f0ff;
+    }
+
+    header h1 {
+      flex: 1;
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #0f62fe;
+      text-align: center;
+      letter-spacing: -0.5px;
+    }
+
+    .info-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      background: #ffffff;
+      border: 2px solid #d0d5da;
+      border-radius: 50%;
+      color: #1a1a2e;
+      font-size: 1.25rem;
+      font-weight: 900;
+      cursor: pointer;
+      touch-action: manipulation;
+      transition: border-color 0.15s ease, background 0.15s ease;
+      flex-shrink: 0;
+    }
+
+    .info-btn:active {
+      background: #f0f4f8;
+      border-color: #0f62fe;
+    }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(26, 26, 46, 0.45);
+      backdrop-filter: blur(4px);
+      z-index: 50;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    }
+
+    .modal-overlay.show {
+      display: flex;
+    }
+
+    .modal {
+      background: #ffffff;
+      border-radius: 16px;
+      width: 92%;
+      max-width: 520px;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 20px 40px rgba(26, 26, 46, 0.25);
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid #e2e4e8;
+    }
+
+    .modal-header h2 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #1a1a2e;
+    }
+
+    .modal-close {
+      background: transparent;
+      border: none;
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #8a94a6;
+      cursor: pointer;
+      touch-action: manipulation;
+      line-height: 1;
+      padding: 0;
+    }
+
+    .modal-close:active {
+      color: #57606a;
+    }
+
+    .modal-body {
+      padding: 1.25rem;
+      overflow-y: auto;
+    }
+
+    .modal-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+    }
+
+    .modal-table th,
+    .modal-table td {
+      text-align: center;
+      padding: 0.75rem 0.5rem;
+      border: 1px solid #d0d5da;
+      font-size: 1rem;
+    }
+
+    .modal-table th {
+      background: #f4f6f8;
+      font-weight: 800;
+      color: #1a1a2e;
+    }
+
+    .modal-table th:first-child,
+    .modal-table td:first-child {
+      text-align: left;
+      font-weight: 700;
+      color: #0f62fe;
+    }
+
+    .modal-table td:first-child {
+      color: #57606a;
+    }
+
+    .modal-table .col-masc {
+      color: #0f62fe;
+      font-weight: 800;
+    }
+
+    .modal-table .col-fem {
+      color: #d81b60;
+      font-weight: 800;
+    }
+
+    .modal-table .col-neutr {
+      color: #6e6e6e;
+      font-weight: 600;
+    }
+
+    .modal-table .col-plur {
+      color: #6e6e6e;
+      font-weight: 600;
+    }
+
+    .modal-note {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: #8a94a6;
+      text-align: center;
+    }
+
+    .modal-hidden {
+      display: none;
+    }
+
+    @media (min-width: 480px) {
+
+    /* Scores */
+    .scores {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 0.25rem;
+      justify-content: center;
+    }
+
+    .score-pill {
+      flex: 1;
+      background: #ffffff;
+      border: 1px solid #d0d5da;
+      border-radius: 10px;
+      padding: 0.5rem 0.75rem;
+      text-align: center;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #57606a;
+    }
+
+    .score-pill .value {
+      display: block;
+      font-size: 1rem;
+      color: #1a1a2e;
+      margin-top: 0.15rem;
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 0;
+      background: #ffffff;
+      border: 1px solid #d0d5da;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+
+    .tab {
+      flex: 1;
+      background: transparent;
+      border: none;
+      padding: 0.75rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #57606a;
+      cursor: pointer;
+      touch-action: manipulation;
+      transition: color 0.15s ease, background 0.15s ease;
+      border-bottom: 2px solid transparent;
+    }
+
+    .tab:active {
+      background: #f0f4f8;
+    }
+
+    .tab.active {
+      color: #0f62fe;
+      border-bottom-color: #0f62fe;
+      background: #eef5ff;
+    }
+
+    /* Case filter */
+    .case-filter {
+      display: flex;
+      gap: 0;
+      background: #ffffff;
+      border: 1px solid #d0d5da;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+
+    .case-btn {
+      flex: 1;
+      background: transparent;
+      border: none;
+      padding: 0.6rem 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #57606a;
+      cursor: pointer;
+      touch-action: manipulation;
+      transition: color 0.15s ease, background 0.15s ease;
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+    }
+
+    .case-btn:active {
+      background: #f0f4f8;
+    }
+
+    .case-btn.active {
+      color: #0f62fe;
+      border-bottom-color: #0f62fe;
+      background: #eef5ff;
+    }
+
+    /* Exercise prompt */
+    .prompt {
+      background: #ffffff;
+      border: 1px solid #d0d5da;
+      border-radius: 16px;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      min-height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .prompt-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #8a94a6;
+      font-weight: 700;
+    }
+
+    .prompt-case {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: #1a1a2e;
+    }
+
+    .prompt-gender {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #0f62fe;
+    }
+
+    .prompt-kind {
+      font-size: 0.85rem;
+      color: #57606a;
+      margin-top: 0.25rem;
+    }
+
+    /* Button grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+    }
+
+    .article-btn {
+      background: #ffffff;
+      border: 2px solid #d0d5da;
+      border-radius: 14px;
+      padding: 1rem 0.5rem;
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #1a1a2e;
+      cursor: pointer;
+      touch-action: manipulation;
+      transition: transform 0.1s ease, border-color 0.15s ease, background 0.15s ease;
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .article-btn:active {
+      transform: scale(0.95);
+      background: #f0f4f8;
+    }
+
+    .article-btn.correct {
+      border-color: #1a7e46;
+      background: #e7f7ec;
+      color: #1a7e46;
+    }
+
+    .article-btn.wrong {
+      border-color: #d93025;
+      background: #fbe9e7;
+      color: #d93025;
+    }
+
+    .article-btn:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+    }
+
+    /* Feedback */
+    .feedback {
+      margin-top: 1rem;
+      padding: 0.75rem 1rem;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-align: center;
+      display: none;
+    }
+
+    .feedback.show {
+      display: block;
+    }
+
+    .feedback.correct {
+      background: #e7f7ec;
+      color: #1a7e46;
+      border: 1px solid #b3e6cb;
+    }
+
+    .feedback.wrong {
+      background: #fbe9e7;
+      color: #d93025;
+      border: 1px solid #f5c2bd;
+    }
+
+    /* Completion */
+    .completion {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #ffffff;
+      border: 1px solid #d0d5da;
+      border-radius: 16px;
+      margin-top: 1rem;
+      display: none;
+    }
+
+    .completion.show {
+      display: block;
+    }
+
+    .completion h2 {
+      font-size: 1.5rem;
+      color: #1a7e46;
+      margin-bottom: 0.5rem;
+    }
+
+    .completion p {
+      color: #57606a;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .reset-btn {
+      background: #0f62fe;
+      color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      touch-action: manipulation;
+    }
+
+    .reset-btn:active {
+      background: #0d53d1;
+    }
+
+    .disabled-btn {
+      opacity: 0.45;
+      background: #f0f0f0;
+      border-color: #d0d5da;
+      color: #a0a8b0;
+      pointer-events: none;
+    }
+
+    .next-btn {
+      margin: 1rem auto 0;
+      display: none;
+      background: #0f62fe;
+      color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      padding: 0.85rem 1.75rem;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      touch-action: manipulation;
+      transition: background 0.15s ease;
+    }
+
+    .next-btn.show {
+      display: block;
+    }
+
+    .next-btn:active {
+      background: #0d53d1;
+    }
+
+    @media (min-width: 480px) {
+      .container {
+        padding: 1rem 1.5rem 3rem;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      .prompt-case {
+        font-size: 1.75rem;
+      }
+
+      .grid {
+        gap: 1rem;
+      }
+
+      .article-btn {
+        min-height: 72px;
+        font-size: 1.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <button class="back-btn" onclick="location.href='index.html'">
+        <span>←</span> Back
+      </button>
+      <h1>Adjective Endings</h1>
+      <button class="info-btn" id="info-btn" onclick="openInfo()" title="Info">i</button>
+    </header>
+
+    <div class="scores">
+      <div class="score-pill">
+        <span>Definite</span>
+        <span class="value" id="score-definite">0 / 16</span>
+      </div>
+      <div class="score-pill">
+        <span>Indefinite</span>
+        <span class="value" id="score-indefinite">0 / 12</span>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <button class="tab active" id="tab-definite" onclick="setMode('definite')">Definite</button>
+      <button class="tab" id="tab-indefinite" onclick="setMode('indefinite')">Indefinite</button>
+    </div>
+
+    <div class="case-filter">
+      <button class="case-btn active" id="case-all" onclick="setCaseFilter(null)">All cases</button>
+      <button class="case-btn" id="case-nominative" onclick="setCaseFilter('nominative')">Nominative</button>
+      <button class="case-btn" id="case-accusative" onclick="setCaseFilter('accusative')">Accusative</button>
+      <button class="case-btn" id="case-dative" onclick="setCaseFilter('dative')">Dative</button>
+      <button class="case-btn" id="case-genitive" onclick="setCaseFilter('genitive')">Genitive</button>
+    </div>
+
+    <div class="prompt" id="prompt">
+      <span class="prompt-label" id="prompt-label">Click an article</span>
+      <span class="prompt-case" id="prompt-case">—</span>
+      <span class="prompt-gender" id="prompt-gender">—</span>
+      <span class="prompt-kind" id="prompt-kind">Definite article</span>
+    </div>
+
+    <div class="feedback" id="feedback"></div>
+
+    <button class="next-btn" id="next-btn" onclick="nextExercise()">Next</button>
+
+    <div class="grid" id="grid"></div>
+
+    <div class="completion" id="completion">
+      <h2>Perfect score!</h2>
+      <p id="completion-text">All combinations completed.</p>
+      <button class="reset-btn" onclick="resetCurrentMode()">Reset this mode</button>
+    </div>
+
+    <div class="modal-overlay" id="modal-overlay" onclick="closeInfoIfOutside(event)">
+      <div class="modal">
+        <div class="modal-header">
+          <h2 id="modal-title">Article Table</h2>
+          <button class="modal-close" onclick="closeInfo()">&times;</button>
+        </div>
+        <div class="modal-body">
+          <table class="modal-table" id="modal-table-definite">
+            <thead>
+              <tr>
+                <th>Case \ Gender</th>
+                <th>Masculine</th>
+                <th>Feminine</th>
+                <th>Neuter</th>
+                <th>Plural</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Nominative</td>
+                <td class="col-masc">der</td>
+                <td class="col-fem">die</td>
+                <td class="col-neutr">das</td>
+                <td class="col-plur">die</td>
+              </tr>
+              <tr>
+                <td>Accusative</td>
+                <td class="col-masc">den</td>
+                <td class="col-fem">die</td>
+                <td class="col-neutr">das</td>
+                <td class="col-plur">die</td>
+              </tr>
+              <tr>
+                <td>Dative</td>
+                <td class="col-masc">dem</td>
+                <td class="col-fem">der</td>
+                <td class="col-neutr">dem</td>
+                <td class="col-plur">den</td>
+              </tr>
+              <tr>
+                <td>Genitive</td>
+                <td class="col-masc">des</td>
+                <td class="col-fem">der</td>
+                <td class="col-neutr">des</td>
+                <td class="col-plur">der</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="modal-table modal-hidden" id="modal-table-indefinite">
+            <thead>
+              <tr>
+                <th>Case \ Gender</th>
+                <th>Masculine</th>
+                <th>Feminine</th>
+                <th>Neuter</th>
+                <th>Plural</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Nominative</td>
+                <td class="col-masc">ein</td>
+                <td class="col-fem">eine</td>
+                <td class="col-neutr">ein</td>
+                <td class="col-plur">—</td>
+              </tr>
+              <tr>
+                <td>Accusative</td>
+                <td class="col-masc">einen</td>
+                <td class="col-fem">eine</td>
+                <td class="col-neutr">ein</td>
+                <td class="col-plur">—</td>
+              </tr>
+              <tr>
+                <td>Dative</td>
+                <td class="col-masc">einem</td>
+                <td class="col-fem">einem</td>
+                <td class="col-neutr">einem</td>
+                <td class="col-plur">—</td>
+              </tr>
+              <tr>
+                <td>Genitive</td>
+                <td class="col-masc">eines</td>
+                <td class="col-fem">einer</td>
+                <td class="col-neutr">eines</td>
+                <td class="col-plur">—</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p class="modal-note">Tap the <strong>i</strong> button to view this table anytime.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const CASES = [
+      { key: 'nominative', label: 'Nominative' },
+      { key: 'accusative', label: 'Accusative' },
+      { key: 'dative', label: 'Dative' },
+      { key: 'genitive', label: 'Genitive' }
+    ];
+
+    const GENDERS = [
+      { key: 'masculine', label: 'Masculine', abbr: 'Masc.' },
+      { key: 'feminine', label: 'Feminine', abbr: 'Fem.' },
+      { key: 'neuter', label: 'Neuter', abbr: 'Neutr.' },
+      { key: 'plural', label: 'Plural', abbr: 'Plur.' }
+    ];
+
+    const DEFINITE = {
+      nominative: { masculine: 'der', feminine: 'die', neuter: 'das', plural: 'die' },
+      accusative: { masculine: 'den', feminine: 'die', neuter: 'das', plural: 'die' },
+      dative: { masculine: 'dem', feminine: 'der', neuter: 'dem', plural: 'den' },
+      genitive: { masculine: 'des', feminine: 'der', neuter: 'des', plural: 'der' }
+    };
+
+    const INDEFINITE = {
+      nominative: { masculine: 'ein', feminine: 'eine', neuter: 'ein', plural: '—' },
+      accusative: { masculine: 'einen', feminine: 'eine', neuter: 'ein', plural: '—' },
+      dative: { masculine: 'einem', feminine: 'einem', neuter: 'einem', plural: '—' },
+      genitive: { masculine: 'eines', feminine: 'einer', neuter: 'eines', plural: '—' }
+    };
+
+    const DEFINITE_BUTTONS = ['der', 'die', 'das', 'den', 'dem', 'des'];
+    const INDEFINITE_BUTTONS = ['ein', 'eine', 'einen', 'einem', 'eones', 'eines'].filter(Boolean);
+
+    // Unique indefinite buttons (dedup)
+    const INDEFINITE_BUTTONS_UNIQUE = [...new Set(['ein', 'eine', 'einen', 'einem', 'eines'])];
+
+    let mode = 'definite'; // 'definite' | 'indefinite'
+    let caseFilter = null; // null | 'nominative' | 'accusative' | 'dative' | 'genitive'
+    let completed = {
+      definite: new Set(),
+      indefinite: new Set()
+    };
+    let current = null; // { caseKey, genderKey }
+
+    const els = {
+      prompt: document.getElementById('prompt'),
+      promptLabel: document.getElementById('prompt-label'),
+      promptCase: document.getElementById('prompt-case'),
+      promptGender: document.getElementById('prompt-gender'),
+      promptKind: document.getElementById('prompt-kind'),
+      grid: document.getElementById('grid'),
+      feedback: document.getElementById('feedback'),
+      nextBtn: document.getElementById('next-btn'),
+      completion: document.getElementById('completion'),
+      infoBtn: document.getElementById('info-btn'),
+      modalOverlay: document.getElementById('modal-overlay'),
+      modalTableDefinite: document.getElementById('modal-table-definite'),
+      modalTableIndefinite: document.getElementById('modal-table-indefinite'),
+      scoreDefinite: document.getElementById('score-definite'),
+      scoreIndefinite: document.getElementById('score-indefinite'),
+      tabDefinite: document.getElementById('tab-definite'),
+      tabIndefinite: document.getElementById('tab-indefinite'),
+      caseBtnAll: document.getElementById('case-all'),
+      caseBtnNominative: document.getElementById('case-nominative'),
+      caseBtnAccusative: document.getElementById('case-accusative'),
+      caseBtnDative: document.getElementById('case-dative'),
+      caseBtnGenitive: document.getElementById('case-genitive')
+    };
+
+    function getCombinationKey(caseKey, genderKey) {
+      return `${caseKey}|${genderKey}`;
+    }
+
+    function isCompleted(caseKey, genderKey) {
+      return completed[mode].has(getCombinationKey(caseKey, genderKey));
+    }
+
+    function markCompleted(caseKey, genderKey) {
+      completed[mode].add(getCombinationKey(caseKey, genderKey));
+      updateScores();
+    }
+
+    function totalCombinations() {
+      if (caseFilter) {
+        return mode === 'definite' ? 4 : 3; // 4 genders, or 3 (no plural for indefinite)
+      }
+      return mode === 'definite' ? 16 : 12; // 4x4 vs 4x3
+    }
+
+    function completedCount() {
+      let count = 0;
+      for (const key of completed[mode]) {
+        const [cKey] = key.split('|');
+        if (!caseFilter || cKey === caseFilter) count++;
+      }
+      return count;
+    }
+
+    function updateScores() {
+      const total = totalCombinations();
+      const count = completedCount();
+      if (mode === 'definite') {
+        els.scoreDefinite.textContent = `${count} / ${total}`;
+      } else {
+        els.scoreIndefinite.textContent = `${count} / ${total}`;
+      }
+
+      if (count >= total) {
+        showCompletion();
+      } else {
+        els.completion.classList.remove('show');
+      }
+    }
+
+    function getButtons() {
+      return mode === 'definite' ? DEFINITE_BUTTONS : INDEFINITE_BUTTONS_UNIQUE;
+    }
+
+    function getAnswer(caseKey, genderKey) {
+      const data = mode === 'definite' ? DEFINITE : INDEFINITE;
+      return data[caseKey][genderKey];
+    }
+
+    function renderButtons() {
+      els.grid.innerHTML = '';
+      const buttons = getButtons();
+      buttons.forEach(article => {
+        const btn = document.createElement('button');
+        btn.className = 'article-btn';
+        btn.textContent = article;
+        btn.onclick = () => handleAnswer(article);
+        els.grid.appendChild(btn);
+      });
+    }
+
+    function setMode(newMode) {
+      mode = newMode;
+      els.tabDefinite.classList.toggle('active', mode === 'definite');
+      els.tabIndefinite.classList.toggle('active', mode === 'indefinite');
+      els.promptKind.textContent = mode === 'definite' ? 'Definite article' : 'Indefinite article';
+      updateScores();
+      renderButtons();
+      nextExercise();
+
+      // If the info modal is open, refresh which table is visible
+      if (els.modalOverlay.classList.contains('show')) {
+        els.modalTableDefinite.classList.toggle('modal-hidden', mode !== 'definite');
+        els.modalTableIndefinite.classList.toggle('modal-hidden', mode !== 'indefinite');
+      }
+    }
+
+    function setCaseFilter(newFilter) {
+      caseFilter = newFilter;
+      // Update active states on buttons
+      const filterMap = {
+        null: els.caseBtnAll,
+        nominative: els.caseBtnNominative,
+        accusative: els.caseBtnAccusative,
+        dative: els.caseBtnDative,
+        genitive: els.caseBtnGenitive
+      };
+      Object.values(filterMap).forEach(btn => btn.classList.remove('active'));
+      filterMap[newFilter].classList.add('active');
+      updateScores();
+      nextExercise();
+    }
+
+    function getUncompletedCombinations() {
+      const combos = [];
+      for (const c of CASES) {
+        // Skip cases that don't match the filter
+        if (caseFilter && c.key !== caseFilter) continue;
+        for (const g of GENDERS) {
+          // Skip plural for indefinite mode
+          if (mode === 'indefinite' && g.key === 'plural') continue;
+          if (!isCompleted(c.key, g.key)) {
+            combos.push({ caseKey: c.key, genderKey: g.key });
+          }
+        }
+      }
+      return combos;
+    }
+
+    function nextExercise() {
+      const uncompleted = getUncompletedCombinations();
+      if (uncompleted.length === 0) {
+        showCompletion();
+        return;
+      }
+
+      els.completion.classList.remove('show');
+      els.feedback.classList.remove('show');
+      els.nextBtn.classList.remove('show');
+
+      // Pick random
+      const pick = uncompleted[Math.floor(Math.random() * uncompleted.length)];
+      current = pick;
+
+      const caseObj = CASES.find(c => c.key === pick.caseKey);
+      const genderObj = GENDERS.find(g => g.key === pick.genderKey);
+
+      els.promptCase.textContent = caseObj.label;
+      els.promptGender.textContent = `${genderObj.label} (${genderObj.abbr})`;
+      els.promptLabel.textContent = 'Select the correct article:';
+
+      // Enable all buttons
+      document.querySelectorAll('.article-btn').forEach(btn => {
+        btn.disabled = false;
+        btn.classList.remove('correct', 'wrong');
+      });
+    }
+
+    function showCompletion() {
+      els.completion.classList.add('show');
+      const total = totalCombinations();
+      const caseText = caseFilter ? ` ${CASES.find(c => c.key === caseFilter).label}` : '';
+      els.completion.querySelector('p').textContent = `All ${total}${caseText} combinations completed in ${mode} mode!`;
+    }
+
+    function resetCurrentMode() {
+      completed[mode] = new Set();
+      updateScores();
+      nextExercise();
+    }
+
+    function openInfo() {
+      // Show the table matching the current mode
+      els.modalTableDefinite.classList.toggle('modal-hidden', mode !== 'definite');
+      els.modalTableIndefinite.classList.toggle('modal-hidden', mode !== 'indefinite');
+      els.modalOverlay.classList.add('show');
+      // Prevent scrolling behind the modal
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeInfo() {
+      els.modalOverlay.classList.remove('show');
+      document.body.style.overflow = '';
+    }
+
+    function closeInfoIfOutside(event) {
+      if (event.target === els.modalOverlay) {
+        closeInfo();
+      }
+    }
+
+    function handleAnswer(clicked) {
+      if (!current) return;
+
+      const correct = getAnswer(current.caseKey, current.genderKey);
+      const buttons = document.querySelectorAll('.article-btn');
+
+      // Disable all buttons so the user cannot keep guessing
+      buttons.forEach(btn => (btn.disabled = true));
+      els.nextBtn.classList.remove('show');
+
+      if (clicked === correct) {
+        markCompleted(current.caseKey, current.genderKey);
+        buttons.forEach(btn => {
+          if (btn.textContent === correct) {
+            btn.classList.add('correct');
+          }
+        });
+        els.feedback.textContent = 'Correct!';
+        els.feedback.className = 'feedback show correct';
+        // Auto-advance after a short delay when the answer is correct
+        setTimeout(nextExercise, 800);
+      } else {
+        // Highlight the wrong choice and reveal the correct one
+        buttons.forEach(btn => {
+          if (btn.textContent === clicked) {
+            btn.classList.add('wrong');
+          }
+          if (btn.textContent === correct) {
+            btn.classList.add('correct');
+          }
+        });
+        els.feedback.textContent = `Wrong. The correct article is "${correct}".`;
+        els.feedback.className = 'feedback show wrong';
+        // Show the Next button; user must tap it to continue
+        els.nextBtn.classList.add('show');
+      }
+    }
+
+    // Initialize
+    renderButtons();
+    updateScores();
+    nextExercise();
+  </script>
+</body>
+</html>
